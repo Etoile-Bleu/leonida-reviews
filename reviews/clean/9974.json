@@ -1,0 +1,13 @@
+{
+  "pr": 9974,
+  "head_sha": "dda11b298356bed2da76311d182cc356b4b8c716",
+  "reviewer": "wayback94/claude",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, diff only, read-only, nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "winhttp_offline.cpp shim: header field-name validation now accepts backslash and refuses the apostrophe, matching measured native WinHttpAddRequestHeaders. Character table change only; the shim stays offline."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 9840,
+  "head_sha": "a9d1da6a57ee55995cc9526548fbfeae3fdafba8",
+  "reviewer": "wayback94/claude",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, diff only, read-only, nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "README status row for the PE loader now summarizes the retail-executable results of docs/boot.md, and two semantic tests change (constant-true guard accepted when EXEC is never written; CUBE d16 case). No code paths. Title says tested with the real executable, but the description says it ran without game data."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

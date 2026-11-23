@@ -1,0 +1,13 @@
+{
+  "pr": 9831,
+  "head_sha": "5a78df0dba674d983e86aeff725d4aa998fbe6c0",
+  "reviewer": "wayback94/claude",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, diff only, read-only, nothing executed; all 129 changed lines compared",
+  "verdict": "clean",
+  "findings": [
+    "Rename only: 47 files (docs, tools, AGENTS.md, CONTRIBUTING.md, README, .github issue template and runtime workflow) change ItsNotRexed/Leonida to ProjectLeonida/Leonida. Every changed line is identical once that rename is mapped back; no other host, action, permission or code change."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
