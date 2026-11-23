@@ -1,0 +1,13 @@
+{
+  "pr": 4959,
+  "head_sha": "96bfbb0baf80aef38fd22869bb01403c6f8c6826",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/f16_trans_sweep.py and its test): --waves accepts only the literal ASCII tokens 32 and 64; tests added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

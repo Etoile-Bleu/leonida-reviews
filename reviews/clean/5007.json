@@ -1,0 +1,13 @@
+{
+  "pr": 5007,
+  "head_sha": "5b665a9b6356418193b2e99d253dde8a380be54c",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/exe_checklist.py and its test): served-class scanning happens once per runtime source file; test counts calls."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

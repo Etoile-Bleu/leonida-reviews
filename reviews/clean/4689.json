@@ -1,0 +1,13 @@
+{
+  "pr": 4689,
+  "head_sha": "49d2e44273d3564395ba700ad295170fe8de9a47",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (runtime/test/shaders/check.py and its test): the mesh_v5 skip message quotes the harness's own 'unsupported:' reason; test added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
