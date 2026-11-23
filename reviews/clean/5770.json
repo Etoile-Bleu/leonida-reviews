@@ -1,0 +1,13 @@
+{
+  "pr": 5770,
+  "head_sha": "4c23814b88f83073de933a6877a78cd3061d7efd",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: fills in light-shape type numbers in docs/shader_inputs.md (labelled hypotheses where untested)."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

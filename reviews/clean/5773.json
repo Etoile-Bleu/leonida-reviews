@@ -1,0 +1,13 @@
+{
+  "pr": 5773,
+  "head_sha": "7e146a86ff53e3f09ffd9f998455576460a6fcfb",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/fog_volumes.py and a test): --jobs is clamped with the shared process_workers helper (61 on Windows); tests patch the executor."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

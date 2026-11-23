@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2342,
+  "head_sha": "f86d8ea906eb49bad5ad92c2aff534e7c3765f41",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "test(semantic): add comprehensive image store dmask channel selection and descriptor tests",
+  "author": "slopgobblercobbler",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2342",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:32:10.995564+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 6116,
+  "head_sha": "05de7fa99e6363127e8d5b3c1e2c51cecdebf9c1",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "notes",
+  "findings": [
+    "Two files (tests/test_runtime_paths.py, tools/tile_probe.py). Nothing malicious, but the first file has an indentation error: in tracked() the line 'return [n for n in result.stdout.split(...)]' is at the same indentation as the 'if' above it (and has trailing spaces), which Python rejects with IndentationError at import, so the test module would not load. The tile_probe change (lazy numpy import with a SystemExit message) looks fine."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

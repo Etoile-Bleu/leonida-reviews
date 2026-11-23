@@ -1,0 +1,13 @@
+{
+  "pr": 6416,
+  "head_sha": "d2843e9e66b18254727e75b32faf157f3862e20a",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: documents tools/classify_carve.py in docs/rpf.md with a local command example."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

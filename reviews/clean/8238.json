@@ -1,0 +1,13 @@
+{
+  "pr": 8238,
+  "head_sha": "d362a67b9abe1bc15f9b72f3ee2548aee870faba",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/world_archetypes.py and its test): --start and --limit use the same checked integer types as world_index; invalid windows or an OSError/ValueError are one usage error and write no report."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 6249,
+  "head_sha": "fd13d5a5fe98f7a9da46e464a3091fcd88223609",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Three files (tools/rdna2spirv.py, a semantic test and docs/design.md): permlane FI=1 shuffle emitted eagerly so MoltenVK does not skip it in some lanes; generator code emits SPIR-V text only; docs row updated."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

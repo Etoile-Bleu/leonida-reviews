@@ -1,0 +1,13 @@
+{
+  "pr": 7541,
+  "head_sha": "455787d512b6e3a76a5768d1abc7c025c0f11d48",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (runtime/shims/xmem.cpp and its test): MEM_RESET/MEM_RESET_UNDO combined with 64k attributes is passed to the host reset path with no guest-page widening, and MEM_RESET with MEM_RESERVE fails with ERROR_INVALID_PARAMETER; tests added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

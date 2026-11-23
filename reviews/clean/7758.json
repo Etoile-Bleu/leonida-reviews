@@ -1,0 +1,13 @@
+{
+  "pr": 7758,
+  "head_sha": "29985c67a706ce9e6e990ce02ff6c84ea0839c3e",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/psocache_usersig.py and its test): --limit combined with --entry is a usage error."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 5712,
+  "head_sha": "b69ef7aa4dbe3b7fec0dcab664aa5a81403166d3",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/root_spill_census.py and a test): a missing index or carve file prints one ERROR line and exits 2; the tool is added to the missing-input test list."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

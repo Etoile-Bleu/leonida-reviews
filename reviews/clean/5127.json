@@ -1,0 +1,13 @@
+{
+  "pr": 5127,
+  "head_sha": "d0f870bd5f0fd043d6d00f813b027e58eb20d4b6",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/audio_wav.py and its test): on Windows, uses os.rename and reports 'output already exists' instead of replacing a file created during decoding; the test is Windows-only and mocks the converter."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

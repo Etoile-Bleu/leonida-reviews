@@ -1,0 +1,13 @@
+{
+  "pr": 7129,
+  "head_sha": "e4a9a88017bb40bc3b67ae507e9d5fc8592f8c46",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Test-only (tests/test_first_look_shim_report.py): adds tools/report_paths.py to the copied files and checklist.md to the report list."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

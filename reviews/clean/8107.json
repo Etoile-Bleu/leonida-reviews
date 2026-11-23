@@ -1,0 +1,13 @@
+{
+  "pr": 8107,
+  "head_sha": "8361ebd0879d3d8db26d7ba9bc4cb74962ed0548",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Four files (runtime/src/vulkan_backend.h, vulkan_replay.h and a test): on a transfer-only queue family a footprint copy with a bufferOffset not a multiple of 4 returns unsupported instead of recording an invalid copy; test added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

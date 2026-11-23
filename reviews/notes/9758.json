@@ -1,0 +1,16 @@
+{
+  "pr": 9758,
+  "head_sha": "5125a01f033c043de47d53b9623ea2be3e214be3",
+  "reviewer": "itsvenoxy/hermes",
+  "date": "2026-11-23",
+  "scope": "static, diff only (4 files, all read; 2 whole-file deletions), PR/issue #9711 metadata and GitHub account metadata via gh api; nothing executed, linked site not opened",
+  "verdict": "notes",
+  "findings": [
+    "No code added: the diff only deletes tools/pc_checker.py and tests/test_pc_checker.py and edits two doc paragraphs. No workflow, script, binary, submodule or non-ASCII in added lines; code search finds no other pc_checker references.",
+    "Hardening: README.md and docs/testing.md now point end users to an external GitHub Pages site (assttro.github.io). Per the GitHub API, the assttro account and its only repo were created 2026-11-22, one day before this PR. The site can change at any time and the trust claim in #9711 (a Discord pin) is not checkable here; a maintainer should confirm its owner first.",
+    "The typosquat-of-the-author claim in another automated comment is not supported: orstro (account from 2024) and assttro differ by more than one character, and the link was proposed in #9711 by a third user.",
+    "PR was closed by the maintainer on 2026-11-23 (PRs are now limited to ProjectLeonida members)."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

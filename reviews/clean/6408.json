@@ -1,0 +1,13 @@
+{
+  "pr": 6408,
+  "head_sha": "60ae81203bd1edf25ef1b4e05f6cdf1a03dc5731",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/shader_stage_manifest.py and its test): shader names equal to Windows device names (CON, NUL, COM1, LPT1 and variants, with or without extension) are rejected as non-basenames on every OS; tests added. Hardening."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

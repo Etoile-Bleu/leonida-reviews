@@ -1,0 +1,13 @@
+{
+  "pr": 5236,
+  "head_sha": "02a825ef10bb6e76dc94a100d5f3bc2567d30f73",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "One file (runtime/test/d3d12_compute_test.cpp): a host that answers nothing for GetCachedBlob is not used as a reference; adds an include and comment changes."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

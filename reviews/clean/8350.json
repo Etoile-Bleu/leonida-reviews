@@ -1,0 +1,13 @@
+{
+  "pr": 8350,
+  "head_sha": "fcd15b20876c8026ee5148b187516730acf63560",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/shader_profile.py and its test): cache, clock and probe opcodes are classified as SMEM; test rows added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 5529,
+  "head_sha": "167859f7cef3c46d238dd508ffcbadf4f00775dd",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Three files (tools/awc_shorts.py, its test and docs/awc_shorts.md): sort key gains the exact bank name as a tie-breaker so case-distinct banks keep a stable order across workers; test added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

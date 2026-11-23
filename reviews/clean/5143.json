@@ -1,0 +1,13 @@
+{
+  "pr": 5143,
+  "head_sha": "fea9e3f716919d2296411694bc5beea8efd5ccf9",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (scripts/run_wine_tests.py and its test): UTF-16 CTest inventories are decoded; a truncated one is one clean error before launch; tests write temp files."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

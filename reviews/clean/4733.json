@@ -1,0 +1,13 @@
+{
+  "pr": 4733,
+  "head_sha": "7a89cebfb374d00b3bd03eb150e9b2fce244cc12",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "One file (runtime/test/vk_image_fuzz.cpp): enables the Vulkan 1.1 shaderDrawParameters feature when available."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

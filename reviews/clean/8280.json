@@ -1,0 +1,13 @@
+{
+  "pr": 8280,
+  "head_sha": "6618a67e9e327f14fcd71780fb264fc5d67c4bda",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: updates counts of unimplemented imports in three docs files. Relative links only."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

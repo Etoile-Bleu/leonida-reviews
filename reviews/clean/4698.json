@@ -1,0 +1,13 @@
+{
+  "pr": 4698,
+  "head_sha": "b5e08146025f352b31c5c6350b7afb38676090ff",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "One file (runtime/test/d3d12_vulkan_device_test.cpp): the VIDEO_ENCODE allocator comparison runs only on a host that can create a video-encode queue."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

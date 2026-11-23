@@ -1,0 +1,13 @@
+{
+  "pr": 5018,
+  "head_sha": "748dbe554c74fb49501cbaa5e0b9b3c5d82044d3",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/pc_checker.py and its test): the Windows GPU query result is validated (dict/list/types) and AdapterRAM must be a plausible int; tests mock the command output."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

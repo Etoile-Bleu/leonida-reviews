@@ -1,0 +1,13 @@
+{
+  "pr": 7646,
+  "head_sha": "b3216e8041a7eec9571b9204be75c0541c9e638d",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Test-only (tests/test_gamedata_blobs.py): assertion helper gets returncode and prefix parameters; the missing-input test expects exit 2 and an ERROR: prefix."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

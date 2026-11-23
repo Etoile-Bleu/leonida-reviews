@@ -1,0 +1,23 @@
+{
+ "as_of": "2026-11-23T22:58:02Z",
+ "open_total": 10,
+ "reviewed_open": 1,
+ "scan_only_open": 0,
+ "in_progress_open": 0,
+ "unreviewed_total": 9,
+ "newest_unreviewed": [
+  7788,
+  7189,
+  5237,
+  4765,
+  4729,
+  4728,
+  4669,
+  4251,
+  2906
+ ],
+ "stale_total": 1,
+ "stale": [
+  7417
+ ]
+}

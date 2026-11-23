@@ -1,0 +1,13 @@
+{
+  "pr": 4958,
+  "head_sha": "028e3762072fa72329d858f4fa2ead219ef4b77c",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Test-only (tests/test_docs_table_rows.py): adds a test that fails when a blank line splits a Markdown table."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

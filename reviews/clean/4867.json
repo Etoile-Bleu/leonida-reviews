@@ -1,0 +1,13 @@
+{
+  "pr": 4867,
+  "head_sha": "9cce2eb4ffc78060598cca63857b70234eeded5c",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Test-only (tests/test_rdna2_decode.py): compares the decoder's bytes with the assembled bytes and normalizes op_sel spellings; test-harness logic."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

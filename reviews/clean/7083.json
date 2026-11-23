@@ -1,0 +1,13 @@
+{
+  "pr": 7083,
+  "head_sha": "2a4ffaee5feb2c12c2fb9e447916a1529195a091",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/progress_dashboard.py and its test): OSError during test discovery is reported as one error line with exit 2 before any output is created."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

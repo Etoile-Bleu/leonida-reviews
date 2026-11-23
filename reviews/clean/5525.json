@@ -1,0 +1,13 @@
+{
+  "pr": 5525,
+  "head_sha": "829c4c6256d8ee73a531c12275d503249b8850c0",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/bink_play.py and its test): find_exe also looks in runtime/build/RelWithDebInfo; the test creates an empty file in a temp folder."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

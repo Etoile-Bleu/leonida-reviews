@@ -1,0 +1,13 @@
+{
+  "pr": 4987,
+  "head_sha": "101362a26734991d97b38da6dec62377a9c9ebe9",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/sandbox.py and its test): non-object shader index entries are skipped; tests added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

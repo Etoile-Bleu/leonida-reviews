@@ -1,0 +1,13 @@
+{
+  "pr": 6508,
+  "head_sha": "5bd57a76fc70ec72719826b3aa394085e0f897df",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "One file (tools/bvh_slot_check.py): sys.stdout.reconfigure(errors='replace') in the main block, guarded by try/except."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

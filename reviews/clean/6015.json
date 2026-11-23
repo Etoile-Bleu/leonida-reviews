@@ -1,0 +1,13 @@
+{
+  "pr": 6015,
+  "head_sha": "a01f6282f3a5983ac7ad2639d68bf5e92d308c05",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: updates test counts in docs/shader_validation.md (87 to 186 cases, 19 to 26 groups) with historical notes."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

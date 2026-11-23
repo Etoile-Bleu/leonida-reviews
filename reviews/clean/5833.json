@@ -1,0 +1,13 @@
+{
+  "pr": 5833,
+  "head_sha": "ce06fb6b45a6e00129d0aaf1284c377034e2ca65",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/psin_names.py and its test): --names files are read with utf-8-sig and a BOM is skipped when sniffing the first byte."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

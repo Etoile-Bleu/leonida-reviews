@@ -1,0 +1,13 @@
+{
+  "pr": 5744,
+  "head_sha": "85dbcb9cb10879729cfe91060843522187b800c9",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (scripts/run_gpu_tests.py and its test): the ms_clip FAIL line now includes the harness exit code; the test stubs all external calls."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

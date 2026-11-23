@@ -1,0 +1,13 @@
+{
+  "pr": 9648,
+  "head_sha": "82ee29fd66d023c3d7d470381c853c4afed7d17e",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (make_game.py and its test): --mesh-compute and --native-mesh together are a usage error; the test patches make_game internals."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 8202,
+  "head_sha": "874d0692c1a2103763cf86d600e2d999ef0601f5",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/ps_interp_modes.py and its test): DXIL SemanticKind constants for barycentrics and shading-rate corrected (28/29 instead of 25/26); tests added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

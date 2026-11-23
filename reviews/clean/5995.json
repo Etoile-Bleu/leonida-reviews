@@ -1,0 +1,13 @@
+{
+  "pr": 5995,
+  "head_sha": "670d4bd07caf2c63d6c0bcb535258cb2a08af9e3",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/world_index.py and its test): a 0-byte input file is an error (exit 2) instead of an empty index."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

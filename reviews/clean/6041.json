@@ -1,0 +1,13 @@
+{
+  "pr": 6041,
+  "head_sha": "d36d5bd6c9856f06563f0e2ae978f340196ea544",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/manifest_verifier.py and its test): verification timing uses time.monotonic(); test patches the clocks."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

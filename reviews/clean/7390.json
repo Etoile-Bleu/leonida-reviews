@@ -1,0 +1,13 @@
+{
+  "pr": 7390,
+  "head_sha": "cb329f62f64e296a5060678b520d9710d0f4c896",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "One file (tools/salu_diff.py): help text for --ops and --list-ops only."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

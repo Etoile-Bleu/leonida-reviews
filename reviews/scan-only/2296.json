@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2296,
+  "head_sha": "e4e87a69e0f822a8b91dccef8be13d8402c005d4",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "vulkan_replay: the postbuild branch's names no longer hide emit's (C4456) (RT-139)",
+  "author": "JRamos1993",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2296",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:31:15.977640+00:00"
+}

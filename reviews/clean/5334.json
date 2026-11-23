@@ -1,0 +1,13 @@
+{
+  "pr": 5334,
+  "head_sha": "56d07229961713797c04569e5f7398c68a182940",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (docs/d3d12_vulkan.md and tests/test_docs_table_rows.py): one duplicate table row removed and a test added that reads docs/*.md and fails on repeated long first cells. Pre-existing external link kept once in the remaining row."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
