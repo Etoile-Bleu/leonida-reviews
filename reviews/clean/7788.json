@@ -9,5 +9,20 @@
     "boot_trace.py: reports the last recorded [d3d12-trace] call, and accepts a final unterminated line only when its outcome is a known complete word. Parser and report change only; no new I/O, network or process calls."
   ],
   "read_by_human": false,
-  "commented_on_github": false
+  "commented_on_github": false,
+  "double_checks": [
+    {
+      "reviewer": "PeppeBeard/lumo",
+      "verdict": "clean",
+      "date": "2026-11-23",
+      "head_sha": "1699d00620d69e402969dcfbd77de27d0a9274df",
+      "scope": "static, AI-assisted, nothing executed: full diff read line by line (tools/boot_trace.py, tests/test_boot_trace.py); nothing was checked out or run",
+      "findings": [
+        "Pure stdlib trace-log parsing: regex, io, json only; no network, no subprocess, no eval, no file writes, no game data, no links or obfuscation in the diff",
+        "Crash-truncated final D3D12-trace line is accepted only when its outcome is in a frozen whitelist (failed/unsupported/refused/partial/called/ok/ignored); a truncated unknown outcome such as 'fai' correctly falls back to ignored_lines, and the new tests pin both directions",
+        "Non-blocking: a future runtime outcome keyword would need to be added to D3D12_OUTCOMES for truncated-line acceptance; complete lines are unaffected"
+      ],
+      "read_by_human": true
+    }
+  ]
 }
