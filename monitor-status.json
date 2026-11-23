@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-23T22:08:26.590168+00:00",
-  "status": "running",
+  "updated_at": "2026-11-23T22:08:34.040689+00:00",
+  "status": "waiting_for_next_batch",
   "run_id": "45276438485",
   "run_url": "https://github.com/rideinstead/leonida-monitor/actions/runs/45276438485",
-  "current_pr": 2148,
+  "current_pr": null,
   "current_range": "1000-3000",
-  "completed": 1094,
+  "completed": 1100,
   "total": 6770,
-  "remaining": 5676,
+  "remaining": 5670,
   "in_progress_window": 100,
-  "scanned": 1093,
+  "scanned": 1099,
   "high_alert_prs": 3,
   "medium_signal_prs": 29,
   "ranges": [
@@ -21,7 +21,7 @@
       "active_claims": 0,
       "queued": 1926,
       "missing_head": 0,
-      "scanned": 1093,
+      "scanned": 1099,
       "high_alerts": 3,
       "medium_signal_prs": 29
     },
@@ -49,48 +49,6 @@
     }
   ],
   "in_progress_prs": [
-    {
-      "pr": 2148,
-      "head": "904d3a99",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2149,
-      "head": "01251206",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2150,
-      "head": "00f04d1f",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2151,
-      "head": "4adfc875",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2152,
-      "head": "b40df7a5",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2153,
-      "head": "6fa0b1dd",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
     {
       "pr": 2154,
       "head": "bdfe5f88",
@@ -745,6 +703,48 @@
     {
       "pr": 2249,
       "head": "2accddc1",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2250,
+      "head": "6a1e680d",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2251,
+      "head": "45a7cbba",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2252,
+      "head": "ee556a83",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2253,
+      "head": "e1a762f6",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2254,
+      "head": "0fdebfa2",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2255,
+      "head": "4f9afeb2",
       "range": "1000-3000",
       "title": "",
       "author": ""
