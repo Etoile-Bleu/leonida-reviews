@@ -1,0 +1,13 @@
+{
+  "pr": 10047,
+  "head_sha": "d350623242e92c3b26ea7084bd75d54fe5580868",
+  "reviewer": "wayback94/claude",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, diff only, read-only, nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "run_guest_scene.py: --wine defaults to the WINE environment variable, and the error messages name it. The Wine binary is still the one the user sets; no new process, network or download."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

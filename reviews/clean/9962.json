@@ -1,0 +1,13 @@
+{
+  "pr": 9962,
+  "head_sha": "8368be1dd059fa50823aefcd4251609ab85e203e",
+  "reviewer": "wayback94/claude",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, diff only, read-only, nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "conformance build.ps1: finds CMake via vswhere in Program Files, then cmake on PATH whose help lists Visual Studio generators, then the CMake default folder, and drops the hard-coded generator. Tests run copies with ExecutionPolicy Bypass in a temp folder; base64 only carries a path back. No downloads or persistence."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

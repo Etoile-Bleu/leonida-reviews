@@ -1,0 +1,13 @@
+{
+  "pr": 9922,
+  "head_sha": "1b8cc6ad1df428cfc0fff34a563de2106573b740",
+  "reviewer": "wayback94/claude",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, diff only, read-only, nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: adds docs/triage-block-9625-9660.md, triage notes in Portuguese recommending merge or close for PRs 9625 to 9660 (issue 8919 criteria). No code, no links. Out of place as a repository doc rather than a malicious change."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

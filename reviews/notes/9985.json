@@ -1,0 +1,13 @@
+{
+  "pr": 9985,
+  "head_sha": "9bf36d597eeb92c5dc1097450caa2fb39ea89c52",
+  "reviewer": "wayback94/claude",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, diff only, read-only, nothing executed; README history on main checked through the GitHub API, no link opened",
+  "verdict": "notes",
+  "findings": [
+    "README Discord link: replaces discord.gg/rexed with discord.gg/mjgjRFcUWW. Main's history shows the maintainer shayderrr set that same invite in #9808, then replaced it with discord.gg/xsqS3DqqVF in #10013, so this PR now proposes a superseded invite and would undo the current one; it should be closed. Not malicious, empty description."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
