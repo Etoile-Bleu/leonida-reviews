@@ -1,0 +1,13 @@
+{
+  "pr": 3291,
+  "head_sha": "9d8c068b0d94ac881a0ed324eb9e6d86223c1872",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/spirv_gs_to_compute.py and its test): a failing or missing spirv-dis is reported with one error line and exit 1 instead of a traceback. The disassembler path comes from the SPIRV_DIS environment variable, as before; tests use a missing path or a real spirv-dis on a nonexistent input."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

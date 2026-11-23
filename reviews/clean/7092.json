@@ -1,0 +1,13 @@
+{
+  "pr": 7092,
+  "head_sha": "708ba50e85077d8cd2456ae93cbbbf26217db7f0",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Three files (tools/bink_index.py and two tests): one error wording changed to '(KB2)' and a test fixture header made realistic."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 8292,
+  "head_sha": "8ad55227fed5315184dc432864ec01a4b8a0645a",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Test-only (two test files): assertions about stored words updated to the form the translator emits."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

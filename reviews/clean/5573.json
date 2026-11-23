@@ -1,0 +1,13 @@
+{
+  "pr": 5573,
+  "head_sha": "0306d50b753bebe318fa03b5152755557e8dca2d",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: rewrites one paragraph in docs/textures.md naming the tools' strict-mode keyword arguments."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

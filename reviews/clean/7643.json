@@ -1,0 +1,13 @@
+{
+  "pr": 7643,
+  "head_sha": "e8fe4c794a44cf2c8de9b19328ea5a0f715dc2de",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "One file (tools/f64_diff.py): the shrinker keeps only trial reductions that still mismatch with the same expected output and output kind; the self-test is extended. Fuzz-tool logic."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

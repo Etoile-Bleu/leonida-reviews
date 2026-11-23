@@ -1,0 +1,13 @@
+{
+  "pr": 7146,
+  "head_sha": "a0045a20c7ec9e5b70cb3ccbdba885083425325f",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "One file (runtime/src/crt_timed_wait.cpp): _Cnd_timedwait is resolved with GetModuleHandleW(msvcp140.dll) plus GetProcAddress instead of a declaration; GetModuleHandle only returns an already-loaded module, nothing is loaded by name; a null result returns an error code."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

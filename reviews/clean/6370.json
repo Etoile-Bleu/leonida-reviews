@@ -1,0 +1,13 @@
+{
+  "pr": 6370,
+  "head_sha": "13d5a509cc0e8e6c655aadc94ee00ebd7d869aab",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: two figures (350 to 400 Go) in the French quickstart."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 4950,
+  "head_sha": "6fa29f40c1618fc7d3c71318e7e6459a00ccf7ba",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/sandbox.py and its test): a shader index.json that is not an object yields no pair instead of a TypeError."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

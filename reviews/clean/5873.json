@@ -1,0 +1,13 @@
+{
+  "pr": 5873,
+  "head_sha": "37912fcb40bed509019104ccd0b8bdda5881c2f8",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Three files (docs/d3d12_vulkan.md and runtime/test/d3d12_pipeline_library_host_test.cpp): a test step is relabelled as recorded-not-compared because host drivers accept a blob with its last byte changed; comment and doc text updated."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

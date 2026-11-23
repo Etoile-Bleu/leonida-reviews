@@ -1,0 +1,13 @@
+{
+  "pr": 8307,
+  "head_sha": "625318a70ca076bc7ff5574ec3b759201abb0b4e",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/pe_shader_containers.py and its test): a failed image read now stops before writing --json or the extract index, so previous outputs are preserved."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

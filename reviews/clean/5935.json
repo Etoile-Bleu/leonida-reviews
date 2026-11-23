@@ -1,0 +1,13 @@
+{
+  "pr": 5935,
+  "head_sha": "16f272ec9d0c3ed63c349571f64becfca9056bee",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "One file (tools/probe_gfx1036_vcmp16.py): adds argparse so --help works, an existence check for vk_compute_test with exit 2, and a docstring usage update replacing an old developer-specific command line."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

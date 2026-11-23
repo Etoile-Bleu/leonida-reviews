@@ -1,0 +1,13 @@
+{
+  "pr": 5894,
+  "head_sha": "655531dd1e4128a4952a33c24c70fc2668c25d04",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: two index rows added to docs/README.md and one table label corrected in docs/world_names.md."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

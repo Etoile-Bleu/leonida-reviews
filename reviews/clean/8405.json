@@ -1,0 +1,13 @@
+{
+  "pr": 8405,
+  "head_sha": "98166db035f724a08aa6e90f913ca20931025c8d",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Three files (tools/shader_ir.py and two tests): a UTF-8 BOM at the start of a disassembly listing is tolerated (regex and utf-8-sig)."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

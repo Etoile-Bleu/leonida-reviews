@@ -1,0 +1,13 @@
+{
+  "pr": 6388,
+  "head_sha": "ee795d3abea2f0f3ae5fa950d0eccfd7f36a42e1",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Three files (tools/gamedata_maps.py, tools/restofworld_index.py and a test): carve index.json is opened with utf-8-sig so a BOM is accepted."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

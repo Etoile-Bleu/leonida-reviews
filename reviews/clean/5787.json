@@ -1,0 +1,13 @@
+{
+  "pr": 5787,
+  "head_sha": "209b67e94e1c01273a371f179897c43ff5383d6f",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/shader_library.py and its test): a missing or non-file src gives one error line and exit 2."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

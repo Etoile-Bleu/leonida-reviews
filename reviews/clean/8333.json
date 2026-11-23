@@ -1,0 +1,13 @@
+{
+  "pr": 8333,
+  "head_sha": "2330b2af8aae87c4dd6d3dbaafe410f99cdad542",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/xdxr_bvh.py and its test): a missing check-build folder is one ERROR line and exit 2; an existing empty folder keeps the 77 skip."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

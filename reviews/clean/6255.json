@@ -1,0 +1,13 @@
+{
+  "pr": 6255,
+  "head_sha": "46a9d4531ad026b636541c6ea9f6b2b018bedd4e",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/image_bvh_census.py and its test): a ValueError from a cut listing line is caught and counted as a skip reason."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 6146,
+  "head_sha": "7512dc85e60cf34b6bb9e149c15651dce19fd5e8",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/bvh_packing_check.py and its test): worker count clamped with the shared process_workers helper and the pool size capped by job count; tests patch the pool."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

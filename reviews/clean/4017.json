@@ -1,0 +1,13 @@
+{
+  "pr": 4017,
+  "head_sha": "a7dd2f64c0b55a7a734e5e251e01d0ece3b68d0d",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/rsc8_audio.py and its test): a directory scan refuses an output report that is the same file (or hard link) as a scanned bank, using the shared same_report_path helper."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

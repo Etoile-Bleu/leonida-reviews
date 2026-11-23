@@ -1,0 +1,13 @@
+{
+  "pr": 4110,
+  "head_sha": "b1a3c9f54d776828de2bfea67c654d7386993eb2",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/rsc8_audio.py and its test): an existing output path that is a scanned input is refused (same family of fix as PR 4017)."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

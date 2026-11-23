@@ -1,0 +1,13 @@
+{
+  "pr": 5886,
+  "head_sha": "da0dffbe0dbeefe47e3c6199b1b2e992444ffbf1",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/psocache_extract.py and its test): wording of an error message and a docstring only."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
