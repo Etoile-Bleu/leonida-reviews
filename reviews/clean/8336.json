@@ -1,0 +1,13 @@
+{
+  "pr": 8336,
+  "head_sha": "5fdfbefc7a3872acfac394887268ece3bc31500e",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: adds one Known problems row to docs/testing.md (macOS SDK newer than the Command Line Tools linker). Suggests a CMAKE_OSX_SYSROOT flag; no downloads or scripts."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

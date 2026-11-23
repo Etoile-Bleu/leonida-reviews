@@ -1,0 +1,13 @@
+{
+  "pr": 7036,
+  "head_sha": "012162f0d853dccf6272b1f8014b9b872137c8c7",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: adds one Known problems row to docs/testing.md (percent signs in Windows build paths). One new link, to a comment on the project's own GitHub issue 6910."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

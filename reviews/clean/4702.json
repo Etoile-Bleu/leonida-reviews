@@ -1,0 +1,13 @@
+{
+  "pr": 4702,
+  "head_sha": "52f20472a11752a397ec32d6b35a183f47e46c3f",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: adds a measured gfx1100 note on v_bfi_b32 to one row in docs/design.md. The LLVM source link is a pre-existing reference in context."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

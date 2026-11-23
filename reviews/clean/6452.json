@@ -1,0 +1,13 @@
+{
+  "pr": 6452,
+  "head_sha": "f46b9797c8a7bf4f7c802c7015b43c23051bc01b",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: adds one Known problems row to docs/testing.md (image_fuzz on Intel ANV before Mesa 26.3). No links."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 2778,
+  "head_sha": "ffa91442692f3b12914d58bd0d351e72b11cb611",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: edits one table row in docs/design.md (pixel input census counts). The only link is a pre-existing AMD ISA PDF reference in context."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

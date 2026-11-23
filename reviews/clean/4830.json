@@ -1,0 +1,13 @@
+{
+  "pr": 4830,
+  "head_sha": "32184e30ea152aa5e80a45d9b6e5050908bd6b22",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters and URLs (none)",
+  "verdict": "clean",
+  "findings": [
+    "Test-only (tests/semantic/test_vcmp16_opsel.py): same change as PR 4305, skipUnless decorator for missing SPIRV-Tools."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

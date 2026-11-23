@@ -1,0 +1,13 @@
+{
+  "pr": 7441,
+  "head_sha": "2a0da04046133b0998e5d6d265116b23a9724179",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: adds one row to docs/README.md indexing dev-tools.md."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

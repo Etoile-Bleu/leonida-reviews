@@ -1,0 +1,13 @@
+{
+  "pr": 6472,
+  "head_sha": "d5e5991383fbfe5bcab7fe7239bf268361e8c5e4",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters and URLs (none)",
+  "verdict": "clean",
+  "findings": [
+    "One docstring line added to tools/bvh_gpu_smoke.py (usage hint pointing to --help). Inside the module docstring, no code change."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

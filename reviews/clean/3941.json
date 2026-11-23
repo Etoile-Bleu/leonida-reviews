@@ -1,0 +1,13 @@
+{
+  "pr": 3941,
+  "head_sha": "8d635523de4f36282f9400d197748960d97f71e5",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: edits one table row in docs/design.md, removing a stale hypothesis about LDS bounds checks. No new links."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

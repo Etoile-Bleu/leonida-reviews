@@ -1,0 +1,13 @@
+{
+  "pr": 4858,
+  "head_sha": "5f587edc80a6bb7c6a957385b4cf1a03159015b1",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: removes one duplicate manifest.py line from the layout block in docs/design.md."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
