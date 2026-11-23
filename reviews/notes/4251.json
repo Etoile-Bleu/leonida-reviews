@@ -1,0 +1,14 @@
+{
+  "pr": 4251,
+  "head_sha": "39c63602e17d44e50cad7bd3728a8131a6c2a140",
+  "reviewer": "Wolterhon/chatgpt",
+  "date": "2026-11-24",
+  "scope": "Static read of all 5 changed-file diffs, including the stacked texture harness, plus relevant CLI and DDS-decoder context. Checked format allowlists, block sizes, local I/O, reference masks, tolerance bands, tests, docs and source blob hashes. No source execution, game assets or GPU-result reproduction.",
+  "verdict": "notes",
+  "findings": [
+    "runtime/test/d3d12_first_light_textured_test.cpp:425-431: skipping NaN expected channels does not reject NaN actual values in predicted channels. fabs returns NaN, the tolerance comparison is false, and matching coverage can let invalid output pass. Check actual values are finite after the intentional expected-channel mask. This is a test-oracle weakness.",
+    "The DDS path uses a format allowlist and checks mip payload length; the GPU harness bounds texture sizes and validates compressed row sizes. Reference alpha masks, UV seam exclusions and tolerance-band changes are explicit in code and docs. No malicious pattern found within this scope; the documented GPU measurements were not independently reproduced."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

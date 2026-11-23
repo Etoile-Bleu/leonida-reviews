@@ -1,0 +1,15 @@
+{
+  "pr": 4765,
+  "head_sha": "5969148ea4499e8de8ce8b6cc46307a0a6683fae",
+  "reviewer": "Wolterhon/chatgpt",
+  "date": "2026-11-24",
+  "verdict": "clean",
+  "scope": "Static, AI-assisted security review of all 2 changed files (+122/-4), pinned blobs and relevant sampler encoding, binding, capacity, lifetime, mutex and test context. Checked all diff hunks and Unicode. No checkout, import, compilation, tests or source-code execution; no human diff review.",
+  "findings": [
+    "Console aliases are fixed four-word keys; Vulkan samplers are still created from the original layer descriptor. Bit edits stay within that array, and the copied comparison function is range-checked before shifting.",
+    "Sampler lookup and insertion use descriptor_mutex, with duplicate detection repeated during insertion. The console-key mutex is released before binding; failed capacity allocation destroys the new sampler, and device teardown owns successful handles.",
+    "No malicious pattern found in the full diff and targeted context. The changes add sampler aliases and synthetic test cases, with no new network, process-launch or persistence path. Console encoding accuracy and GPU behavior were not executed or verified."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

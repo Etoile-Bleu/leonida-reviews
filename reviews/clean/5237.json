@@ -1,0 +1,15 @@
+{
+  "pr": 5237,
+  "head_sha": "eea1754ea4a2b319449e04257a70e10aabacfd28",
+  "reviewer": "Wolterhon/chatgpt",
+  "date": "2026-11-24",
+  "scope": "Static line-by-line review of all 3 changed files (+56/-5) at pinned head, plus front-facing layout, constant emission and synthetic-test helper context. Pinned blobs verified; hidden Unicode checked. No code, tests or game assets executed.",
+  "verdict": "clean",
+  "findings": [
+    "The production change selects integer 0xffffffff or 0 from FrontFacing and stores it in the existing VGPR slot. Existing system-input rejection and late constant emission remain intact; no host pointer or host I/O is added.",
+    "Read the complete 47-line synthetic test and its existing local helper. It uses fixed shader strings, temporary files and regex/integer checks, with no new command execution, network access or persistent writes.",
+    "No malicious pattern found in the complete diff. No workflow, dependency, submodule or binary changes; no hidden or bidi Unicode. Corpus counts, hardware semantics and claimed GPU results were not independently reproduced."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,14 @@
+{
+  "pr": 4728,
+  "head_sha": "13671b7ac62b4160b81836e08941e1d39b4363af",
+  "reviewer": "Wolterhon/chatgpt",
+  "date": "2026-11-24",
+  "scope": "Full 2-file diff; static review of bink_names output-path preflight, new tests, and relevant bink_index scan/error handling. No source imports, tests or execution.",
+  "verdict": "clean",
+  "findings": [
+    "No suspicious behavior found in the reviewed change. os.walk errors abort the overwrite check when the output resolves inside the unlistable subtree; other listing errors remain visible to the scan.",
+    "New tests use temporary files and a scoped os.scandir mock, check nonzero exits, and verify that an existing report is preserved. Static review only; supported filesystem behavior was not exercised."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
