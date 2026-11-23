@@ -1,0 +1,13 @@
+{
+  "pr": 9429,
+  "head_sha": "07d62a68e36d6b58d977997876c6caa3a6e6fd9c",
+  "reviewer": "wayback94/claude",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, diff only, read-only, nothing executed; tile shapes checked at head (64 KiB tiles, power-of-two sizes)",
+  "verdict": "notes",
+  "findings": [
+    "resource_detile.h: memcpy replaced by *reinterpret_cast<Element<Bpe>*> over std::byte storage; no Element object lives there, so this is undefined behaviour (strict aliasing) that a compiler may miscompile. memcpy of a constant size compiles to the same moves; suggest keeping memcpy or std::bit_cast. Not malicious."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
