@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2234,
+  "head_sha": "91405337cde2860c6a95c732ebb160580b501ca6",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "rdna2spirv: measure v_pack_b32_f16 abs and neg+abs modifiers on RDNA2 (gfx1036)",
+  "author": "abnalstlll-byte",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2234",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:26:54.861136+00:00"
+}

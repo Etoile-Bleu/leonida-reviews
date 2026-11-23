@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2166,
+  "head_sha": "2cafa79f3a8258e3624e1847af2b400d48de4ac6",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "test(semantic): add translator tests for v_min/max_i32/u32, v_ashrrev_i32, and v_not_b32",
+  "author": "klarnet2009",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2166",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:25:25.288382+00:00"
+}

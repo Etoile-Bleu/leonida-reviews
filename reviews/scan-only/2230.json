@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2230,
+  "head_sha": "3698d9cd2de305e9b3f438c96844c3d08ed5274b",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "anim_index: skip .json and .csv reports in --rigs directory helpers (BUILD-616)",
+  "author": "narekshaghoyandev",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2230",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:26:49.980011+00:00"
+}
