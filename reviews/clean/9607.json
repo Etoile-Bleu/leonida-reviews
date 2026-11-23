@@ -1,0 +1,15 @@
+{
+  "pr": 9607,
+  "head_sha": "52b4f03b78e814f803d4a93c434c326c6698255c",
+  "reviewer": "Wolterhon/chatgpt",
+  "date": "2026-11-24",
+  "scope": "Static, AI-assisted security review of the full 3-file diff (+95/-13), with same-commit GameInput ABI, motor lifecycle, locking and output context. Checked indexing, duration arithmetic, modulo guards, tests/docs and Unicode. No checkout, compilation, test or PR-code execution; no human diff review.",
+  "verdict": "clean",
+  "findings": [
+    "The two-element waveform array is indexed after the motor bounds check. Updates, output sampling and disconnect clearing use the same state mutex; the examined lifecycle assigns the motor count only zero or two.",
+    "The waveform sampler excludes zero and overflowing periods before modulo, and checks timestamps before subtraction. Deadline multiplication and addition saturate instead of wrapping; no new loader, network or persistence path is added.",
+    "No malicious pattern found in the reviewed diff. Readability checks for the params pointer remain absent as before this PR; this review does not certify the whole shim. No controller, timing or gameplay tests were run."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,15 @@
+{
+  "pr": 9754,
+  "head_sha": "ad6e5d6bbee5bd8c3c8a7e95216f12038fe3db22",
+  "reviewer": "Wolterhon/chatgpt",
+  "date": "2026-11-24",
+  "scope": "Static, AI-assisted security review of the full 8-file diff (+253/-1), with same-commit startup and build context. Checked CPUID/XGETBV gating, environment parsing, fixed-format logging, added tests/docs and Unicode. No checkout, compilation, test or PR-code execution; no human diff review.",
+  "verdict": "clean",
+  "findings": [
+    "XGETBV is gated by OSXSAVE, and the production caller supplies its own local XCR0 reader. The CPU-check bypass accepts only the exact process-environment value 1; the Windows read uses a bounded buffer.",
+    "The preflight runs before image loading. Build changes add the local CPU-check source and test; the PowerShell change only extends the existing quoted source-file list. No download, persistence or secret-handling path is added.",
+    "No malicious pattern found in the full diff and targeted startup/build context. Compilation and runtime behavior were not tested; the unchanged loader and dependencies were not comprehensively audited."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

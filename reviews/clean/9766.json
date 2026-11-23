@@ -1,0 +1,15 @@
+{
+  "pr": 9766,
+  "head_sha": "2f48417d491da6ef097519f7675f35abff2e3027",
+  "reviewer": "Wolterhon/chatgpt",
+  "date": "2026-11-24",
+  "scope": "Static, AI-assisted security review of the full 4-file diff (+145/-13), with same-commit shader metadata, device-property query and pipeline call-site context. Checked bounds, arithmetic, formatting, CMake/tests and Unicode. No checkout, compilation, test or PR-code execution; no human diff review.",
+  "verdict": "clean",
+  "findings": [
+    "The helper preserves the prior mesh output/workgroup checks and rejects LDS usage above the smaller nonzero shared-memory limit before pipeline creation. The caller checks stage.entry before dereferencing it.",
+    "Diagnostics use bounded snprintf and fixed format strings; shader names are passed as string arguments. CMake only adds a local synthetic-limit test using the existing Vulkan headers target.",
+    "No malicious pattern found in the reviewed diff. The guard trusts existing lds_bytes metadata and device properties; zero or missing values do not validate arbitrary SPIR-V. No compilation or GPU execution was performed."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
