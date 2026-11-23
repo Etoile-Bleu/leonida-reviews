@@ -1,0 +1,13 @@
+{
+  "pr": 4594,
+  "head_sha": "c7f71667f8acc1b5111dd5a6822c17492bdc8898",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Three files (runtime/test/vk_compute_test.cpp, scripts/bench_wave64.py and a test): VKC_BENCH is parsed with from_chars and validated as 0..2147483647; --reps is bounded in the script."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

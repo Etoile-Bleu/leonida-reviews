@@ -1,0 +1,13 @@
+{
+  "pr": 5387,
+  "head_sha": "eefdc14c8994398cf9c9c190da9076480bc8543b",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (viewer/index.html and the viewer test): the FPS counter uses the real frame time while camera movement stays capped at 0.1 s; test refactored with a shared fixture."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

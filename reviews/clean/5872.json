@@ -1,0 +1,13 @@
+{
+  "pr": 5872,
+  "head_sha": "4e429ac78550fcad8668215ae8264e0a13031920",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/world_interior_names.py and its test): --names file read with utf-8-sig."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

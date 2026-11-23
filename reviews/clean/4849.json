@@ -1,0 +1,13 @@
+{
+  "pr": 4849,
+  "head_sha": "d04a5cdb57556a9d28589d7ab94f713ec9091bbb",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/tex_mode_probe.py and its test): texture index rows are validated (fmt_name string, integer w and h) with a usage error instead of a traceback; tests added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

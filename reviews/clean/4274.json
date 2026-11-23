@@ -1,0 +1,13 @@
+{
+  "pr": 4274,
+  "head_sha": "783cb24a6cda072ed6ad123c8c5be5cae2c7dd4f",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Three files (tools/hw_oracle/asm.py, a test and docs): v_madmk_f32 is skipped on gfx1030/gfx1036 like the other GFX10.1-only mad opcodes; docs updated."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

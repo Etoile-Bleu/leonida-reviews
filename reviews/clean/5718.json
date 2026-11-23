@@ -1,0 +1,13 @@
+{
+  "pr": 5718,
+  "head_sha": "98b4d3abf4a5961ac092638d9da31849e50448c5",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "One file (runtime/shims/d3d12_vulkan_device.cpp): four stale comments updated. No code change."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

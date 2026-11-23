@@ -1,0 +1,13 @@
+{
+  "pr": 7271,
+  "head_sha": "bf37f813136f14a324b552c23162501909084c2d",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (runtime/src/mods.h and its test): parse_model_id refuses a bare 0x/0X prefix instead of hashing it; tests added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

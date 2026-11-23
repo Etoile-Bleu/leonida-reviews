@@ -1,0 +1,13 @@
+{
+  "pr": 7184,
+  "head_sha": "44de7acf422c2f132d97cae51c3303787a6fbd3d",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/op_reach.py and its test): stdout is reconfigured with errors='replace' in main, guarded by try/except; test added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

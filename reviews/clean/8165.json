@@ -1,0 +1,13 @@
+{
+  "pr": 8165,
+  "head_sha": "0591be4cabf126f4fdd29d9be314f3dea0a8031b",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: updates docs/embedded_shaders.md to say all 52 BVH-builder programs translate."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

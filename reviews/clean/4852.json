@@ -1,0 +1,13 @@
+{
+  "pr": 4852,
+  "head_sha": "fba24def5a255c546c6e0e503382d5bafe432a53",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Test-only (runtime/test/vk_presenter_sync_test.cpp): setup errors now fail the test instead of being treated as unavailable."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

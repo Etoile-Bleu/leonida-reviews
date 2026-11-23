@@ -1,0 +1,13 @@
+{
+  "pr": 6962,
+  "head_sha": "0499568ade3608be1c23aafe64a3086a6f518333",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/shader_stage_manifest.py and its test): RecursionError from deeply nested JSON is reported as invalid JSON; tests write 100,000-level nested files to temp folders."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

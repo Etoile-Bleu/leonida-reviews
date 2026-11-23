@@ -1,0 +1,13 @@
+{
+  "pr": 7253,
+  "head_sha": "b5214526d4fa8377ea64d8f0f4137f330d9aefd4",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/fragment_children.py and its test): --start/--end bound the streams rather than whole pages; tests added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

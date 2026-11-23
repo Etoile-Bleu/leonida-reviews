@@ -1,0 +1,13 @@
+{
+  "pr": 8119,
+  "head_sha": "9eb213fa7d533af3ad1a849b88c90cbe0ae99186",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/shader_meta.py and its test): wave64 and 64-bit compare destinations count both halves of the mask SGPR pair; tests added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

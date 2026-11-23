@@ -1,0 +1,13 @@
+{
+  "pr": 5876,
+  "head_sha": "f6105d1760e79013356fa35fb48f7486e83185ed",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "One file (runtime/test/vk_compute_test.cpp): VKC_HEAP_FILE offset check changed from > to >= 4 GiB, with comment updates."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

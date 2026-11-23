@@ -1,0 +1,13 @@
+{
+  "pr": 4860,
+  "head_sha": "46c7c56c3216c936457f519603ff24fe2d375766",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: updates two sample counts to whole-corpus counts in docs/fssm_crosscheck.md."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 7543,
+  "head_sha": "3f76f8578b174d637e6e8df1fd637a644f295ab2",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/skinned_glb.py and its test): drawable strings must be a list, else one error line and exit 2 without replacing the output; tests added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

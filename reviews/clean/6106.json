@@ -1,0 +1,13 @@
+{
+  "pr": 6106,
+  "head_sha": "e663780d27164101a9d523ad9e17eab9a99e6755",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/xcl_compare.py and its test): an --out that is a folder is refused up front with exit 2; the test runs the tool with the local interpreter."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

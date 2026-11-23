@@ -1,0 +1,13 @@
+{
+  "pr": 7698,
+  "head_sha": "451dc0afba1cc75eee1c1ff62703495c1b791a05",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: updates counts and descriptions in docs/world_census.md."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

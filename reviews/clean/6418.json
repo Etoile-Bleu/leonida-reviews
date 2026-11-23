@@ -1,0 +1,13 @@
+{
+  "pr": 6418,
+  "head_sha": "6b0d2aa14bd441a18419d57db7dfef008690f1d5",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/shader_link_check.py and its test): the --quiet help text now says what it hides; test checks the help text."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

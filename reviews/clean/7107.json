@@ -1,0 +1,13 @@
+{
+  "pr": 7107,
+  "head_sha": "8094d7b303d8f38d7a16d71cee5459b2c9936198",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/wave64_halves.py and its test): RecursionError from deeply nested census JSON is handled as a bad census; test adds a 50,000-level nested file in a temp folder."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

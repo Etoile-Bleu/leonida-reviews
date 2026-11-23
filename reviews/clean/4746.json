@@ -1,0 +1,13 @@
+{
+  "pr": 4746,
+  "head_sha": "c9389913b2415f6b1c6efecc628bacc6518977f8",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: adds whole-game measurement tables and paragraphs to docs/restofworld.md. No links."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 4525,
+  "head_sha": "8c838c1759bcb3057631d0ad61770c26844e612a",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: adds a measurement section about the 0x40 instance key to docs/bvh.md. No links."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

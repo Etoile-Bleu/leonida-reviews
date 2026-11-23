@@ -1,0 +1,13 @@
+{
+  "pr": 4258,
+  "head_sha": "657c923e9f495e1d8993455b6af2bd32c64c958d",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: refreshes measured import counts in docs/runtime_imports.md (table and one sentence)."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
