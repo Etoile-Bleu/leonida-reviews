@@ -1,0 +1,13 @@
+{
+  "pr": 9519,
+  "head_sha": "3e6c747bd6f3a7a4e3be508a5a8349a7c2b97ffa",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "Two-file change in tools/ptr_truncation_census.py and its test: removes an unreachable post-parse --limit check and updates the asserted message. No workflows, downloads, obfuscation, hidden Unicode, binaries or submodule changes."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
