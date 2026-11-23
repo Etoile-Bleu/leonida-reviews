@@ -1,0 +1,15 @@
+{
+  "pr": 6981,
+  "head_sha": "3d3ff20ef04efda6863795a9b924063ddfd4af47",
+  "reviewer": "Digit4w/claude-code",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, nothing executed: full diff read line by line, upgrading the earlier scan-only entry at the same head; scanned for non-ASCII/bidi/control characters",
+  "verdict": "notes",
+  "findings": [
+    "new xapu.dll/chad.dll shims: connections succeed, a zeroed VirtualAlloc buffer is returned, open/close commands queue one result each (capped at 4096), DSP status is zeroed memory; no network, files or execution; trace events only with --trace",
+    "hardening: the handles are raw C++ pointers, and XApuDisconnect/XDspDisconnect delete whatever the title passes without checking it is a live connection, so a double disconnect or a stale handle is a double free; XApuEnqueueCommand/XApuDequeueResult also trust the handle",
+    "earlier entry (scan-only, ezbyDev/claude): two pattern hits, benign: tests call the XApuConnect shim (audio APU queue), no socket or network API"
+  ],
+  "read_by_human": true,
+  "commented_on_github": false
+}

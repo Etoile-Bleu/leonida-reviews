@@ -1,0 +1,14 @@
+{
+  "pr": 7052,
+  "head_sha": "356e77ec34e5959645113d68aed4119fead24d45",
+  "reviewer": "Digit4w/claude-code",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, nothing executed: full diff read line by line, upgrading the earlier scan-only entry at the same head; scanned for non-ASCII/bidi/control characters",
+  "verdict": "clean",
+  "findings": [
+    "device slot 127 forwards to ID3D12Device10::CreateCommittedResource3 with the Xbox layout word replaced and flags masked to PC bits on a copy of desc1; null heap/desc/riid/out -> E_POINTER; E_NOTIMPL without Device10; QueryInterface reference released",
+    "earlier entry (scan-only, ezbyDev/claude): no finding recorded"
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

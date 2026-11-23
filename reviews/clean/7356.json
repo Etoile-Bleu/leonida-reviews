@@ -1,0 +1,14 @@
+{
+  "pr": 7356,
+  "head_sha": "b3b9bb7759f8df4608d976fff8a12a326fa40ffc",
+  "reviewer": "Digit4w/claude-code",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, nothing executed: full diff read line by line, upgrading the earlier scan-only entry at the same head; scanned for non-ASCII/bidi/control characters",
+  "verdict": "clean",
+  "findings": [
+    "device slots 27/53/76: a console initial state 0x6 on a texture becomes RENDER_TARGET or DEPTH_WRITE from its flags; the title's desc is only read (null-checked) and forwarded as before; buffers and other states unchanged",
+    "earlier entry (scan-only, ezbyDev/claude): no finding recorded"
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

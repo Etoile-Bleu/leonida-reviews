@@ -1,0 +1,15 @@
+{
+  "pr": 6964,
+  "head_sha": "ed70b4c92002ce76934646c384dc661e1d02c491",
+  "reviewer": "Digit4w/claude-code",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, nothing executed: full diff read line by line, upgrading the earlier scan-only entry at the same head; scanned for non-ASCII/bidi/control characters",
+  "verdict": "clean",
+  "findings": [
+    "device slot 26 takes the console form (struct buffer in RCX, device in RDX) when is_device_proxy(RDX) and writes the PC GetCustomHeapProperties result to the title's buffer, as that x64 convention expects; the PC form is forwarded unchanged",
+    "remark: is_device_proxy dereferences RDX on every slot-26 call; in both legitimate forms RDX is a valid pointer (the device, or the PC caller's return buffer)",
+    "earlier entry (scan-only, ezbyDev/claude): no finding recorded"
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

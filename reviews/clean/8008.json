@@ -1,0 +1,14 @@
+{
+  "pr": 8008,
+  "head_sha": "2433e9418e6cc19e4189022ce66cd25cc6a993c0",
+  "reviewer": "Digit4w/claude-code",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, nothing executed: full diff read line by line, upgrading the earlier scan-only entry at the same head; scanned for non-ASCII/bidi/control characters",
+  "verdict": "clean",
+  "findings": [
+    "boot_trace.py lists xmem_physical_pages events: attributes must match 0x+hex, pages an int in [0, 2^64), api/caller strings with C0/C1 controls or U+2028/2029 are dropped to None before printing; --limit 0 allowed; tests write with newline='\n'",
+    "earlier entry (scan-only, ezbyDev/claude): no finding recorded"
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
