@@ -1,0 +1,15 @@
+{
+  "pr": 9746,
+  "head_sha": "ff926d37864db60fd46c48dc8cb718121a4969b4",
+  "reviewer": "Wolterhon/chatgpt",
+  "date": "2026-11-24",
+  "scope": "Static, AI-assisted review of all 274 added lines, conversion call sites, raw-operand handling, SDWA/DPP helpers, destination handling and the test support helper at the pinned head. Head changed-file blobs verified. Nothing executed.",
+  "verdict": "clean",
+  "findings": [
+    "The new conversion validator checks arity, single-register destination/source widths, operand modifiers, encoding-specific flags and duplicate SDWA/clamp/output modifiers before the six existing conversion handlers proceed.",
+    "Verified that self.cur_ins retains the original operands through SDWA/DPP argument rewriting. Validation adds bounded dictionary/list checks and Unsupported exceptions; no host file, network, process or credential operations were added to translation.",
+    "Read the full new semantic test. Optional spirv-as/spirv-val calls use argument lists and temporary files with locally installed tools; there is no downloader or shell command. No workflow, dependency, binary, hidden/bidi text or review-manipulation change found."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
