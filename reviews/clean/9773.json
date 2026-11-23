@@ -1,0 +1,13 @@
+{
+  "pr": 9773,
+  "head_sha": "29ffd11a5881bb8420061f03f81a75f466ebbeca",
+  "reviewer": "wayback94/claude",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, diff only, read-only, nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "d3d12_vulkan_device.cpp and shader_library.h: a shader index entry may set needs_maintenance8, and a graphics or compute pipeline using it is refused with E_NOTIMPL on a device without VK_KHR_maintenance8. Refusal path only; no I/O, network or process calls."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 9805,
+  "head_sha": "3c51dcee6459a007a17df3a64839d30114f0ae8a",
+  "reviewer": "wayback94/claude",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, diff only, read-only, nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "vulkan_present.h and xbox_present.cpp: the deferred-queue capacity check and enqueue share the presenter lock, the lock is dropped while waiting, and an aborted wait returns VK_NOT_READY; a failed blank PresentX reports the suspended state. Lock held on both exits of the wait loop. No I/O, network or process calls."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

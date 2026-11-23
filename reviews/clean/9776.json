@@ -1,0 +1,13 @@
+{
+  "pr": 9776,
+  "head_sha": "99fe4802a5105e2dd0a0beade9bfb5a162045b29",
+  "reviewer": "wayback94/claude",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, diff only, read-only, nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "New scripts/bench_translate.py: times rdna2spirv on fixtures and synthetic listings; --compare reruns itself with python -I and LEONIDA_TOOLS_DIR set to each tools folder the user names (as tests/semantic/support.py does), so it imports code from those folders by design. Writes only --write-baseline. No network or downloads."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

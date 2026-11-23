@@ -1,0 +1,13 @@
+{
+  "pr": 9806,
+  "head_sha": "d1a1e249f4fafbb9d9d7d8129c1f2438c9ad2608",
+  "reviewer": "wayback94/claude",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, diff only, read-only, nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "command_list.h: a query whose append throws (out of memory) is popped from the active list before rethrowing; new CTest target command_list_query_oom. Error-path bookkeeping only; no I/O, network or process calls."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

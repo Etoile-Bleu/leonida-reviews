@@ -1,0 +1,13 @@
+{
+  "pr": 9769,
+  "head_sha": "84dde3f1c4cee4d06cfbe8e6d32c0d472c70fb20",
+  "reviewer": "wayback94/claude",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, diff only, read-only, nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "gameinput shim: StopCallback and UnregisterCallback accept the current-callback token (all ones), resolved through a thread_local set around each callback call and restored on return; the invalid token is refused. No pointer handling or I/O changes."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
