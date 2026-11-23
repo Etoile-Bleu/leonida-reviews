@@ -5,7 +5,9 @@
   "date": "2026-11-23",
   "scope": "static, AI-assisted, diff only, read-only, nothing executed (runtime shim + test)",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "gameinput.cpp shim: GetCurrentReading and GetNext/PreviousReading skip readings that do not carry the requested kind (Motion, RawDeviceReport) before the first sample; docs and tests updated. Filter logic only; no new allocation, pointer arithmetic or I/O."
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

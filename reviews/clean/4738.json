@@ -5,7 +5,9 @@
   "date": "2026-11-23",
   "scope": "static, AI-assisted, diff only, read-only, nothing executed; all 27 changed navmesh.md lines checked to differ only by the cp1252 mojibake repair",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "Docs-only: repairs cp1252 mojibake in docs/navmesh.md (all 27 changed lines checked to differ only by the encoding fix) and adds a stdlib test scanning docs/*.md for those sequences. No code paths, no links added."
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

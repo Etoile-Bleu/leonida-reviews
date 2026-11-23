@@ -5,7 +5,9 @@
   "date": "2026-11-23",
   "scope": "static, AI-assisted, diff only, read-only, nothing executed",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "boot_trace.py: reports the last recorded [d3d12-trace] call, and accepts a final unterminated line only when its outcome is a known complete word. Parser and report change only; no new I/O, network or process calls."
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }
