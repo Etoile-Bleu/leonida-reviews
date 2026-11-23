@@ -5,7 +5,9 @@
   "date": "2026-11-23",
   "scope": "static, AI-assisted, diff + runtime/CMakeLists.txt at afd74a51; read-only, nothing executed",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "Build script: the cl.exe fallback link line for gta6rt.exe gains /BASE:0x10000000000, matching GTA6RT_HOST_BASE in runtime/CMakeLists.txt (checked at the PR head). The new test only reads CMakeLists.txt and the script text. No downloads, network, persistence or new DLLs."
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }
