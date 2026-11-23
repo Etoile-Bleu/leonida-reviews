@@ -6,7 +6,7 @@
   "scope": "static, AI-assisted, nothing executed: full diff read file by file (Leonida Launcher.bat, LAUNCHER.md, DESIGN.md, art.py, kit.py, toolbox.py, launcher.pyw, OFL.txt); bundled binaries (2 TTFs, icon.ico, icon.png) noted but not analyzed",
   "verdict": "notes",
   "findings": [
-    "Fresh head (a737dd49) resolves two findings from the earlier notes review: Vulkan SDK now has signer O=LunarG, Inc., and unzip_tool explicitly rejects zip-slip paths before extractall",
+    "Fresh head (a737dd49) resolves two findings from the earlier notes review (859f6c31): the Vulkan tool now has signer O=LunarG, Inc., and unzip_tool explicitly rejects zip-slip paths before extractall",
     "No malicious code found: all download URLs are hardcoded constants (python.org, aka.ms, sdk.lunarg.com, github:git-for-windows release resolver, gyan.dev); no user input reaches a URL",
     "Installers only run after an Authenticode Valid check AND an exact match of the parsed O= DN component against the expected publisher; the file is held open with no write/delete sharing between check and launch, closing the swap race; fail-closed when no signer is set",
     "ffmpeg zip gated on a pinned SHA-256, deleted on mismatch; updates are git pull --ff-only against a constant URL, automatic mode restricted to a clean main tracking origin/main; no arbitrary command execution anywhere",

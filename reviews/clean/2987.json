@@ -6,7 +6,7 @@
   "scope": "static, AI-assisted, nothing executed: full diff read file by file (index.html incl. inline script, live.js, activity.js, pipeline.js, triage.js, security.js, proof.js)",
   "verdict": "clean",
   "findings": [
-    "Verified at head ba69c5b1 (later than the existing notes review): every innerHTML sink escaped with one esc() helper; md() escapes first then re-adds only allow-listed markup; attribute contexts escaped",
+    "Verified at head ba69c5b1, later than the existing notes review (3aefad08): every innerHTML sink escaped with one esc() helper; md() escapes first then re-adds only allow-listed markup; attribute contexts escaped",
     "Token: format-checked, stored in localStorage under ldash:token, attached only to api.github.com requests, never in URLs, masked, dropped on 401; no-scope-token instruction in the banner",
     "Network limited to api.github.com and raw.githubusercontent.com plus one read-only GraphQL query; no eval, no remote code loading, no dynamic endpoints, no third-party scripts beyond Google Fonts stylesheets",
     "External review-table JSON type-checked on fetch and on localStorage unpack (secEntry); verdict labels whitelisted; ?repo=/?branch= regex-validated",
