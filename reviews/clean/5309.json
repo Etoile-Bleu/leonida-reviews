@@ -1,0 +1,13 @@
+{
+  "pr": 5309,
+  "head_sha": "f462b0b4cca2ae243d869bc747aa4323754d6284",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: removes two table rows from docs/gameinput.md (IGameInputReading, IGameInputDevice) as duplicates; whether the remaining rows are complete was not checked."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

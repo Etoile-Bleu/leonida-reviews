@@ -1,0 +1,13 @@
+{
+  "pr": 5271,
+  "head_sha": "9c11d8e7e14e3a20a98ec5b8460686b781e923a2",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: one line in docs/d3d12_vulkan.md reworded: MSAA is no longer listed as refused, set-0 bindings refused only without the bindless set 0."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

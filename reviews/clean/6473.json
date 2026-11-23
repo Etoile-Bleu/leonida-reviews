@@ -1,0 +1,13 @@
+{
+  "pr": 6473,
+  "head_sha": "a04814f14e38e124665bf339e6b362bf981354fd",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters and URLs (none)",
+  "verdict": "clean",
+  "findings": [
+    "One docstring line added to tools/character_textures.py (usage hint pointing to --help). Inside the module docstring, no code change."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

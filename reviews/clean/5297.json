@@ -1,0 +1,13 @@
+{
+  "pr": 5297,
+  "head_sha": "82f82b3d17b21457230aba5d3306e066acb2469d",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: cleans up one table row in docs/design.md (v_pack_b32_f16 source modifiers) and records GPU-verified results. Only a pre-existing LLVM docs link in context."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

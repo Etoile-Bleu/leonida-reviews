@@ -1,0 +1,13 @@
+{
+  "pr": 5060,
+  "head_sha": "4e86ce485e942314b98d1a2e72e1f7b85b3c69ac",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters and URLs (none)",
+  "verdict": "clean",
+  "findings": [
+    "One condition added in tools/bvh_index.py: classify() also requires len(head) >= 208 before unpacking an instance208 header (bounds guard against short buffers). No other change."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

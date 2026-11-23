@@ -1,0 +1,13 @@
+{
+  "pr": 5402,
+  "head_sha": "a6e27ec5290e7fea3a2665f17b62f365c3167d3c",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: removes a duplicated sentence from the v_pack_b32_f16 modifiers row in docs/design.md. Only a pre-existing link in context."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
