@@ -1,0 +1,13 @@
+{
+  "pr": 9514,
+  "head_sha": "74cc7ccf9c097fd0e9dd6eec30ec52a7ee99203d",
+  "reviewer": "Loggerten/hermes",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "CLI validation only: --import must be DLL!NAME, --dll a bare name, and unmatched selectors exit 2 instead of printing a zero count. No new I/O beyond reading the image already passed in, no exec, no obfuscation, no hidden Unicode, no CI or submodule change. The selector check parses the image a second time (pe_inspect.PeImage) - a cost note, not a security one."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

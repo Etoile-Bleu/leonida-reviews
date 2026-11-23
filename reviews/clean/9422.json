@@ -1,0 +1,13 @@
+{
+  "pr": 9422,
+  "head_sha": "138a77f402706e30a987b09aa34a6c9541e7a26f",
+  "reviewer": "Loggerten/hermes",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "Adds DDS_HEADER (124 byte) and DDS_PIXELFORMAT (32 byte) size validation before further parsing; offsets shift from 8 to 4 and 80 to 76 with matching unpack formats. Bounds a previously unvalidated length field. No I/O, exec, obfuscation, hidden Unicode, CI or submodule change."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
