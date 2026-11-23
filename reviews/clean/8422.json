@@ -3,7 +3,7 @@
   "head_sha": "dcf6cff46bc6c2e64d22fceb671cab2e000f1f8a",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, nothing executed; diff = git diff 23060e0877..dcf6cff46b (what the PR adds beyond main 5d74c27236): 2 files, +207/-12; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
+  "scope": "static, nothing executed; diff = git diff 23060e0877..dcf6cff46b (what the PR adds beyond main 5d74c27236): 2 files, +207/-12; first pass at this head: line-by-line read of xgameruntime_user.cpp; the test additions pattern-scanned; the checks in findings were re-run mechanically now",
   "verdict": "clean",
   "findings": [
     "files (2): runtime/shims/xgameruntime_user.cpp, runtime/test/xgameruntime_user_test.cpp",

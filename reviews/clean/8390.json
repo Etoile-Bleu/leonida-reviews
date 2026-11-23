@@ -3,7 +3,7 @@
   "head_sha": "263ca8d29fdaf4c700f2bbf7bb4c17b67f44c332",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, nothing executed; diff = git diff 6dda0630bd..263ca8d29f (what the PR adds beyond main 5d74c27236): 2 files, +318/-0; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
+  "scope": "static, nothing executed; diff = git diff 6dda0630bd..263ca8d29f (what the PR adds beyond main 5d74c27236): 2 files, +318/-0; first pass at this head: CMake change read line by line; the new 313-line CPU test (stdlib and Threads only) pattern-scanned; the checks in findings were re-run mechanically now",
   "verdict": "clean",
   "findings": [
     "files (2): runtime/CMakeLists.txt, runtime/test/queue_holds_test.cpp",

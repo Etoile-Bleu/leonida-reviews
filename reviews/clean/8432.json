@@ -3,7 +3,7 @@
   "head_sha": "47f7e05d93ed6423afba195df20ffa3636b00023",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, nothing executed; diff = git diff eea34639f6..47f7e05d93 (what the PR adds beyond main 5d74c27236): 4 files, +149/-20; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
+  "scope": "static, nothing executed; diff = git diff eea34639f6..47f7e05d93 (what the PR adds beyond main 5d74c27236): 4 files, +149/-20; first pass at this head: line-by-line read of CMakeLists and most of bink_play.cpp; check_bink_cache_source.py and bink_play.md pattern-scanned (temp dir, LOCALAPPDATA redirected to it); the checks in findings were re-run mechanically now",
   "verdict": "clean",
   "findings": [
     "files (4): runtime/CMakeLists.txt, runtime/test/bink_play.cpp, runtime/test/bink_play.md, runtime/test/check_bink_cache_source.py",

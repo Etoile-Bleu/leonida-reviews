@@ -3,7 +3,7 @@
   "head_sha": "ea871dcc48479c93c9f03efeee4db7d93dafc76b",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, nothing executed; diff = git diff 7b7d73f890..ea871dcc48 (what the PR adds beyond main 5d74c27236): 13 files, +511/-168; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now; GitHub's PR view is larger (558 files, +58714/-45242) because its base is stale; those extra changes are already in main",
+  "scope": "static, nothing executed; diff = git diff 7b7d73f890..ea871dcc48 (what the PR adds beyond main 5d74c27236): 13 files, +511/-168; first pass at this head: line-by-line read of the CMake, header, shader_library and Python test changes; d3d12_vulkan_device.cpp, rdna2spirv.py and C++ tests pattern-scanned; the checks in findings were re-run mechanically now; GitHub's PR view is larger (558 files, +58714/-45242) because its base is stale; those extra changes are already in main",
   "verdict": "clean",
   "findings": [
     "files (13): docs/d3d12_vulkan.md, docs/design.md, runtime/CMakeLists.txt, runtime/shims/d3d12_vertex_layout.h, runtime/shims/d3d12_vulkan_device.cpp, runtime/src/shader_library.h, runtime/test/d3d12_vertex_layout_test.cpp, runtime/test/shader_library_test.cpp, runtime/test/vk_pipeline_check.cpp, tests/semantic/fixtures/vs_packed_fetch.asm, +3 more",

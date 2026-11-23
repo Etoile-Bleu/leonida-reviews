@@ -3,7 +3,7 @@
   "head_sha": "ccd36246f7f50dc6a5f1f30ff76418d570f12fa2",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, nothing executed; diff = git diff 5d74c27236..ccd36246f7 (what the PR adds beyond main 5d74c27236): 7 files, +962/-3; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
+  "scope": "static, nothing executed; diff = git diff 5d74c27236..ccd36246f7 (what the PR adds beyond main 5d74c27236): 7 files, +962/-3; first pass at this head: line-by-line read of acphal.cpp logic, registry.cpp, CMakeLists, build_runtime.ps1 and the Python test; the C++ test file pattern-scanned; the checks in findings were re-run mechanically now",
   "verdict": "notes",
   "findings": [
     "build_runtime.ps1 change only drops the UTF-8 BOM and adds xg_xs.cpp and acphal.cpp to the cl.exe file list; no download or execution added.",

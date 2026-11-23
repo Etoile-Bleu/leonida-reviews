@@ -3,7 +3,7 @@
   "head_sha": "d3b4e41f703ca6ed101cfcff24da29a5481f27bc",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, nothing executed; diff = git diff dde82f27e9..d3b4e41f70 (what the PR adds beyond main 5d74c27236): 4 files, +381/-38; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
+  "scope": "static, nothing executed; diff = git diff dde82f27e9..d3b4e41f70 (what the PR adds beyond main 5d74c27236): 4 files, +381/-38; first pass at this head: CMake and host_adapter.h read line by line; the two test files read in part (CreateProcessW only re-runs the test executable itself) and pattern-scanned; the checks in findings were re-run mechanically now",
   "verdict": "clean",
   "findings": [
     "files (4): runtime/CMakeLists.txt, runtime/test/bvh_builder_test.cpp, runtime/test/fsr_dispatch_test.cpp, runtime/test/host_adapter.h",

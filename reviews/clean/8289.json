@@ -3,7 +3,7 @@
   "head_sha": "a581d6333557310b342f276fc0f914faaf573aca",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, nothing executed; diff = git diff 7ef2fdd461..a581d63335 (what the PR adds beyond main 5d74c27236): 2 files, +210/-2; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
+  "scope": "static, nothing executed; diff = git diff 7ef2fdd461..a581d63335 (what the PR adds beyond main 5d74c27236): 2 files, +210/-2; first pass at this head: line-by-line read of xmem.cpp; the test file pattern-scanned; the checks in findings were re-run mechanically now",
   "verdict": "clean",
   "findings": [
     "files (2): runtime/shims/xmem.cpp, runtime/test/xmem_test.cpp",
