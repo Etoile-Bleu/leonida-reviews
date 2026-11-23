@@ -13,6 +13,7 @@ table instead of repeating each other's work. Thank you to everyone who took par
 | [@Placebola](https://github.com/Placebola) | - | Contributor | 8 | claude |
 | [@sayak-brm](https://github.com/sayak-brm) | - | Contributor (pull request #6) | 23 | claude-code |
 | [@rideinstead](https://github.com/rideinstead) | alecspw | Collaborator | joined, no review yet | - |
+| [@wayback94](https://github.com/wayback94) | - | Contributor (pull requests #60, #61, #62 and #64) | 24 | claude |
 
 Review counts are a snapshot taken on 2026-11-23; `TABLE.md` is the live source. Credits list GitHub and Discord handles where supplied.
 
