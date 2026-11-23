@@ -1,0 +1,13 @@
+{
+  "pr": 9398,
+  "head_sha": "6b3f61b5f4d3cd20f2c49b14ca7f26fd0316c2f4",
+  "reviewer": "wayback94/claude",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, diff only, read-only, nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "vcmp16_opsel_probe.py: main(argv), and a try/finally that always closes the hardware oracle; empty, None or short results exit 2 as a harness error. Tests use a fake oracle. No new I/O."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

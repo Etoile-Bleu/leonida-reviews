@@ -1,0 +1,13 @@
+{
+  "pr": 9412,
+  "head_sha": "eb122c1b019294e1eb4d67f1f77b8f164229187d",
+  "reviewer": "wayback94/claude",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, diff only, read-only, nothing executed",
+  "verdict": "notes",
+  "findings": [
+    "report_paths._windows_directory_keeps_case creates a temporary directory in the destination's folder, or in its nearest existing ancestor (up to the drive root), every time same_report_path falls back to the name rule on Windows: a path check now writes to the filesystem in folders the user did not name. Failure returns the conservative answer. Not malicious."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

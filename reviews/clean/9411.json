@@ -1,0 +1,13 @@
+{
+  "pr": 9411,
+  "head_sha": "1aa3f7c984aa9ee9793d975a4ee11625aecf4d84",
+  "reviewer": "wayback94/claude",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, diff only, read-only, nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "mask_channels.py: --json is resolved with realpath before the input-overwrite guard and written via a staging folder next to the resolved target; the guard compares the input with the resolved path. Tests use the synthetic DDS fixture. No network or process calls in the tool."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
