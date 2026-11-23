@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2351,
+  "head_sha": "6436850af34230cb5c0fef1770328354fd64f337",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "test(semantic): add comprehensive tests for 64-bit vector logical shift left v_lshlrev_b64",
+  "author": "slopgobblercobbler",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2351",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:32:21.794773+00:00"
+}

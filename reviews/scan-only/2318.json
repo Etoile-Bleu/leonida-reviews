@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2318,
+  "head_sha": "0a52003adba4e0205feaa1bf0ddc74d8f73b19b8",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "test(semantic): add semantic ALU tests for v_cvt_pk_u8_f32",
+  "author": "slopgobblercobbler",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2318",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:31:42.012444+00:00"
+}

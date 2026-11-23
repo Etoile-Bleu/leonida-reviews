@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2336,
+  "head_sha": "b8f2567b8e257ba5e0d923f8f1e07987deb81261",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "notes",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 2
+  },
+  "pr_title": "tools: wint_diff.py, a whole-wave differential fuzzer for integer VALU under random EXEC",
+  "author": "evilclanker9000",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2336",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:32:03.798743+00:00"
+}

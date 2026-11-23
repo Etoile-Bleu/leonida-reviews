@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2262,
+  "head_sha": "e25b917e4dc99eb6dd3a5b14d7fd7ab8f304e0ed",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "rdna2spirv: round f16 typed-buffer stores toward zero and saturate at 65504 (SHADER-395)",
+  "author": "Youssefrah16",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2262",
+  "pr_state": "closed",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:30:33.226154+00:00"
+}

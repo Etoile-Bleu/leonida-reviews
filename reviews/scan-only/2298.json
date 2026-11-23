@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2298,
+  "head_sha": "4016daf669fb115ee822b8a8e839fd314e3262a4",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "spirv_opt: sound dominator-tree SPIR-V optimizer (#884)",
+  "author": "SweatierKey",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2298",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:31:18.266130+00:00"
+}
