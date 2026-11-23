@@ -1,0 +1,13 @@
+{
+  "pr": 5106,
+  "head_sha": "bbe5c8eceb868e82f03e642158953c02ff60f867",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Test-only (tests/test_tool_startup.py): sibling-importer discovery also finds packages; test creates temp modules and packages."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

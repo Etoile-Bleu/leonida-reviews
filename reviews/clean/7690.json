@@ -1,0 +1,13 @@
+{
+  "pr": 7690,
+  "head_sha": "401749cbbe321e1f1fd3e5fc86979f34efb040b7",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (a test and runtime/test/check_sparse_queue_family.py): the text-write line-ending test scans more folders, and one write gets newline='\\n'."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

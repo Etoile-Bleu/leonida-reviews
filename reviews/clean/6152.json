@@ -1,0 +1,13 @@
+{
+  "pr": 6152,
+  "head_sha": "b255efefcbad0e3bd0abbf8934a6021895f9946a",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Three files (tools/world_index.py, its test and docs/world.md): --out has no default reports/ path; without it only the summary is printed; test added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

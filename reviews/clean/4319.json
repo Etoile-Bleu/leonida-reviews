@@ -1,0 +1,13 @@
+{
+  "pr": 4319,
+  "head_sha": "657f400c7502fee5be9a4b9c9d67019c0288eed6",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/spirv_asm.py and its test): adds the named NonSemantic.DebugPrintf instruction (opcode 1) to the assembler; the test assembles a small module and, if spirv-as exists, compares output."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

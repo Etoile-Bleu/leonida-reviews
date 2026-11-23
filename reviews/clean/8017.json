@@ -1,0 +1,13 @@
+{
+  "pr": 8017,
+  "head_sha": "b405399ebbc44adcb92e7f37b405b7e28d5f8762",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/smh_groom.py and its test): os.walk gets an onerror handler so an unlistable census folder stops the run; the test is POSIX-only and skipped as root."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 7982,
+  "head_sha": "21f330c352285a1fa2e7f045240d7168545d93da",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: rewrites the status paragraph of docs/boot.md (the --run result on the retail executable). One new link to the project's own issue 8452."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

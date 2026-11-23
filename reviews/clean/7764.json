@@ -1,0 +1,13 @@
+{
+  "pr": 7764,
+  "head_sha": "21c28cb045fe13feed2729032788f7bd63c659b3",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/skinned_glb.py and its test): non-dict bone entries are skipped and a non-dict parent bone is tolerated; test added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

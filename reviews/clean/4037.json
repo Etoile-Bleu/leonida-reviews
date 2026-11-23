@@ -1,0 +1,13 @@
+{
+  "pr": 4037,
+  "head_sha": "cb15409813b21d9ffca43b931c7d97de3ced5019",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Test-only (tests/test_first_light.py): two new coverage tests."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

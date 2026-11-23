@@ -1,0 +1,13 @@
+{
+  "pr": 5366,
+  "head_sha": "dbf0115cd01e3dd0beaa5db00383c1874197783a",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: syncs the Arabic quickstart with README (commit hash, time estimate, disk note, --pick option)."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

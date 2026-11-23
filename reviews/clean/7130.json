@@ -1,0 +1,13 @@
+{
+  "pr": 7130,
+  "head_sha": "ebe44867050275209731ed33357f5f75d0847217",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: adds a section to docs/testing.md on comparing translator revisions on the CPU by pointing LEONIDA_TOOLS_DIR at another checkout's tools folder, with a PowerShell snippet that sets and restores the variable and runs a local test twice. The reader's own checkouts; nothing is downloaded."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 3886,
+  "head_sha": "acb4f92be5fb680c60c561e5d209cb384ba039cf",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/world_archetypes.py and its test): --start/--limit are validated with usage errors and ValueError/OSError from the scan become usage errors; tests keep an existing report untouched."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

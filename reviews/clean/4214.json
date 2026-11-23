@@ -1,0 +1,13 @@
+{
+  "pr": 4214,
+  "head_sha": "ccb76cb2b8c6969b346ece9c76c372171b088876",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Three files (runtime/test/shaders/check.py, scripts/run_gpu_tests.py and a new cs_w32_pk_int16.asm test shader): adds a hand-written packed 16-bit GPU test with expected words and registers it in both runners."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

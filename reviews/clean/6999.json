@@ -1,0 +1,13 @@
+{
+  "pr": 6999,
+  "head_sha": "adfd0fdc1a64596c3c18c245f315bb2c4bf904b7",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Test-only (tests/test_rpf9dump_exit_codes.py): the failed-write blocker is now a folder at the destination itself; tests create and remove folders in temp dirs."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

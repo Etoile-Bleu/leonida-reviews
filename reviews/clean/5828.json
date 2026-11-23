@@ -1,0 +1,13 @@
+{
+  "pr": 5828,
+  "head_sha": "f5ccfce0469d2cfa6262e6961d36dc2f8193ab40",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: updates one paragraph in the German, Spanish and Chinese quickstarts to say the runtime loads pipeline_cache.bin beside gta6rt.exe."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

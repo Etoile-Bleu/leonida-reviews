@@ -1,0 +1,13 @@
+{
+  "pr": 7766,
+  "head_sha": "e6f3462fc15eb57c36971cdcec1d34978e1e569f",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (scripts/run_semantic_tests.py and its test): -j/--jobs below 1 is a usage error via an argparse type; test added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

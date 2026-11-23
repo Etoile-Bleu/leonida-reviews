@@ -1,0 +1,13 @@
+{
+  "pr": 6387,
+  "head_sha": "62da878052853bebf579d44e25b56439e2df7bba",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/pool_workers.py and its test): process_workers handles None, non-positive and non-integer jobs (TypeError for bad types); tests added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

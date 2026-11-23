@@ -1,0 +1,13 @@
+{
+  "pr": 4803,
+  "head_sha": "66777c08a63a2e845f0f5e8e8259db5ea7b94024",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Test-only (runtime/test/xbox_present_test.cpp): the test window style drops THICKFRAME and MAXIMIZEBOX to avoid tiling under Wine."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
