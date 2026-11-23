@@ -5,7 +5,9 @@
   "date": "2026-11-23",
   "scope": "static, AI-assisted, diff only, read-only, nothing executed (test-only C++)",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "Test tool vk_pipeline_check.cpp: builds descriptor set 0 from leonida::bindless and the device limits, as the runtime does, instead of fixed counts. Test-only C++; no file, network or process calls added."
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

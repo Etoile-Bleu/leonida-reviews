@@ -5,7 +5,9 @@
   "date": "2026-11-23",
   "scope": "static, AI-assisted, diff only, read-only, nothing executed",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "rpf_probe.py: refuses a directory --out before scanning, and writes the report through os.path.realpath(--out) so a symlinked report updates its target. Tests added. No network or process calls; writes only to the user's --out."
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

@@ -5,7 +5,9 @@
   "date": "2026-11-23",
   "scope": "static, AI-assisted, diff only, read-only, nothing executed (docs only; counts, no addresses or game data)",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "Docs-only: docs/bvh.md and docs/d3d12_vulkan.md gain per-import call-site counts for XboxBvhBuilder from issue #9107. Counts only, no addresses, bytes or game data; links go to the project's own issue and docs."
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

@@ -5,7 +5,9 @@
   "date": "2026-11-23",
   "scope": "static, AI-assisted, diff only, read-only, nothing executed",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "glb_writer.py: OBJ \"s on\" is treated as smoothing group 1 (two-line change); new test uses hand-written geometry only. No I/O changes."
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }
