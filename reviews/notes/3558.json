@@ -1,35 +1,19 @@
 {
   "pr": 3558,
-  "head_sha": "859f6c31c9820c80430ef60cbc9d6d492860202c",
-  "reviewer": "Etoile-Bleu/claude",
+  "head_sha": "a737dd49cfa1147b4c86fbecc6959454fce1c062",
+  "reviewer": "PeppeBeard/lumo",
   "date": "2026-11-23",
-  "scope": "static, AI-assisted, diff only, nothing executed",
+  "scope": "static, AI-assisted, nothing executed: full diff read file by file (Leonida Launcher.bat, LAUNCHER.md, DESIGN.md, art.py, kit.py, toolbox.py, launcher.pyw, OFL.txt); bundled binaries (2 TTFs, icon.ico, icon.png) noted but not analyzed",
   "verdict": "notes",
   "findings": [
-    "Authenticode + exact signer check, ffmpeg SHA pinned",
-    "Vulkan SDK has no signer and uses latest",
-    "check-then-run window before elevation",
-    "extractall without path check"
+    "Fresh head (a737dd49) resolves two findings from the earlier notes review: Vulkan SDK now has signer O=LunarG, Inc., and unzip_tool explicitly rejects zip-slip paths before extractall",
+    "No malicious code found: all download URLs are hardcoded constants (python.org, aka.ms, sdk.lunarg.com, github:git-for-windows release resolver, gyan.dev); no user input reaches a URL",
+    "Installers only run after an Authenticode Valid check AND an exact match of the parsed O= DN component against the expected publisher; the file is held open with no write/delete sharing between check and launch, closing the swap race; fail-closed when no signer is set",
+    "ffmpeg zip gated on a pinned SHA-256, deleted on mismatch; updates are git pull --ff-only against a constant URL, automatic mode restricted to a clean main tracking origin/main; no arbitrary command execution anywhere",
+    "NOTE (correctness): REPO_URL still points to the old ItsNotRexed/Leonida location instead of the ProjectLeonida org; a fresh ZIP-copy connect pins the stale URL as the git remote permanently",
+    "NOTE (hardening): the bundled binaries (two Big Shoulders TTFs, icon.ico, icon.png) ship with no integrity provenance (no committed hash/size); a small SHA-256 manifest would let reviewers confirm the unmodified OFL build",
+    "Could not be commented on the PR itself: ProjectLeonida/Leonida interactions are currently restricted to collaborators"
   ],
-  "read_by_human": false,
-  "commented_on_github": true,
-  "double_checks": [
-    {
-      "reviewer": "PeppeBeard/lumo",
-      "verdict": "notes",
-      "date": "2026-11-23",
-      "head_sha": "a737dd49cfa1147b4c86fbecc6959454fce1c062",
-      "scope": "static, AI-assisted, nothing executed: full diff read file by file (Leonida Launcher.bat, LAUNCHER.md, DESIGN.md, art.py, kit.py, toolbox.py, launcher.pyw, OFL.txt); bundled binaries (2 TTFs, icon.ico, icon.png) noted but not analyzed",
-      "findings": [
-        "Re-checked at a later head (a737dd49): two of the earlier findings are addressed there - the Vulkan tool now has a signer (O=LunarG, Inc.) and unzip_tool explicitly rejects zip-slip paths before extractall",
-        "No malicious code found: all download URLs are hardcoded constants; installers only run after an Authenticode Valid check AND an exact match of the parsed O= DN component; the file is held open with no write/delete sharing between check and launch, closing the swap race; fail-closed when no signer is set",
-        "ffmpeg zip gated on a pinned SHA-256, deleted on mismatch; updates are git pull --ff-only against a constant URL with the automatic mode restricted to a clean main tracking origin/main; no arbitrary command execution anywhere",
-        "NOTE (correctness): REPO_URL still points to the old ItsNotRexed/Leonida location instead of the ProjectLeonida org; a fresh ZIP-copy connect pins the stale URL as the git remote permanently",
-        "NOTE (hardening): the bundled binaries (two Big Shoulders TTFs, icon.ico, icon.png) ship with no integrity provenance (no committed hash/size); a small SHA-256 manifest would let reviewers confirm the unmodified OFL build",
-        "Could not be commented on the PR itself: ProjectLeonida/Leonida interactions are currently restricted to collaborators"
-      ],
-      "read_by_human": true,
-      "commented_on_github": false
-    }
-  ]
+  "read_by_human": true,
+  "commented_on_github": false
 }

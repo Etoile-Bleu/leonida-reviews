@@ -3,13 +3,14 @@
   "head_sha": "ba69c5b13748a11596380db5ed8a99daec714329",
   "reviewer": "PeppeBeard/lumo",
   "date": "2026-11-23",
-  "scope": "static, full diff read file by file (index.html incl. inline script, live.js, activity.js, pipeline.js, triage.js, security.js, proof.js); nothing executed",
+  "scope": "static, AI-assisted, nothing executed: full diff read file by file (index.html incl. inline script, live.js, activity.js, pipeline.js, triage.js, security.js, proof.js)",
   "verdict": "clean",
   "findings": [
-    "Double check confirming the review comment already posted on the PR (posted 2026-11-23): every innerHTML sink escaped with one esc() helper; md() escapes first then re-adds only allow-listed markup",
-    "Token: format-checked, localStorage ldash:token, attached only to api.github.com requests, never in URLs, masked, dropped on 401",
-    "Network limited to api.github.com, raw.githubusercontent.com and one read-only GraphQL query; external review-table JSON type-checked on fetch and on localStorage unpack (secEntry), verdicts whitelisted, head SHA regex-validated",
-    "No eval, no remote code loading, no dynamic endpoints, no third-party scripts beyond Google Fonts stylesheets; minor notes (non-blocking) in the PR comment: localStorage token readable by future XSS (accepted for a voluntary no-scope token), deprecated execCommand copy fallback, CSP for the Pages host would be a repo-level improvement"
+    "Verified at head ba69c5b1 (later than the existing notes review): every innerHTML sink escaped with one esc() helper; md() escapes first then re-adds only allow-listed markup; attribute contexts escaped",
+    "Token: format-checked, stored in localStorage under ldash:token, attached only to api.github.com requests, never in URLs, masked, dropped on 401; no-scope-token instruction in the banner",
+    "Network limited to api.github.com and raw.githubusercontent.com plus one read-only GraphQL query; no eval, no remote code loading, no dynamic endpoints, no third-party scripts beyond Google Fonts stylesheets",
+    "External review-table JSON type-checked on fetch and on localStorage unpack (secEntry); verdict labels whitelisted; ?repo=/?branch= regex-validated",
+    "Review comment posted on the PR: https://github.com/ProjectLeonida/Leonida/pull/2987#issuecomment-7115589485"
   ],
   "read_by_human": true,
   "commented_on_github": true
