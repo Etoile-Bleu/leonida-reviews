@@ -3,9 +3,14 @@
   "head_sha": "0f20d3cb8879f10af7ecd7d276d01296f684f659",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of queue_holds.h and CMake changes, shader_library.h in part; the 408-line test pattern-scanned",
+  "scope": "static, nothing executed; diff = git diff dde82f27e9..0f20d3cb88 (what the PR adds beyond main 5d74c27236): 4 files, +473/-29; first pass at this head: line-by-line read of queue_holds.h and CMake changes, shader_library.h in part; the 408-line test pattern-scanned; the checks in findings were re-run mechanically now",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "files (4): runtime/CMakeLists.txt, runtime/src/queue_holds.h, runtime/src/shader_library.h, runtime/test/runtime_src_tls_safe_test.cpp",
+    "sensitive paths touched: runtime/CMakeLists.txt",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits"
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

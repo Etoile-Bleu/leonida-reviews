@@ -3,9 +3,14 @@
   "head_sha": "a581d6333557310b342f276fc0f914faaf573aca",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of xmem.cpp; the test file pattern-scanned",
+  "scope": "static, nothing executed; diff = git diff 7ef2fdd461..a581d63335 (what the PR adds beyond main 5d74c27236): 2 files, +210/-2; first pass at this head: line-by-line read of xmem.cpp; the test file pattern-scanned; the checks in findings were re-run mechanically now",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "files (2): runtime/shims/xmem.cpp, runtime/test/xmem_test.cpp",
+    "sensitive paths touched: runtime/shims/xmem.cpp",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits"
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

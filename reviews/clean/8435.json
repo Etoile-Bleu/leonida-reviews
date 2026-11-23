@@ -3,9 +3,14 @@
   "head_sha": "c017c7abedbd0ff184c4eb1f2ade678589b00af7",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of the full diff",
+  "scope": "static, nothing executed; diff = git diff dde82f27e9..c017c7abed (what the PR adds beyond main 5d74c27236): 2 files, +7/-0; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "files (2): runtime/shims/d3d12_xs_device.cpp, runtime/test/dxgi_device_test.cpp",
+    "sensitive paths touched: runtime/shims/d3d12_xs_device.cpp",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits"
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

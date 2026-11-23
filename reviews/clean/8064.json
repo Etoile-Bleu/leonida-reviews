@@ -3,9 +3,14 @@
   "head_sha": "451c04b7f97a709dab2ab76789a4a52e015f5b59",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of the full diff",
+  "scope": "static, nothing executed; diff = git diff dde82f27e9..451c04b7f9 (what the PR adds beyond main 5d74c27236): 2 files, +18/-3; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "files (2): scripts/ci_expected_failures.py, tests/test_ci_expected_failures.py",
+    "sensitive paths touched: scripts/ci_expected_failures.py",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits"
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

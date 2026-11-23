@@ -1,0 +1,19 @@
+{
+  "pr": 9526,
+  "head_sha": "f192e3d4650bba95fdefee0efd979a03ec0a05c0",
+  "reviewer": "pr-sorter/claude-code",
+  "date": "2026-11-23",
+  "scope": "static, nothing executed; diff = git diff 867d922f09..f192e3d465 (what the PR adds beyond main 5d74c27236): 8 files, +1725/-63; too large to have been read line by line here: only the mechanical checks listed in findings were run",
+  "verdict": "scan-only",
+  "findings": [
+    "CI step builds the new std-only cdylib with cargo --locked --offline, a temporary CARGO_HOME and no dependencies or build.rs; the library is loaded by ctypes from a fixed path next to tools/rpf9_carve.py, not by bare name. Hardening: hand-written inflate with unsafe 16-byte copies runs on untrusted archive bytes; its bounds rest on room() reserving len+16, worth fuzzing.",
+    "files (8): .github/workflows/ci.yml, tests/test_rpf9_carve_native.py, tools/rpf9_carve.py, tools/rpf9_carve_native/.gitignore, tools/rpf9_carve_native/Cargo.lock, tools/rpf9_carve_native/Cargo.toml, tools/rpf9_carve_native/README.md, tools/rpf9_carve_native/src/lib.rs",
+    "sensitive paths touched: .github/workflows/ci.yml, tools/rpf9_carve_native/Cargo.toml",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits for network, persistence, home/credentials, workflow, URL literal, agent-addressed text",
+    "grep hits, process: subprocess in test_rpf9_carve_native.py",
+    "grep hits, obfuscation/dynamic code: ctypes in test_rpf9_carve_native.py, ctypes in rpf9_carve.py, ctypes in README.md"
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

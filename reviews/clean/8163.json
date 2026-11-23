@@ -3,9 +3,14 @@
   "head_sha": "5def7369addae5a8c28e4f6359c7d3d2f98c241d",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of the full diff",
+  "scope": "static, nothing executed; diff = git diff dde82f27e9..5def7369ad (what the PR adds beyond main 5d74c27236): 3 files, +39/-5; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "files (3): runtime/shims/dxgi_com.cpp, runtime/shims/dxgi_swapchain.h, runtime/src/vulkan_present.h",
+    "sensitive paths touched: runtime/shims/dxgi_com.cpp, runtime/shims/dxgi_swapchain.h",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits"
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

@@ -3,9 +3,14 @@
   "head_sha": "8f6287ed084a4103232e4a54ef6ea0283cc0c7b5",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of the full diff",
+  "scope": "static, nothing executed; diff = git diff dde82f27e9..8f6287ed08 (what the PR adds beyond main 5d74c27236): 3 files, +142/-4; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "files (3): runtime/CMakeLists.txt, runtime/test/bink_decode_test.cpp, runtime/test/bink_decode_test.md",
+    "sensitive paths touched: runtime/CMakeLists.txt",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits"
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

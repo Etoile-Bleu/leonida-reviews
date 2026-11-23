@@ -3,9 +3,16 @@
   "head_sha": "f0bff79474c1b09fb498b88708a32d9e8768a093",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of the full diff",
+  "scope": "static, nothing executed; diff = git diff 561b65a832..f0bff79474 (what the PR adds beyond main 5d74c27236): 5 files, +84/-13; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now; GitHub's PR view is larger (857 files, +105162/-19717) because its base is stale; those extra changes are already in main",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "files (5): docs/design.md, tests/semantic/test_ds_swizzle_b32.py, tests/semantic/test_ds_swizzle_numeric.py, tests/test_swizzle_numeric.py, tools/rdna2spirv.py",
+    "no file under .github/, scripts/, third_party/, runtime/shims/; no .gitmodules, .ps1/.bat/.cmd/.sh, CMake, conftest.py, requirements, .csproj or Cargo.toml change",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits for network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, agent-addressed text",
+    "grep hits, URL literal: url in design.md",
+    "hit context (read now): the URL literal is a github.com link in docs/design.md text; no code fetches it"
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

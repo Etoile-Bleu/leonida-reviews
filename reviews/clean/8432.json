@@ -3,9 +3,17 @@
   "head_sha": "47f7e05d93ed6423afba195df20ffa3636b00023",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of CMakeLists and most of bink_play.cpp; check_bink_cache_source.py and bink_play.md pattern-scanned (temp dir, LOCALAPPDATA redirected to it)",
+  "scope": "static, nothing executed; diff = git diff eea34639f6..47f7e05d93 (what the PR adds beyond main 5d74c27236): 4 files, +149/-20; first pass at this head: line-by-line read of CMakeLists and most of bink_play.cpp; check_bink_cache_source.py and bink_play.md pattern-scanned (temp dir, LOCALAPPDATA redirected to it); the checks in findings were re-run mechanically now",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "files (4): runtime/CMakeLists.txt, runtime/test/bink_play.cpp, runtime/test/bink_play.md, runtime/test/check_bink_cache_source.py",
+    "sensitive paths touched: runtime/CMakeLists.txt",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits for network, obfuscation/dynamic code, persistence, workflow, URL literal, agent-addressed text",
+    "grep hits, process: subprocess in check_bink_cache_source.py",
+    "grep hits, home/credentials: appdata in check_bink_cache_source.py",
+    "hit context (read now): test runs a child with LOCALAPPDATA pointed at a temporary test cache folder, 30 s timeout"
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

@@ -3,9 +3,14 @@
   "head_sha": "bfcf0d2a529631dd0af9acf5a8427fc23817b8bb",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of the full diff",
+  "scope": "static, nothing executed; diff = git diff dde82f27e9..bfcf0d2a52 (what the PR adds beyond main 5d74c27236): 4 files, +97/-26; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "files (4): runtime/shims/d3d12_com.cpp, runtime/shims/d3d12_com.h, runtime/shims/d3d12_vulkan_device.cpp, runtime/test/d3d12_fence_timing_test.cpp",
+    "sensitive paths touched: runtime/shims/d3d12_com.cpp, runtime/shims/d3d12_com.h, runtime/shims/d3d12_vulkan_device.cpp",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits"
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

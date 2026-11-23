@@ -3,10 +3,14 @@
   "head_sha": "b340563e3bcddf7e683d7c6b8df738edbfb1906c",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of the full diff",
+  "scope": "static, nothing executed; diff = git diff 8575d36edc..b340563e3b (what the PR adds beyond main 5d74c27236): 2 files, +9/-3; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
   "verdict": "clean",
   "findings": [
-    "Read d3d12_vulkan_device.cpp (comment only) and d3d12_vulkan_device_test.cpp (skips the R9G9B9E5 render-target mismatch on Windows 10 via existing windows10_refusal). No network, process, file or registry access added; no hidden Unicode or binaries."
+    "Read d3d12_vulkan_device.cpp (comment only) and d3d12_vulkan_device_test.cpp (skips the R9G9B9E5 render-target mismatch on Windows 10 via existing windows10_refusal). No network, process, file or registry access added; no hidden Unicode or binaries.",
+    "files (2): runtime/shims/d3d12_vulkan_device.cpp, runtime/test/d3d12_vulkan_device_test.cpp",
+    "sensitive paths touched: runtime/shims/d3d12_vulkan_device.cpp",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits"
   ],
   "read_by_human": false,
   "commented_on_github": false

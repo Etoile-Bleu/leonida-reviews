@@ -3,9 +3,14 @@
   "head_sha": "bcee6c494d7be2efca3cbf19047668c1261eb017",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of the full diff",
+  "scope": "static, nothing executed; diff = git diff 5d74c27236..bcee6c494d (what the PR adds beyond main 5d74c27236): 22 files, +84/-19; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "files (22): docs/gpu_test_results.md, runtime/README.md, scripts/dev.py, tests/test_docs_cli_flags.py, tests/test_report_source_collision.py, tests/test_tex_export.py, tests/test_user_sgpr_census.py, tests/test_viewer_streaming.cjs, tests/test_world_names.py, tools/awc_cue_labels.py, tools/bvh_slot_check.py, tools/div_fixup_diff.py, tools/gbuffer_census.py, +9 more",
+    "sensitive paths touched: scripts/dev.py",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits"
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

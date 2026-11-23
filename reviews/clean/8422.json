@@ -3,9 +3,14 @@
   "head_sha": "dcf6cff46bc6c2e64d22fceb671cab2e000f1f8a",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of xgameruntime_user.cpp; the test additions pattern-scanned",
+  "scope": "static, nothing executed; diff = git diff 23060e0877..dcf6cff46b (what the PR adds beyond main 5d74c27236): 2 files, +207/-12; first pass at this head: line-by-line read of xgameruntime_user.cpp; the test additions pattern-scanned; the checks in findings were re-run mechanically now",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "files (2): runtime/shims/xgameruntime_user.cpp, runtime/test/xgameruntime_user_test.cpp",
+    "sensitive paths touched: runtime/shims/xgameruntime_user.cpp",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits"
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

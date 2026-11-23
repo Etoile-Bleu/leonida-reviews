@@ -3,9 +3,14 @@
   "head_sha": "aa2dc43f7055f045c245a1eb9bcb0960311a396c",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of the full diff",
+  "scope": "static, nothing executed; diff = git diff 5d74c27236..aa2dc43f70 (what the PR adds beyond main 5d74c27236): 3 files, +56/-5; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "files (3): runtime/test/shaders/check.py, runtime/test/shaders/ps_cbv_modulate.asm, scripts/run_gpu_tests.py",
+    "sensitive paths touched: scripts/run_gpu_tests.py",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits"
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

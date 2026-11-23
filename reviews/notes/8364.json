@@ -3,10 +3,15 @@
   "head_sha": "9fe1e2e60106bba500d67cf6dd8cd5b9fbf4657a",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of the shim, queue_holds.h, shader_library.h and CMake changes; the 366-line test pattern-scanned",
+  "scope": "static, nothing executed; diff = git diff dde82f27e9..9fe1e2e601 (what the PR adds beyond main 5d74c27236): 6 files, +501/-45; first pass at this head: line-by-line read of the shim, queue_holds.h, shader_library.h and CMake changes; the 366-line test pattern-scanned; the checks in findings were re-run mechanically now",
   "verdict": "notes",
   "findings": [
-    "Not new in this PR but kept by it: load_vulkan_library() calls LoadLibraryA(\"vulkan-1.dll\") by bare name, so the normal DLL search order (application folder first) applies; vulkan-1.dll is not a KnownDLL. LoadLibraryExA with LOAD_LIBRARY_SEARCH_SYSTEM32 would pin the system loader."
+    "Not new in this PR but kept by it: load_vulkan_library() calls LoadLibraryA(\"vulkan-1.dll\") by bare name, so the normal DLL search order (application folder first) applies; vulkan-1.dll is not a KnownDLL. LoadLibraryExA with LOAD_LIBRARY_SEARCH_SYSTEM32 would pin the system loader.",
+    "files (6): runtime/CMakeLists.txt, runtime/shims/d3d12_com.cpp, runtime/shims/d3d12_vulkan_device.cpp, runtime/src/queue_holds.h, runtime/src/shader_library.h, runtime/test/d3d12_tls_safe_test.cpp",
+    "sensitive paths touched: runtime/CMakeLists.txt, runtime/shims/d3d12_com.cpp, runtime/shims/d3d12_vulkan_device.cpp",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits for network, process, persistence, home/credentials, workflow, URL literal, agent-addressed text",
+    "grep hits, obfuscation/dynamic code: loadlibrary in d3d12_vulkan_device.cpp, loadlibrary in d3d12_tls_safe_test.cpp"
   ],
   "read_by_human": false,
   "commented_on_github": false

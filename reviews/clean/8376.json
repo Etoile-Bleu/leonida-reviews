@@ -3,9 +3,14 @@
   "head_sha": "dd251e45e4ced1ddadac0f6461515eb8ef623155",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of the shim and CMake changes; the 402-line test pattern-scanned",
+  "scope": "static, nothing executed; diff = git diff 34702237c0..dd251e45e4 (what the PR adds beyond main 5d74c27236): 3 files, +421/-1; first pass at this head: line-by-line read of the shim and CMake changes; the 402-line test pattern-scanned; the checks in findings were re-run mechanically now",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "files (3): runtime/CMakeLists.txt, runtime/shims/d3d12_vulkan_device.cpp, runtime/test/d3d12_buffer_uav_validation_test.cpp",
+    "sensitive paths touched: runtime/CMakeLists.txt, runtime/shims/d3d12_vulkan_device.cpp",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits"
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }
