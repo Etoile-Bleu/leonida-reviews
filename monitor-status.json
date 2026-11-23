@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-23T22:30:23.613916+00:00",
+  "updated_at": "2026-11-23T22:31:11.231379+00:00",
   "status": "running",
   "run_id": "45280293600",
   "run_url": "https://github.com/rideinstead/leonida-monitor/actions/runs/45280293600",
-  "current_pr": null,
+  "current_pr": 2294,
   "current_range": "1000-3000",
-  "completed": 1200,
+  "completed": 1238,
   "total": 6770,
-  "remaining": 5570,
+  "remaining": 5532,
   "in_progress_window": 100,
-  "scanned": 1199,
+  "scanned": 1237,
   "high_alert_prs": 3,
   "medium_signal_prs": 32,
   "ranges": [
@@ -21,7 +21,7 @@
       "active_claims": 0,
       "queued": 1926,
       "missing_head": 0,
-      "scanned": 1199,
+      "scanned": 1237,
       "high_alerts": 3,
       "medium_signal_prs": 32
     },
@@ -49,272 +49,6 @@
     }
   ],
   "in_progress_prs": [
-    {
-      "pr": 2256,
-      "head": "ca240beb",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2257,
-      "head": "797e601e",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2258,
-      "head": "2e4028b5",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2259,
-      "head": "de0a5742",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2260,
-      "head": "93c8ca9a",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2261,
-      "head": "14f7cce1",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2262,
-      "head": "e25b917e",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2263,
-      "head": "6ba82c12",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2264,
-      "head": "bd513088",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2265,
-      "head": "807ab1ba",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2266,
-      "head": "9617e3cb",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2267,
-      "head": "24c9f7a6",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2268,
-      "head": "5943dcea",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2269,
-      "head": "b5f7dcd9",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2270,
-      "head": "fbe50b23",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2271,
-      "head": "c2235527",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2272,
-      "head": "06f464c0",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2273,
-      "head": "52384f93",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2274,
-      "head": "b682efef",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2275,
-      "head": "9a11c259",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2276,
-      "head": "65553122",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2277,
-      "head": "b1e53ba4",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2278,
-      "head": "a3e17412",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2279,
-      "head": "2a963110",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2280,
-      "head": "f5df9157",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2281,
-      "head": "a12cf601",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2282,
-      "head": "c5eb8f91",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2283,
-      "head": "f47a241f",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2284,
-      "head": "3e48bf6d",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2285,
-      "head": "0ed394a0",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2286,
-      "head": "989877d1",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2287,
-      "head": "05d0411d",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2288,
-      "head": "41a17116",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2289,
-      "head": "fc6edd29",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2290,
-      "head": "72d7e52d",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2291,
-      "head": "2e4a8515",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2292,
-      "head": "e520d4b3",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
-    {
-      "pr": 2293,
-      "head": "39e0b149",
-      "range": "1000-3000",
-      "title": "",
-      "author": ""
-    },
     {
       "pr": 2294,
       "head": "d58343b1",
@@ -745,6 +479,272 @@
     {
       "pr": 2358,
       "head": "6609ce12",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2359,
+      "head": "9d13a657",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2360,
+      "head": "10f50f5a",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2361,
+      "head": "f9b5edcc",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2362,
+      "head": "cfda9fd4",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2363,
+      "head": "8e0f8611",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2364,
+      "head": "6e2e3a46",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2365,
+      "head": "722292fe",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2366,
+      "head": "72564123",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2367,
+      "head": "108c6a82",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2368,
+      "head": "58a80009",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2369,
+      "head": "0f216dbb",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2370,
+      "head": "67a8fff9",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2371,
+      "head": "4b6e54b1",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2372,
+      "head": "6cb7735c",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2373,
+      "head": "e0b03b27",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2374,
+      "head": "e1e70c97",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2376,
+      "head": "d52ed5a1",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2377,
+      "head": "996191af",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2378,
+      "head": "d811bde9",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2379,
+      "head": "918e8256",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2380,
+      "head": "28ef913b",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2381,
+      "head": "33636697",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2382,
+      "head": "04d02082",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2383,
+      "head": "5620a444",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2384,
+      "head": "00e978d1",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2385,
+      "head": "f4f7e0fc",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2386,
+      "head": "b43aa885",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2387,
+      "head": "660b7fab",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2388,
+      "head": "4bccf068",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2389,
+      "head": "1ed0b09f",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2390,
+      "head": "43b14b88",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2391,
+      "head": "2066459c",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2392,
+      "head": "935bc8e4",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2393,
+      "head": "71484778",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2394,
+      "head": "cd2bd3e5",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2395,
+      "head": "33456ca4",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2396,
+      "head": "ab5556f8",
+      "range": "1000-3000",
+      "title": "",
+      "author": ""
+    },
+    {
+      "pr": 2397,
+      "head": "839945cb",
       "range": "1000-3000",
       "title": "",
       "author": ""
