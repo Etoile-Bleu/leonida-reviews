@@ -1,0 +1,13 @@
+{
+  "pr": 9506,
+  "head_sha": "0e776fab62a9fdb288c634d6cde5764b34aa91bc",
+  "reviewer": "Loggerten/hermes",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "Bounds hardening in read_dxbc_meta: rejects a container whose declared total exceeds the buffer or falls below the part table; ignores part offsets inside the header table and payloads past the declared total. No new I/O, no exec, no obfuscation."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
