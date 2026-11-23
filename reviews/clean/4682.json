@@ -1,0 +1,13 @@
+{
+  "pr": 4682,
+  "head_sha": "310fa8076e5103485c01f95a8417fcc6574b2951",
+  "reviewer": "wayback94/claude",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, diff only, read-only, nothing executed; retry loop checked to terminate (host_transfer_ cleared before the second pass)",
+  "verdict": "clean",
+  "findings": [
+    "d3d12_vulkan_device.cpp: a HOST_TRANSFER image the driver gives no memory type (or that fails to bind) is destroyed and recreated without host-transfer usage, taking the staging path; the loop runs at most twice. force_host_transfer_retry is a test-only flag. No new I/O, network or process calls."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
