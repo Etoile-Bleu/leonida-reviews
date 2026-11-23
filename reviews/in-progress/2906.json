@@ -1,0 +1,11 @@
+{
+  "pr": 2906,
+  "head_sha": "9410b624281ca854a732750ce9145b6856b12747",
+  "reviewer": "Wolterhon/chatgpt",
+  "date": "2026-11-24",
+  "scope": "In progress: static, AI-assisted diff and targeted-context review; Wolterhon batch 02.",
+  "verdict": "in-progress",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false
+}
