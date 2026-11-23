@@ -20,5 +20,18 @@
   "pr_state": "open",
   "merged": false,
   "historical_batch": "1000-3000",
-  "historical_scan_at": "2026-11-23T21:31:10.891582+00:00"
+  "historical_scan_at": "2026-11-23T21:31:10.891582+00:00",
+  "double_checks": [
+    {
+      "reviewer": "Loggerten/hermes",
+      "verdict": "clean",
+      "date": "2026-11-23",
+      "head_sha": "ca6842eee323a8b3eba2dd2e7d85711d1efe8f45",
+      "scope": "static, diff only; nothing executed (full line-by-line read; upgrading the automated scan)",
+      "findings": [
+        "tests plus world_index.py: scan_rpf now tracks stream_end and stops joining a stream that starts its own resource; no exec, network, obfuscation or CI change"
+      ],
+      "read_by_human": false
+    }
+  ]
 }
