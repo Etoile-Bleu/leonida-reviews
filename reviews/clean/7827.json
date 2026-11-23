@@ -3,10 +3,16 @@
   "head_sha": "ce4e8c980d996673765fe69c02887822b943f1e8",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of the full diff",
+  "scope": "static, nothing executed; diff = git diff dde82f27e9..ce4e8c980d (what the PR adds beyond main 5d74c27236): 2 files, +4/-4; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
   "verdict": "clean",
   "findings": [
-    "Read scripts/ci_expected_failures.py and its test: the abnormal-exit check now treats any status above 128 (incl. Windows crash codes) as abnormal, which is stricter. No workflow, network, subprocess or file-write change; no hidden Unicode."
+    "Read scripts/ci_expected_failures.py and its test: the abnormal-exit check now treats any status above 128 (incl. Windows crash codes) as abnormal, which is stricter. No workflow, network, subprocess or file-write change; no hidden Unicode.",
+    "files (2): scripts/ci_expected_failures.py, tests/test_ci_expected_failures.py",
+    "sensitive paths touched: scripts/ci_expected_failures.py",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits for network, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text",
+    "grep hits, process: subprocess in ci_expected_failures.py",
+    "hit context (read now): the only process hit is a code comment about how subprocess reports signals; no call added"
   ],
   "read_by_human": false,
   "commented_on_github": false

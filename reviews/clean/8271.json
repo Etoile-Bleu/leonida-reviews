@@ -3,9 +3,16 @@
   "head_sha": "ad8cef77f2948c246d0534bffed9786b6766c50c",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of d3d12_trace.h, main.cpp, boot_trace.py and CMake changes; the fixture, Python checker (temp folder only) and docs pattern-scanned",
+  "scope": "static, nothing executed; diff = git diff dde82f27e9..ad8cef77f2 (what the PR adds beyond main 5d74c27236): 9 files, +351/-13; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "files (9): docs/boot.md, runtime/CMakeLists.txt, runtime/README.md, runtime/shims/d3d12_trace.h, runtime/src/main.cpp, runtime/test/check_d3d12_trace_file.py, runtime/test/d3d12_trace_file_fixture.cpp, tests/test_boot_trace.py, tools/boot_trace.py",
+    "sensitive paths touched: runtime/CMakeLists.txt, runtime/shims/d3d12_trace.h",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits for network, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text",
+    "grep hits, process: subprocess in check_d3d12_trace_file.py",
+    "hit context (read now): subprocess.run/Popen in a test helper that runs a test fixture binary with a timeout"
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

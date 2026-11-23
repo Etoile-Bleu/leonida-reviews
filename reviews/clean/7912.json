@@ -3,9 +3,16 @@
   "head_sha": "4fb091a96d1b1adef6b44fb5b5cc546fab48b5fa",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of the full diff",
+  "scope": "static, nothing executed; diff = git diff dde82f27e9..4fb091a96d (what the PR adds beyond main 5d74c27236): 2 files, +19/-2; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "files (2): scripts/check_apt_key.py, tests/test_check_apt_key.py",
+    "sensitive paths touched: scripts/check_apt_key.py",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits for network, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text",
+    "grep hits, process: subprocess in check_apt_key.py",
+    "hit context (read now): scripts/check_apt_key.py runs gpg --batch --show-keys on a key file (list only), now prefixing ./ to a file name starting with a dash"
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

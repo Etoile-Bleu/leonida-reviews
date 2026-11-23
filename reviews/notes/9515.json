@@ -3,11 +3,17 @@
   "head_sha": "ccd36246f7f50dc6a5f1f30ff76418d570f12fa2",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of acphal.cpp logic, registry.cpp, CMakeLists, build_runtime.ps1 and the Python test; the C++ test file pattern-scanned",
+  "scope": "static, nothing executed; diff = git diff 5d74c27236..ccd36246f7 (what the PR adds beyond main 5d74c27236): 7 files, +962/-3; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
   "verdict": "notes",
   "findings": [
     "build_runtime.ps1 change only drops the UTF-8 BOM and adds xg_xs.cpp and acphal.cpp to the cl.exe file list; no download or execution added.",
-    "Shim hardening: the fake APU addresses given to SHAPE context arrays (0x40000000 + n*0x1000) overlap the range ApuMapApuAddress maps into the APU heap, so translating them back yields heap memory, not the context array; AcpHalReleaseShapeContexts frees every array, not only ctx's."
+    "Shim hardening: the fake APU addresses given to SHAPE context arrays (0x40000000 + n*0x1000) overlap the range ApuMapApuAddress maps into the APU heap, so translating them back yields heap memory, not the context array; AcpHalReleaseShapeContexts frees every array, not only ctx's.",
+    "files (7): runtime/CMakeLists.txt, runtime/shims/acphal.cpp, runtime/shims/registry.cpp, runtime/test/acphal_test.cpp, runtime/test/unimplemented_policy_test.cpp, scripts/build_runtime.ps1, tests/test_acphal_abi.py",
+    "sensitive paths touched: runtime/CMakeLists.txt, runtime/shims/acphal.cpp, runtime/shims/registry.cpp, scripts/build_runtime.ps1",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits for obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text",
+    "grep hits, network: winhttp in build_runtime.ps1",
+    "grep hits, process: subprocess in test_acphal_abi.py"
   ],
   "read_by_human": false,
   "commented_on_github": false

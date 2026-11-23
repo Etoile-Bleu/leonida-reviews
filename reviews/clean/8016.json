@@ -3,9 +3,14 @@
   "head_sha": "10cb3193a64feb7ad8b295d6f54d76b8a6d2d1f5",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of the full diff",
+  "scope": "static, nothing executed; diff = git diff dde82f27e9..10cb3193a6 (what the PR adds beyond main 5d74c27236): 2 files, +11/-2; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "files (2): scripts/merge_check.py, tests/test_merge_check.py",
+    "sensitive paths touched: scripts/merge_check.py",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits"
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

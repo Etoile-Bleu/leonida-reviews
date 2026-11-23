@@ -3,9 +3,16 @@
   "head_sha": "d39c21c23f897701e93a3a0fda8ea242a92892f8",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of the full diff",
+  "scope": "static, nothing executed; diff = git diff 3c8889ef6d..d39c21c23f (what the PR adds beyond main 5d74c27236): 2 files, +19/-1; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "files (2): scripts/run_wine_tests.py, tests/test_run_wine_tests.py",
+    "sensitive paths touched: scripts/run_wine_tests.py",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits for network, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text",
+    "grep hits, process: subprocess in test_run_wine_tests.py",
+    "hit context (read now): subprocess.run in a unit test of the repo's run_wine_tests script"
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

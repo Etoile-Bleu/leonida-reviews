@@ -3,9 +3,14 @@
   "head_sha": "df5ed873e33490896113cd1136fabf5ff49dc966",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of the full diff",
+  "scope": "static, nothing executed; diff = git diff dde82f27e9..df5ed873e3 (what the PR adds beyond main 5d74c27236): 3 files, +26/-11; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "files (3): runtime/shims/dxgi_com.cpp, runtime/test/dxgi_device_test.cpp, runtime/test/dxgi_swapchain_test.cpp",
+    "sensitive paths touched: runtime/shims/dxgi_com.cpp",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits"
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

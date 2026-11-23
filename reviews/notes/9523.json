@@ -3,10 +3,16 @@
   "head_sha": "f967225be861557c8e032e4203a7ef123f62f0aa",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of the full diff",
+  "scope": "static, nothing executed; diff = git diff 867d922f09..f967225be8 (what the PR adds beyond main 5d74c27236): 4 files, +366/-1; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
   "verdict": "notes",
   "findings": [
-    "bcrypt shim: LoadLibraryExW of bcrypt.dll and advapi32.dll is restricted to System32 (good). Hardening: when both host BCryptGenRandom and RtlGenRandom fail, gen_random silently falls back to the splitmix64 stream (state 0 if unseeded) and returns success; better to return an error than predictable bytes. LEONIDA_RNG_SEED env var also makes all RNG output deterministic."
+    "bcrypt shim: LoadLibraryExW of bcrypt.dll and advapi32.dll is restricted to System32 (good). Hardening: when both host BCryptGenRandom and RtlGenRandom fail, gen_random silently falls back to the splitmix64 stream (state 0 if unseeded) and returns success; better to return an error than predictable bytes. LEONIDA_RNG_SEED env var also makes all RNG output deterministic.",
+    "files (4): runtime/CMakeLists.txt, runtime/shims/bcrypt_rng.cpp, runtime/test/bcrypt_rng_test.cpp, scripts/build_runtime.ps1",
+    "sensitive paths touched: runtime/CMakeLists.txt, runtime/shims/bcrypt_rng.cpp, scripts/build_runtime.ps1",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits for process, persistence, home/credentials, workflow, URL literal, agent-addressed text",
+    "grep hits, network: winhttp in build_runtime.ps1",
+    "grep hits, obfuscation/dynamic code: getprocaddress/loadlibrary in bcrypt_rng.cpp"
   ],
   "read_by_human": false,
   "commented_on_github": false

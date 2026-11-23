@@ -3,9 +3,16 @@
   "head_sha": "ced87bf258bcb9d89f9ab5b622758d82a4b768e3",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of the full diff",
+  "scope": "static, nothing executed; diff = git diff 867d922f09..ced87bf258 (what the PR adds beyond main 5d74c27236): 4 files, +313/-1; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "files (4): runtime/CMakeLists.txt, runtime/shims/com_shim.cpp, runtime/test/com_shim_test.cpp, scripts/build_runtime.ps1",
+    "sensitive paths touched: runtime/CMakeLists.txt, runtime/shims/com_shim.cpp, scripts/build_runtime.ps1",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits for process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text",
+    "grep hits, network: winhttp in build_runtime.ps1",
+    "hit context (read now): the network hit is the file name shims/winhttp_offline.cpp in the build_runtime.ps1 source list; no network call added"
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

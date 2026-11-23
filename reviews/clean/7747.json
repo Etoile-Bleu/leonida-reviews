@@ -3,10 +3,14 @@
   "head_sha": "91c7496f0b99c75821c79cecca662970a6d9753e",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of the full diff",
+  "scope": "static, nothing executed; diff = git diff 77fa308f9a..91c7496f0b (what the PR adds beyond main 5d74c27236): 1 files, +16/-4; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
   "verdict": "clean",
   "findings": [
-    "Read runtime/CMakeLists.txt change: Windows Kits SDK lib hint now read via cmake_host_system_information from both registry views (read-only HKLM query), kept only if the Lib dir exists. No download, FetchContent, execute_process or writes; no hidden Unicode."
+    "Read runtime/CMakeLists.txt change: Windows Kits SDK lib hint now read via cmake_host_system_information from both registry views (read-only HKLM query), kept only if the Lib dir exists. No download, FetchContent, execute_process or writes; no hidden Unicode.",
+    "files (1): runtime/CMakeLists.txt",
+    "sensitive paths touched: runtime/CMakeLists.txt",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits"
   ],
   "read_by_human": false,
   "commented_on_github": false

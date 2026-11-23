@@ -3,10 +3,14 @@
   "head_sha": "b3244472b521e1e34951a9b6f106a0f8571ed254",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of the full diff",
+  "scope": "static, nothing executed; diff = git diff dde82f27e9..b3244472b5 (what the PR adds beyond main 5d74c27236): 2 files, +19/-2; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
   "verdict": "clean",
   "findings": [
-    "Read dxgi_com.cpp: CheckInterfaceSupport also answers S_OK for ID3D10Device/ID3D10Device1 with the stored UMD version, writing only through the caller's checked pointer; plus a test. Header include only, no network, DLL loading or scripts; no hidden Unicode."
+    "Read dxgi_com.cpp: CheckInterfaceSupport also answers S_OK for ID3D10Device/ID3D10Device1 with the stored UMD version, writing only through the caller's checked pointer; plus a test. Header include only, no network, DLL loading or scripts; no hidden Unicode.",
+    "files (2): runtime/shims/dxgi_com.cpp, runtime/test/dxgi_device_test.cpp",
+    "sensitive paths touched: runtime/shims/dxgi_com.cpp",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits"
   ],
   "read_by_human": false,
   "commented_on_github": false

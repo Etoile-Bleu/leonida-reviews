@@ -3,9 +3,14 @@
   "head_sha": "9640c84848ebccfd39583bfaddc9fa05b390418e",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of CMakeLists, pe_loader.cpp and the fixture; loader_tls_test.cpp read in part and pattern-scanned",
+  "scope": "static, nothing executed; diff = git diff 6312c057f8..9640c84848 (what the PR adds beyond main 5d74c27236): 4 files, +186/-9; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "files (4): runtime/CMakeLists.txt, runtime/src/pe_loader.cpp, runtime/test/fixtures/tiny_ga.cpp, runtime/test/loader_tls_test.cpp",
+    "sensitive paths touched: runtime/CMakeLists.txt",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits"
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

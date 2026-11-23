@@ -3,9 +3,16 @@
   "head_sha": "4131eb75f1fe24b8998481fd5db4f400ca89af79",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of dxgi_com.cpp; the two test files pattern-scanned",
+  "scope": "static, nothing executed; diff = git diff dde82f27e9..4131eb75f1 (what the PR adds beyond main 5d74c27236): 3 files, +287/-18; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "files (3): runtime/shims/dxgi_com.cpp, runtime/test/dxgi_swapchain_count_test.cpp, runtime/test/dxgi_swapchain_test.cpp",
+    "sensitive paths touched: runtime/shims/dxgi_com.cpp",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits for network, process, persistence, home/credentials, workflow, URL literal, agent-addressed text",
+    "grep hits, obfuscation/dynamic code: getprocaddress/loadlibrary in dxgi_swapchain_test.cpp",
+    "hit context (read now): LoadLibraryExA of d3d12.dll and dxgi.dll restricted to LOAD_LIBRARY_SEARCH_SYSTEM32 in a test, then GetProcAddress of their exports"
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }

@@ -3,10 +3,14 @@
   "head_sha": "3b0e3d35c5448806e9528b53e53265c6de9df90c",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of the full diff",
+  "scope": "static, nothing executed; diff = git diff dde82f27e9..3b0e3d35c5 (what the PR adds beyond main 5d74c27236): 3 files, +17/-2; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
   "verdict": "clean",
   "findings": [
-    "Read docs/runtime_imports.md text, a comment in xgameruntime_user.cpp and one added test check of the Classic gamertag into a 21-byte buffer. No shim behaviour change, no network, scripts or binaries; no hidden Unicode."
+    "Read docs/runtime_imports.md text, a comment in xgameruntime_user.cpp and one added test check of the Classic gamertag into a 21-byte buffer. No shim behaviour change, no network, scripts or binaries; no hidden Unicode.",
+    "files (3): docs/runtime_imports.md, runtime/shims/xgameruntime_user.cpp, runtime/test/xgameruntime_user_test.cpp",
+    "sensitive paths touched: runtime/shims/xgameruntime_user.cpp",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits"
   ],
   "read_by_human": false,
   "commented_on_github": false

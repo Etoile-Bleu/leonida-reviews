@@ -3,10 +3,14 @@
   "head_sha": "a63b737fc1c5f97e4fd5b3b824fddd1f77d84cdc",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of dxgi_com.cpp, vulkan_present.h and skinned_glb.py; the 293-line Python test pattern-scanned",
+  "scope": "static, nothing executed; diff = git diff 86d1c862d2..a63b737fc1 (what the PR adds beyond main 5d74c27236): 4 files, +318/-2; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
   "verdict": "notes",
   "findings": [
-    "Not malicious; a correctness bug: ~SwapChain now calls swapchain_.~VulkanSwapchain() explicitly, and the member destructor runs again afterwards. ~VulkanSwapchain does not null its handles, so the command pool, surface and fences are destroyed twice, the second time after device_ was released. PR 8163 solves the same issue with an idempotent release()."
+    "Not malicious; a correctness bug: ~SwapChain now calls swapchain_.~VulkanSwapchain() explicitly, and the member destructor runs again afterwards. ~VulkanSwapchain does not null its handles, so the command pool, surface and fences are destroyed twice, the second time after device_ was released. PR 8163 solves the same issue with an idempotent release().",
+    "files (4): runtime/shims/dxgi_com.cpp, runtime/src/vulkan_present.h, tests/test_mission_tables_rejects.py, tools/skinned_glb.py",
+    "sensitive paths touched: runtime/shims/dxgi_com.cpp",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits"
   ],
   "read_by_human": false,
   "commented_on_github": false

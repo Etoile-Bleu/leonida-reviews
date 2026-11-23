@@ -3,9 +3,14 @@
   "head_sha": "443a179bc01cdd949728cb7e129c0ca2ac2ed305",
   "reviewer": "pr-sorter/claude-code",
   "date": "2026-11-23",
-  "scope": "static, diff only, nothing executed; line-by-line read of d3d12_xs_device.cpp; the mock test additions pattern-scanned",
+  "scope": "static, nothing executed; diff = git diff e0816d6af2..443a179bc0 (what the PR adds beyond main 5d74c27236): 2 files, +177/-6; full diff read line by line in the first pass at this head; the checks in findings were re-run mechanically now",
   "verdict": "clean",
-  "findings": [],
+  "findings": [
+    "files (2): runtime/shims/d3d12_xs_device.cpp, runtime/test/xs_proxy_mock_test.cpp",
+    "sensitive paths touched: runtime/shims/d3d12_xs_device.cpp",
+    "binary files: none; submodule (gitlink) changes: none; bidi/zero-width/tag Unicode in added lines: none",
+    "added-line token grep (network, process, obfuscation/dynamic code, persistence, home/credentials, workflow, URL literal, agent-addressed text): no hits"
+  ],
   "read_by_human": false,
   "commented_on_github": false
 }
