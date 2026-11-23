@@ -1,0 +1,13 @@
+{
+  "pr": 7299,
+  "head_sha": "60340fe40b4f6fc9062eefd6700b432a27fb9d10",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (scripts/run_guest_scene.py and its test): the logs folder is created first as an exclusive claim of --out; if it already exists the run exits with an error and exit 2 instead of touching the active run's output."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

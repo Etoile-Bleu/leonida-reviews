@@ -1,0 +1,13 @@
+{
+  "pr": 5984,
+  "head_sha": "0bab5ba63744c8eaac9837c9d4db23ea58296ade",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/smh_groom.py and its test): export-glb refuses a directory output and uses same_report_path for alias detection."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

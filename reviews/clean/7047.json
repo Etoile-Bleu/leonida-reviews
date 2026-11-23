@@ -1,0 +1,13 @@
+{
+  "pr": 7047,
+  "head_sha": "bee98e6bd722fae31e7404668e3f0f5b475f9bef",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/manifest.py and its test): load_manifest also catches RecursionError; test writes deeply nested JSON to a temp file (same fix as PR 7376)."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

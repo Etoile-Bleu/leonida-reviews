@@ -1,0 +1,13 @@
+{
+  "pr": 9641,
+  "head_sha": "65c0480d5d4c9d3bb43e93f852ce1d0407e13e8a",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Three files (runtime/test/vk_pipeline_check.cpp, tools/rdna2spirv.py and a test): the pipeline checker enables update-after-bind binding flags only when the device supports them; wave64 graphics shaders get subgroup_size None in the index metadata; test added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

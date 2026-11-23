@@ -1,0 +1,13 @@
+{
+  "pr": 6174,
+  "head_sha": "cc207545b786d09fc165971f4d21836f718bf1cf",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: Polish quickstart gains an optional conda install route (conda install -c conda-forge llvm-tools, official docs.conda.io link) and updated disk figures. The package is advice for the reader to run, not run by the PR."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

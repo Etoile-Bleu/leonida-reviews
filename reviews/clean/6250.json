@@ -1,0 +1,13 @@
+{
+  "pr": 6250,
+  "head_sha": "cd244917cdd5441e8c4975c9836a7fda800e2911",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (scripts/run_wine_tests.py and its test): DEPENDS, FIXTURES_SETUP and FIXTURES_REQUIRED must be lists of strings; test rows added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

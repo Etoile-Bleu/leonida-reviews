@@ -1,0 +1,13 @@
+{
+  "pr": 7838,
+  "head_sha": "c664ba91ad02e0c45ebb68aa43a53270a34e6253",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/navmesh_links.py and its test): refuses a --start at or past the end of the archive with exit 2; tests build small synthetic archives."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

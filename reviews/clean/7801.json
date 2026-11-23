@@ -1,0 +1,13 @@
+{
+  "pr": 7801,
+  "head_sha": "8587ae6b536288ae6b022d10efe14315fcb7a9cd",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Three files (tools/restofworld_index.py and two tests): replaces a local _samefile helper with the shared same_report_path; tests added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

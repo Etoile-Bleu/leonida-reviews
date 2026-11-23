@@ -1,0 +1,13 @@
+{
+  "pr": 7856,
+  "head_sha": "86bc1e059a22ab61c2def8be8aff1038a96d64f7",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Three files (tools/f64_diff.py, its test and docs/shader_validation.md): the fuzz generator emits one-dword f64 literals; tests run the tool with the local interpreter."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 6027,
+  "head_sha": "4e815bbf8de047b7ee565e308625dbd3f10a829a",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/first_light.py and its test): --width and --height must be whole numbers 1..4096 via an argparse type, and manifest sizes must be positive ints; tests added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

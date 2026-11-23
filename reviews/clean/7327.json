@@ -1,0 +1,13 @@
+{
+  "pr": 7327,
+  "head_sha": "0392f03f3bb0c1e1958313d1545620b103b25254",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Three files (runtime/src/pe_loader.cpp, its test and runtime/README.md): when a relocated image has DYNAMIC_BASE, the mapped headers' ImageBase is set to the load address, as Windows does; tests added. Writes only into the image the loader itself mapped."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

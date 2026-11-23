@@ -1,0 +1,13 @@
+{
+  "pr": 9635,
+  "head_sha": "074610f57e4d79b86116213504885ca7def04f17",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/first_light.py and its test): an out-of-range OBJ texture-coordinate index exits with a message instead of being treated as missing; tests added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
