@@ -1,0 +1,13 @@
+{
+  "pr": 9775,
+  "head_sha": "c9a96d344bd9d9bb34c7394d1f35ed1c810c0aed",
+  "reviewer": "wayback94/claude",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, diff only, read-only, nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "pe_shader_containers.py: --json is written through a temp file next to the resolved destination and swapped in with replace_retry; a non-regular destination is written directly; extracted record indexes continue across containers. Tool reads only the user's file. No network or process calls."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

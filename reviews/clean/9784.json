@@ -1,0 +1,13 @@
+{
+  "pr": 9784,
+  "head_sha": "f24768124175984c59498047d6553d1d3bde9f3e",
+  "reviewer": "wayback94/claude",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, diff only, read-only, nothing executed; wave64_settings read at the PR head",
+  "verdict": "clean",
+  "findings": [
+    "make_game.py: new --gpu-info FILE reads saved JSON output of tools/vk_subgroup_info.py (json.loads, no eval) and then skips running vulkaninfo and the probe on the build machine; README documents it. Fewer subprocess calls than before; no network or downloads."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

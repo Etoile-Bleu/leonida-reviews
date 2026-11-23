@@ -1,0 +1,13 @@
+{
+  "pr": 9792,
+  "head_sha": "b01f4c33797cc69212e10504bea7c2343aa12eaf",
+  "reviewer": "wayback94/claude",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, diff only, read-only, nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "find_hash_lookup.py: PE section sizes are clamped to the bytes present in the file so a truncated executable cannot make the scan read past the data, and negative --window or non-positive --top are refused. Bounds hardening; no network, process or write changes."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

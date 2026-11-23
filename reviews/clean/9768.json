@@ -1,0 +1,13 @@
+{
+  "pr": 9768,
+  "head_sha": "988b8e28697f7c295cf298a48ba73e0924065b67",
+  "reviewer": "wayback94/claude",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, diff only, read-only, nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "pe_inspect.py: the export table reports forwarders (RVA inside the export directory), out-of-range ordinals and RVAs beyond SizeOfImage as invalid exports instead of trusting them; markdown output lists forwarders. Read-only parser; no network or process calls. Note: a backslash inside an f-string expression needs Python 3.12 or later."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

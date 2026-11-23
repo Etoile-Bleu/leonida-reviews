@@ -1,0 +1,14 @@
+{
+  "pr": 9809,
+  "head_sha": "a5165cb263bf97a56751a683bae34fb7dfdc8ab6",
+  "reviewer": "wayback94/claude",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, diff only, read-only, nothing executed; slot 14 proxy and DescriptorHeap read at the PR head",
+  "verdict": "notes",
+  "findings": [
+    "Device slot 14 reads a console address and size from the 16 bytes after the PC heap description. With LEONIDA_CONSOLE_DESCRIPTOR_HEAP=1 that guest-supplied address becomes the heap's CPU pointer and descriptors are written there, with no check that the range is committed and writable or that console_size covers the descriptors.",
+    "This PR makes that path opt-in (it is unconditional on main), so it lowers exposure; validating the address and size is a hardening suggestion. Also pads the acphal context structs to their static_assert sizes. Not malicious."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
