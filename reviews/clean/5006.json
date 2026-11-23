@@ -1,0 +1,13 @@
+{
+  "pr": 5006,
+  "head_sha": "8c1fc52bc413727fa845a58c1429680c57e07e66",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Test-only (tests/test_cf_diff.py, tests/test_f32_fuzz.py): subprocess timeouts raised from 5 to 120 s with an explanatory comment."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

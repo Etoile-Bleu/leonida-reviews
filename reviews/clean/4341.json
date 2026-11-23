@@ -1,0 +1,13 @@
+{
+  "pr": 4341,
+  "head_sha": "ebe361286752f0c8f5a8fe25721b04779cfa8a3a",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/boot_trace.py and its test): DllMain result records must be integers, otherwise they count as bad lines; tests added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

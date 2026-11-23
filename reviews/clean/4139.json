@@ -1,0 +1,13 @@
+{
+  "pr": 4139,
+  "head_sha": "cc13d710958bcf5aa8bc747bab788000e1717bb2",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: adds measurement tables and text to docs/bvh.md about the 0x130 header words. No links."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
