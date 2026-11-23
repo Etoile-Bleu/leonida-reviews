@@ -6,7 +6,7 @@
   "scope": "static, AI-assisted, diff only, read-only, nothing executed; tile shapes checked at head (64 KiB tiles, power-of-two sizes)",
   "verdict": "notes",
   "findings": [
-    "resource_detile.h: memcpy replaced by *reinterpret_cast<Element<Bpe>*> over std::byte storage; no Element object lives there, so this is undefined behaviour (strict aliasing) that a compiler may miscompile. memcpy of a constant size compiles to the same moves; suggest keeping memcpy or std::bit_cast. Not malicious."
+    "resource_detile.h: the memcpy per element is replaced by a reinterpret_cast to an Element struct of Bpe bytes over std::byte storage. No Element object lives there, so the access is undefined behaviour (strict aliasing) that a compiler may miscompile. A memcpy of the constant size Bpe compiles to the same moves; keeping memcpy or using std::bit_cast avoids it. Not malicious."
   ],
   "read_by_human": false,
   "commented_on_github": false
