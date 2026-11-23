@@ -1,0 +1,11 @@
+{
+  "pr": 2900,
+  "head_sha": "b3e51838d5cbc87b41fc61345fd1dd1ca3640bcb",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "in progress",
+  "verdict": "in-progress",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false
+}
