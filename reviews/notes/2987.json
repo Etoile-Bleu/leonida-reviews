@@ -9,5 +9,21 @@
     "dashboard loads Google Fonts (fonts.googleapis.com, fonts.gstatic.com); an optional GitHub token is kept in localStorage and sent only to api.github.com, as dashboard/README.md says"
   ],
   "read_by_human": false,
-  "commented_on_github": false
+  "commented_on_github": true,
+  "double_checks": [
+    {
+      "reviewer": "PeppeBeard/lumo",
+      "verdict": "notes",
+      "date": "2026-11-23",
+      "head_sha": "ba69c5b13748a11596380db5ed8a99daec714329",
+      "scope": "static, AI-assisted, nothing executed: full diff read file by file (index.html incl. inline script, live.js, activity.js, pipeline.js, triage.js, security.js, proof.js)",
+      "findings": [
+        "Confirmed at a later head (ba69c5b1): every innerHTML sink escaped with one esc() helper; md() escapes first then re-adds only allow-listed markup; the localStorage token is sent only to api.github.com and never placed in a URL",
+        "External review-table JSON (Etoile-Bleu/leonida-reviews docs/reviews.json) is type-checked on both fetch and localStorage unpack (secEntry); verdict labels whitelisted; ?repo=/?branch= params regex-validated; no eval or dynamic endpoints",
+        "Review comment posted on the PR itself: https://github.com/ProjectLeonida/Leonida/pull/2987#issuecomment-7115589485"
+      ],
+      "read_by_human": true,
+      "commented_on_github": true
+    }
+  ]
 }
