@@ -1,0 +1,13 @@
+{
+  "pr": 7837,
+  "head_sha": "f8102f8967748afe03c9f31799bb51c8536141b5",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: updates the wave64 graphics census numbers in one docs/design.md row. No links."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

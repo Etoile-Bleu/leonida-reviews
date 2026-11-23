@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2233,
+  "head_sha": "4dd254ab615b4876fa87f9dd5467329d4708c75b",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "Validate weighted 16-bit joint indices at full width",
+  "author": "evilclanker9000",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2233",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:26:53.671557+00:00"
+}

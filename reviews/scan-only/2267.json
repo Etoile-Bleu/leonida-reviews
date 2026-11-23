@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2267,
+  "head_sha": "24c9f7a6f46a906bbdda22a3ef0cd4d8c1954863",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "check.py: ps_w64x_readlane was skipped on every device; judge it where the pixel stage ran 64 wide",
+  "author": "labj1987",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2267",
+  "pr_state": "closed",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:30:39.624028+00:00"
+}

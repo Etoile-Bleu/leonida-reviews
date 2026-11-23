@@ -1,0 +1,13 @@
+{
+  "pr": 7680,
+  "head_sha": "d95bf044d441982ab55f9269152780ace959addb",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: extends one Known problems row and adds another in docs/testing.md (KosmicKrisp NaN printing). The link is a pre-existing one to the project's own issue 3125."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

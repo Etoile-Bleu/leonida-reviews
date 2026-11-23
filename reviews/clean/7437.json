@@ -1,0 +1,13 @@
+{
+  "pr": 7437,
+  "head_sha": "8cf4b1f362ff0dec558239534005ceaf9819f416",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: one row of README.md reworded (levels.rpf OBJ export now reported done: 343,327 files). Relative links only."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

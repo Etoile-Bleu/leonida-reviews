@@ -1,0 +1,13 @@
+{
+  "pr": 6047,
+  "head_sha": "fc6db7443f58dcc8de7a26309f41f6ab02708a45",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: removes one duplicate table row (normals within 8/25 degrees) from docs/story.md."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

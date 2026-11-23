@@ -1,0 +1,14 @@
+{
+  "pr": 7417,
+  "head_sha": "780d1a41b0c8c20212874f723cc9862f7cac679c",
+  "reviewer": "Digit4w/claude-code",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, nothing executed: full diff read line by line, upgrading the earlier scan-only entry at the same head; scanned for non-ASCII/bidi/control characters",
+  "verdict": "clean",
+  "findings": [
+    "LEONIDA_STUB_PIPELINES=1 (diagnostic env switch, off by default) turns only 'no shader library / no translation' PSO failures into an unregistered no-op PSO; ambiguous translations and bad descriptions are still refused; one log line per power of two",
+    "earlier entry (scan-only, ezbyDev/claude): no finding recorded"
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

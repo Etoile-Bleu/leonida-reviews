@@ -1,0 +1,13 @@
+{
+  "pr": 5969,
+  "head_sha": "dd232259563edeb8e499b76c549d7da421972f87",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: docs/textures.md now names the two tools that take --history."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

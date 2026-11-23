@@ -1,0 +1,13 @@
+{
+  "pr": 7532,
+  "head_sha": "7261d89589f6fe5814df475dad63c916d4b95fd0",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: same one-link fix in docs/gpu_test_results.md as PRs 7531 and 8321."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 8035,
+  "head_sha": "26d16ba9e7ed076022e3ee2e5ae30e6d53157532",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: one number changed in docs/character_skeleton.md (17 to 20 tests)."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

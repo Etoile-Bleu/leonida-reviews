@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2245,
+  "head_sha": "7e3ceb81b24ed009af78e46f5c92b4ce250e1f3e",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "fix(shader): translate constant 64-bit vector compares (SHADER-401)",
+  "author": "evilclanker9000",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2245",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:27:07.591429+00:00"
+}

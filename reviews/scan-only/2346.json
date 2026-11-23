@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2346,
+  "head_sha": "cae08df62fbd0e1e70ff7630c054c730df01a07e",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "test(semantic): add reference oracle and semantic tests for v_rcp_f16",
+  "author": "slopgobblercobbler",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2346",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:32:15.825410+00:00"
+}

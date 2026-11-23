@@ -1,0 +1,13 @@
+{
+  "pr": 4705,
+  "head_sha": "1593b64260dc16694f78f4205282182a17d35df7",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: adds a Known problems row to docs/testing.md and extends another with RDNA1 (V540) results. No links."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

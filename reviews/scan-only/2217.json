@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2217,
+  "head_sha": "3fa378b15d9e155df47d69314bc90b35020e6467",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "image_d16_probe: measure d16 integer image loads on 1D, 2D-array and 3D (SHADER-387)",
+  "author": "RobertPattinson007",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2217",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:26:31.672431+00:00"
+}

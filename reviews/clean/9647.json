@@ -1,0 +1,13 @@
+{
+  "pr": 9647,
+  "head_sha": "81461f16439a824e78ba425fc8f7c9df858ad5eb",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters (none) and for links in added lines (none)",
+  "verdict": "clean",
+  "findings": [
+    "Test-only: one regex in tests/test_build_batch_launch.py loosened to match the current build_runtime.ps1 Start-Process line. Only matches text, does not run anything."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

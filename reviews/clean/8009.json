@@ -1,0 +1,13 @@
+{
+  "pr": 8009,
+  "head_sha": "9c731e73d1e33f19d6a1de2c9a3e66aa3b74049c",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: removes a duplicate query-statistics bullet from docs/d3d12_vulkan.md."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

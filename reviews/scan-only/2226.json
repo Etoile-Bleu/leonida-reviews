@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2226,
+  "head_sha": "bcf9a8fba67849b271a62ec0887e4e62e49868c8",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "vk_pipeline_check index.json: reject trailing bytes, keep the malformed-JSON wording, find the Windows .exe (follow-up to #1847)",
+  "author": "esteban-dcp",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2226",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:26:44.575547+00:00"
+}

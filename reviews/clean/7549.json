@@ -1,0 +1,13 @@
+{
+  "pr": 7549,
+  "head_sha": "39d9c083a9b5d93347cb842125b816cee44546df",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: README.md Linux row now links to an in-page anchor instead of naming the section."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

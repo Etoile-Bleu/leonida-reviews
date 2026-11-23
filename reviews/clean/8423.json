@@ -1,0 +1,13 @@
+{
+  "pr": 8423,
+  "head_sha": "5da541d7af9e509252f893c4d2dcd28b50f985de",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters (none) and for links in added lines (none)",
+  "verdict": "clean",
+  "findings": [
+    "Test-only (tests/test_guest_scene_reference.py): compares the resolved loader path in an assertion (same as PR 9625)."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2198,
+  "head_sha": "5653b1891ca0d7dc19d2c7a25086ad27de6bf670",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "fract_f16_probe: v_fract_f16 rounds first, then the omod (SHADER-338)",
+  "author": "Sanonymous01",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2198",
+  "pr_state": "open",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:26:06.801021+00:00"
+}

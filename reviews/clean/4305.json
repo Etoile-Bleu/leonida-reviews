@@ -1,0 +1,13 @@
+{
+  "pr": 4305,
+  "head_sha": "92f6f9c2983c055176b14b42296d87747c7479d6",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters and URLs (none)",
+  "verdict": "clean",
+  "findings": [
+    "Test-only (tests/semantic/test_vcmp16_opsel.py): imports shutil and adds a skipUnless decorator so the spirv-val test is skipped when SPIRV-Tools is missing."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

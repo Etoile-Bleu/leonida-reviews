@@ -1,0 +1,13 @@
+{
+  "pr": 6487,
+  "head_sha": "b91276eba53aeb901b61a7f1b7b6482f505446de",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: adds three index rows to docs/README.md (ped_catalogues, strand_grooms, modding). Relative links."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

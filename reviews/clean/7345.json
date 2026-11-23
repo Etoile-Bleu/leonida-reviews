@@ -1,0 +1,13 @@
+{
+  "pr": 7345,
+  "head_sha": "8f9ebfb85fc9be30a5bfbd68101a89417e0ab3bc",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: adds one contract row to docs/design.md (v_lshl_add_u32). Only visible non-ASCII characters; the LLVM source link is a pre-existing reference in context."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

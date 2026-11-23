@@ -1,0 +1,13 @@
+{
+  "pr": 6363,
+  "head_sha": "8ceb18e32477bce6a7156be2a7d3a864fee2416f",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters (none) and for links in added lines (none)",
+  "verdict": "clean",
+  "findings": [
+    "Two files: tools/psocache_usersig.py prints a missing-cache error with an ERROR: prefix, and tests/test_missing_input_exit_codes.py adds the tool to its list. Message text only."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

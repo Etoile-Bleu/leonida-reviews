@@ -1,0 +1,13 @@
+{
+  "pr": 4931,
+  "head_sha": "f8d87ba0cb3dd985d2d1f15b24648677e45a656c",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters (none) and for links in added lines (none)",
+  "verdict": "clean",
+  "findings": [
+    "Test-only (runtime/test/xgameruntime_gamesave_test.cpp): replaces deprecated std::filesystem::u8path with a path built from a char8_t pointer cast. Behavior intended unchanged; compile not verified."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

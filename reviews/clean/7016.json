@@ -1,0 +1,13 @@
+{
+  "pr": 7016,
+  "head_sha": "4a5e27004d5f0ee32fbf261f14a5c8d59ad9ec93",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: adds one Known problems row to docs/testing.md (non-ASCII Windows checkout paths and glslangValidator). Three new links, all to comments on the project's own GitHub issue/PR."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

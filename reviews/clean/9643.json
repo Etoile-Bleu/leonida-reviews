@@ -1,0 +1,13 @@
+{
+  "pr": 9643,
+  "head_sha": "22885511c39c8daad5a2415b016817aee0f6b1a6",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters (none) and for links in added lines (none)",
+  "verdict": "clean",
+  "findings": [
+    "One-line change in tools/bvh_slot_check.py: the loop unpacks model_geometries() as (mesh, model, *rest). Same fix as PRs 6239 and 6513 in a different spelling."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

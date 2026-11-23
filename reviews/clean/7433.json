@@ -1,0 +1,13 @@
+{
+  "pr": 7433,
+  "head_sha": "8d2054a23e75dfd9ea6e80c47a846ceb5f8f70b0",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters (none) and for links in added lines (none)",
+  "verdict": "clean",
+  "findings": [
+    "Test-only (tests/test_shader_checks.py): bumps an expected count and patches table_fetch_test with a stub in the harness."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 7531,
+  "head_sha": "50925cfe277afa648916a5d8bb70d461d96dff21",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: one relative link in docs/gpu_test_results.md changed to ../gpu-test-results/RX9070GRE.txt."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

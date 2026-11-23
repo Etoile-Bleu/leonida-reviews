@@ -1,0 +1,13 @@
+{
+  "pr": 5720,
+  "head_sha": "616d732bafa50949735af637845e6a98a6498ea5",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: README.md sentence updated to say the runtime seeds its VkPipelineCache from pipeline_cache.bin."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

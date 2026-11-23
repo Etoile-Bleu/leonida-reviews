@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2225,
+  "head_sha": "76359f31deab37c2a1ee0ca13726a2cb9f7956b2",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "GPU tests: image_sample_l, image_sample_b_o, image_sample_c_lz_o, image_gather4_lz, image_load_mip",
+  "author": "evilclanker9000",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2225",
+  "pr_state": "open",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:26:43.274224+00:00"
+}

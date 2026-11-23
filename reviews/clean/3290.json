@@ -1,0 +1,13 @@
+{
+  "pr": 3290,
+  "head_sha": "59b729c3c3fd9186c9e3f39e9262415afb6185b3",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: edits one table row in docs/design.md, removing a stale note about SignedZeroInfNanPreserve 64. Links in the diff are pre-existing references in context."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 7955,
+  "head_sha": "ff0c4f51c72201d931c9a55b9a1c913cc8968abb",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters (none) and for links in added lines (none)",
+  "verdict": "clean",
+  "findings": [
+    "Test-only (tests/test_report_paths.py): patches os.path.normcase inside one test to model macOS."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 5890,
+  "head_sha": "2f0024556ea51d1789f56933522394e339172ac9",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: merges two duplicate docs/design.md rows (Output modifiers on hardware) into one with a new label. No new links."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

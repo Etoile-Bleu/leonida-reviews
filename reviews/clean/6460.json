@@ -1,0 +1,13 @@
+{
+  "pr": 6460,
+  "head_sha": "cd58a99a87166872e0cea57c20b17d00bf03bafa",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters (none) and for links in added lines (none)",
+  "verdict": "clean",
+  "findings": [
+    "Test-only (runtime/test/tiny_game_abort_test.cpp): calls SetErrorMode(SEM_FAILCRITICALERRORS | SEM_NOGPFAULTERRORBOX) so intentional crashes in child processes are not reported to Windows Error Reporting. Affects only this test process and its children."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 9739,
+  "head_sha": "ff9ef0456fe5a69c5694ded32788cb823052c2c4",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters (none) and for links in added lines (none)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/spirv_asm.py and its test): adds the target-environment name vulkan1.1spv1.4 mapped to 0x00010400 and a test row. Table data only."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

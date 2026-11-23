@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2350,
+  "head_sha": "542bf2de4e8a6f70e6bf34acda762c8c2529f489",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "test(semantic): add 64-bit LDS atomic add ds_add_u64 tests",
+  "author": "slopgobblercobbler",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2350",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:32:20.430585+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 7376,
+  "head_sha": "a1f367e32f8b2b4cf3b34291beb9af4c98a996f4",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters (none) and for links in added lines (none)",
+  "verdict": "clean",
+  "findings": [
+    "Two files: tools/manifest.py catches RecursionError and raises ManifestError for deeply nested JSON; the test adds a 100,000-bracket nested input generated in memory."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

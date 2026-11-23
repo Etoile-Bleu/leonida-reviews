@@ -1,0 +1,13 @@
+{
+  "pr": 7855,
+  "head_sha": "29e97740ff07f0a6a969dd6c190aa14f5f8544b3",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: one sentence in docs/runtime_imports.md replaced with a description of how the executable calls XGameImpl. No links."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

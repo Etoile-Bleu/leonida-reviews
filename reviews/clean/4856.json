@@ -1,0 +1,13 @@
+{
+  "pr": 4856,
+  "head_sha": "5a6b9315e429cbacdb9d596f5ef62ca17d6a8ec0",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: adds three lines to docs/animation.md about a whole-archive search result."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

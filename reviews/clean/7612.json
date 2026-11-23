@@ -1,0 +1,13 @@
+{
+  "pr": 7612,
+  "head_sha": "1a798566fca82374d463677cdd3fbf40b2a8b933",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: rewrites part of one sentence in docs/d3d12_vulkan.md listing imports (xg_xs.dll, AcpHal.dll). Relative links only."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

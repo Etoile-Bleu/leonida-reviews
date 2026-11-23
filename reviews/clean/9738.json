@@ -1,0 +1,13 @@
+{
+  "pr": 9738,
+  "head_sha": "af1653342b5b82c91cbd4dfea0dfd9c63cc37f08",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; the full workflow file at the PR base was also read for triggers, permissions, secrets and action pinning; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Adds tools/replace_retry.py to two paths: filters in .github/workflows/runtime.yml (under push and pull_request; not pull_request_target). No other change. The workflow has contents: read, no secrets, actions pinned by commit SHA; the listed file exists upstream."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

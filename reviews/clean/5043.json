@@ -1,0 +1,13 @@
+{
+  "pr": 5043,
+  "head_sha": "cf4aeac8451e66cacdadb97e0d33f8d77b157e37",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: edits the v_interp operand guards row in docs/design.md so it no longer calls p10/p20 movs Unsupported. No new links."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

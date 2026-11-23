@@ -1,0 +1,13 @@
+{
+  "pr": 8077,
+  "head_sha": "d38a878b2c807a3fad0114c8e77bbbcf89fda5d6",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters (none) and for links in added lines (none)",
+  "verdict": "clean",
+  "findings": [
+    "Test-only: one assertion string in tests/test_bink_index.py changed to match the tool's error text."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

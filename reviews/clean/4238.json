@@ -1,0 +1,13 @@
+{
+  "pr": 4238,
+  "head_sha": "14feed06827894840e7de0ae48ddc638fd173463",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: edits one large table row in docs/design.md (SHADER-10 tier A permutes), removing duplicated text and adding GPU-check references. No new links."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

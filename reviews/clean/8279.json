@@ -1,0 +1,13 @@
+{
+  "pr": 8279,
+  "head_sha": "7137fd03dfa14d14386883f48272e373411fd229",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters (none) and for links in added lines (none)",
+  "verdict": "clean",
+  "findings": [
+    "One condition simplified in runtime/test/shaders/check.py (partial_wave_test): the W64_EMULATED shortcut is dropped from the skip check, so partial-wave tests are skipped on devices with no 64-wide subgroup. Test-harness logic only."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

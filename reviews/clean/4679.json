@@ -1,0 +1,13 @@
+{
+  "pr": 4679,
+  "head_sha": "896c855b2b155defdc32145345f8c20f15c851d0",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: README.md sentence updated to say the runtime seeds its Vulkan pipeline cache from pipeline_cache.bin."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 6046,
+  "head_sha": "c0d98bcd0a4e52877d709effb42163c1602c0e7e",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: removes a duplicated parenthetical from docs/d3d12_vulkan.md."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

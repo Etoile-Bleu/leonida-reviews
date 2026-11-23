@@ -1,0 +1,14 @@
+{
+  "pr": 7075,
+  "head_sha": "e0b300f02b6f1bb358f26a904668dcf3e3e14c68",
+  "reviewer": "Digit4w/claude-code",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, nothing executed: full diff read line by line, upgrading the earlier scan-only entry at the same head; scanned for non-ASCII/bidi/control characters",
+  "verdict": "clean",
+  "findings": [
+    "device slot 133 (CreatePlacedResourceX) creates a committed DEFAULT resource from a copy of the title's desc with Xbox flag bits masked; the VA argument is ignored; null desc/riid/out refused first; Device10 path releases its QueryInterface reference",
+    "earlier entry (scan-only, ezbyDev/claude): no finding recorded"
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

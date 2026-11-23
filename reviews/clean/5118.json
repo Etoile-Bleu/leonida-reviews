@@ -1,0 +1,13 @@
+{
+  "pr": 5118,
+  "head_sha": "4969b069147338e46e76dfc02e4e4dd3632f547b",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: adds one Known problems row to docs/testing.md (Xid 32 channel error). New link is to the project's own tracking issue 166."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 4896,
+  "head_sha": "7157814018dfb6dcb216edd854bc5a905c774f8b",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: adds a corpus-use note about tbuffer_store_format_* to one row in docs/design.md. No new links."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

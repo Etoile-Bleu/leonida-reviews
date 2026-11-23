@@ -1,0 +1,13 @@
+{
+  "pr": 7500,
+  "head_sha": "1b252cc86dce290c407d1553087ad6cf6ef91b22",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: updates one docs/design.md row for v_cmp_class_f64 with gfx1036 measurements. No links."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 8233,
+  "head_sha": "3b81f0e10a3e2200250b3e4f8a2dda62af4d4422",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: adds a closing code fence to runtime/README.md (same fix as PR 9642)."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

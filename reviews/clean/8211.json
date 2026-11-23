@@ -1,0 +1,13 @@
+{
+  "pr": 8211,
+  "head_sha": "ac2da1e755f10cee18c2c21630f7accc1f11a359",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters (none) and for links in added lines (none)",
+  "verdict": "clean",
+  "findings": [
+    "Test-only (runtime/test/vk_sandbox.cpp): adds an explicit flush() and close() after the PPM write so write failures are detected."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

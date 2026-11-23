@@ -1,0 +1,13 @@
+{
+  "pr": 7977,
+  "head_sha": "6d0847fbaa7a27ad1c70f9dd95e6227ebb0e5a37",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters (none) and for links in added lines (none)",
+  "verdict": "clean",
+  "findings": [
+    "Test-only (tests/test_first_look_shim_report.py): adds tools/report_paths.py to the list of files the test copies into its temp checkout."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2352,
+  "head_sha": "83370527725660deb775dafc9bf0d2b85abe6382",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "test(shader): GPU fixture cs_w64_vcc_half for wave64 vcc_lo/vcc_hi mask half writes",
+  "author": "Youssefrah16",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2352",
+  "pr_state": "closed",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:32:23.209266+00:00"
+}

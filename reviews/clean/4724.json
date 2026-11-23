@@ -1,0 +1,13 @@
+{
+  "pr": 4724,
+  "head_sha": "28b38b87dce0c9506411cdf6c0a1859815a1fe51",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters (none) and for links in added lines (none)",
+  "verdict": "clean",
+  "findings": [
+    "Three lines added to runtime/test/shaders/w64_graphics.py: -h/--help prints the module docstring and exits 0. No other change."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

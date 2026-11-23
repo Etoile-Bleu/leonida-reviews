@@ -1,0 +1,13 @@
+{
+  "pr": 7194,
+  "head_sha": "7147f5bd60018a833c98b19db8c486c719d091a6",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters (none) and for links in added lines (none)",
+  "verdict": "clean",
+  "findings": [
+    "Test-only (tests/semantic/test_image_store_d16.py): adds a CUBE d16 store case and changes one rejected-form string to 2D_MSAA."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
