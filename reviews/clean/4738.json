@@ -3,8 +3,8 @@
   "head_sha": "35a4054890248ae7b7aeb9eb9bb24b93123215fd",
   "reviewer": "wayback94/claude",
   "date": "2026-11-23",
-  "scope": "in progress",
-  "verdict": "in-progress",
+  "scope": "static, AI-assisted, diff only, read-only, nothing executed; all 27 changed navmesh.md lines checked to differ only by the cp1252 mojibake repair",
+  "verdict": "clean",
   "findings": [],
   "read_by_human": false,
   "commented_on_github": false
