@@ -1,0 +1,14 @@
+{
+  "pr": 2906,
+  "head_sha": "9410b624281ca854a732750ce9145b6856b12747",
+  "reviewer": "Wolterhon/chatgpt",
+  "date": "2026-11-24",
+  "scope": "Static read of all 5 changed-file diffs and relevant input/oracle context: CMake, GPU harness, ramp and UV generator, tests and docs. Checked local file access, sizes, descriptor bounds, readback comparison and source blob hashes. No source execution, game assets or GPU-result reproduction.",
+  "verdict": "notes",
+  "findings": [
+    "runtime/test/d3d12_first_light_textured_test.cpp:391-394: NaN in a readback channel makes fabs(got-want) NaN, so the tolerance comparison is false and over is not incremented. Matching coverage can let invalid output pass. Reject non-finite actual values before comparison. This is a test-oracle weakness; no malicious behavior found in the reviewed changes.",
+    "The new harness skips without its explicit input-directory environment variable, reads and writes fixed local filenames, checks mesh and texture payload lengths, and bounds texture dimensions and descriptor offsets. The changed code adds no network client, automatic download, subprocess call or binary payload."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
