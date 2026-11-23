@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1841,
+  "head_sha": "03f93c7c02eded73df1a38f5d0e072f508e9d9b1",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "rdna2spirv: a constant in an SGPR read as a lane mask gives lane L bit L (SHADER-304)",
+  "author": "etcetera-yt",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1841",
+  "pr_state": "closed",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:02:30.693272+00:00"
+}

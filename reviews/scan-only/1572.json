@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1572,
+  "head_sha": "43bda515c0726b8d2447d1399704c938b5ed9faa",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "Runtime: build XDXR BVH4 acceleration structures on the GPU",
+  "author": "romainveurrier",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1572",
+  "pr_state": "closed",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:54:56.471638+00:00"
+}

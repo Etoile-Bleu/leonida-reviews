@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1904,
+  "head_sha": "a044f4e78bf9c991d3bc9d74b205df2cf9b3e85e",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "cfg_structure: make structuring iterative and flatten dominated tail continuations",
+  "author": "edwin042331-hue",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1904",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:03:30.030939+00:00"
+}

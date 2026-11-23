@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1872,
+  "head_sha": "1ea4eccd4824c6c2b651c3f820c0ce60524538a6",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "Runtime: replace full LayoutTracker clone in VulkanQueue::execute with O(touched) rollback journal (D3D-244)",
+  "author": "emirhan-karaca",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1872",
+  "pr_state": "open",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:03:02.920241+00:00"
+}

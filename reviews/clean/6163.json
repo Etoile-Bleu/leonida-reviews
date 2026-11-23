@@ -1,0 +1,13 @@
+{
+  "pr": 6163,
+  "head_sha": "46839accc771738f10c2d8cc1f93b71c2ea727aa",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: rewrites one Known problems row in docs/testing.md (RADV word 5 result by translator revision). Two new links, both to comments on the project's own GitHub issue and PR."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1603,
+  "head_sha": "8d87e41d85c57c0f24eeb6046b5a0e2d2ae8c217",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "vertex_types.py: reject invalid RPF9 headers before reporting",
+  "author": "BBareth",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1603",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:55:22.683044+00:00"
+}

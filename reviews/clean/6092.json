@@ -1,0 +1,13 @@
+{
+  "pr": 6092,
+  "head_sha": "d29cf59611a86ed626980a1e51fb18d94adf6886",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: names the --tests, --jobs and --test-timeout options in docs/progress_dashboard.md."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

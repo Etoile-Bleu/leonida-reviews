@@ -1,0 +1,13 @@
+{
+  "pr": 7023,
+  "head_sha": "a13465921b5023d3a239ef9a1393900c3ebe215d",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: corrects a count in docs/fssm_crosscheck.md (665 FSSM blobs end at the binding-table name)."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

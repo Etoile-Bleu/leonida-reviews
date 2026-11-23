@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1743,
+  "head_sha": "fa2712e2b00f639906d4de63aa5ec326a1fa2b37",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "XDXR builder follow-up: small-build sort, and MSVC C4456 in vulkan_replay.h (D3D-178)",
+  "author": "romainveurrier",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1743",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:59:43.995798+00:00"
+}

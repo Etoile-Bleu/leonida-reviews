@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1781,
+  "head_sha": "03ed39c88b31adb450af62b345c3c2a41b3631fb",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "rdna2spirv: drop a failed retried shader's stale .spv and index entry",
+  "author": "qerdavo-dot",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1781",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:00:20.703513+00:00"
+}

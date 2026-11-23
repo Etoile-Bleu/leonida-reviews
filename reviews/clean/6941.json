@@ -1,0 +1,13 @@
+{
+  "pr": 6941,
+  "head_sha": "9590d4e1b94b694e5554065ac704a3d4006cbcee",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: in the Chinese quickstart (docs/i18n/zh-CN/quickstart.md) the LLVM_MC example changes to a PowerShell env assignment, $env:LLVM_MC = 'wsl -d Ubuntu -e /usr/lib/llvm-21/bin/llvm-mc', with a note to set it in the same session. Instruction text only, not executed."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

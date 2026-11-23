@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1522,
+  "head_sha": "e49a735134b7ba8236e9914b57f5c0ce30727300",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "fix(pe_loader): validate SizeOfHeaders covers NT/section headers and guard truncated relocation blocks",
+  "author": "totonicpu",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1522",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:53:16.293351+00:00"
+}

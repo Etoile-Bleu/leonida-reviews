@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1612,
+  "head_sha": "ab55405c2c3a9800c7c575bc2c4eb87b1842d4e3",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "Tests: GPU coverage for ds_cmpst_b32 and the b64 LDS 2-address forms",
+  "author": "mokkymiah",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1612",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:55:30.664558+00:00"
+}

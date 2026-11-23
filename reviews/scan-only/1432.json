@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1432,
+  "head_sha": "cee1ba5ac454435cc62ea4220b1eabc6c0ec4931",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "tests: accept a host that wraps GetResourceAllocationInfo totals past 2^64; ours stays saturated",
+  "author": "EmreO33",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1432",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:51:59.254958+00:00"
+}

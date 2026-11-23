@@ -1,0 +1,13 @@
+{
+  "pr": 6456,
+  "head_sha": "be87ac11f2578a06bedcf2bc56879cf91329f293",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: removes a stale test count from docs/models.md."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

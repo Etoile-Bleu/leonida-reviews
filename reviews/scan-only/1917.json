@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1917,
+  "head_sha": "c7ff31bd84e883fd4c27c8e2902f7b96f6316f66",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "rdna2spirv: handle f16 subnormals in v_frexp_mant/exp_f16 and v_ldexp_f16",
+  "author": "Youssefrah16",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1917",
+  "pr_state": "closed",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:03:44.269880+00:00"
+}

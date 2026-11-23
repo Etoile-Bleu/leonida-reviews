@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1868,
+  "head_sha": "fb343370156a8e76f574da0a109a57f25f6697a0",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "d3d12_translated_draw_test: rename the global extent (C4459 against vulkan_replay.h)",
+  "author": "Thatters",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1868",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:02:58.396176+00:00"
+}

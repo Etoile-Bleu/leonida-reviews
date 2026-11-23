@@ -1,0 +1,13 @@
+{
+  "pr": 6506,
+  "head_sha": "57419d911a2125b21f47540d91dc748d77cf7463",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: adds a paragraph to docs/sgd5_render_states.md naming tools/sgd5_effects.py and example options. Not executed."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

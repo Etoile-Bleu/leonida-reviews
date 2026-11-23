@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1985,
+  "head_sha": "83d973a424afa3a5c21a52683154b770e4702065",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "pe_loader: read the TLS directory through directory(), honouring NumberOfRvaAndSizes",
+  "author": "Dom-in",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1985",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:05:29.376333+00:00"
+}

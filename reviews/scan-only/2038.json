@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2038,
+  "head_sha": "a8c1473ca3009c69b81141e2b0ede36bec8d2af2",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "rdna2_decode: pure-Python RDNA2 binary ISA decoder (#1901)",
+  "author": "SweatierKey",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/2038",
+  "pr_state": "open",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:06:15.168620+00:00"
+}

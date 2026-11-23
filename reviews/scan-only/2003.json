@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2003,
+  "head_sha": "1d93f7779df50f9ebad6908ad229d34146b2175a",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "test(shader): GPU fixture cs_w32_ds_wrxchg_b64 for 64-bit and st64 LDS exchanges (TEST-292)",
+  "author": "Vadson159",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/2003",
+  "pr_state": "open",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:05:46.117783+00:00"
+}

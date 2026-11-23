@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1741,
+  "head_sha": "a108d8beb3f7550572a8da6dfcf6c3129b0c1b93",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "docs: attribute the 26,503 shader result to dcd8ecf (the 26,501 run was the regression)",
+  "author": "Kam471",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1741",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:59:41.909488+00:00"
+}

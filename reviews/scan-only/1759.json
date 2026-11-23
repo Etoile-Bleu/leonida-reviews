@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1759,
+  "head_sha": "6b5c01da4988f51b550e44fe0fa609fd59c02244",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "d16 typed buffer loads round the exact UNORM/SNORM quotient once, as RDNA2 does (BUILD-161)",
+  "author": "BetterJdue",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1759",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:59:57.941750+00:00"
+}

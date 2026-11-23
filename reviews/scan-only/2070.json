@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2070,
+  "head_sha": "4edfb2418d51ca40cdb086214cd4ffe95fce27ac",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "runtime: support multiple simultaneous manually mapped static-TLS modules",
+  "author": "jaybeebabageyus",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/2070",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:07:15.350344+00:00"
+}

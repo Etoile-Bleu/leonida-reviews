@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1597,
+  "head_sha": "2197cf3f9c60b17972e3ea848311d9126fb8aa1c",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "tools: write stream names and dialogue subtitles into Ogg Opus tags",
+  "author": "nikolas-sturm",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1597",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:55:18.028981+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1972,
+  "head_sha": "d973bce8c1e0ba975894360e163ede7bf35c2820",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "test(semantic): add interpreter tests for sum of absolute differences v_sad_u32",
+  "author": "slopgobblercobbler",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1972",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:05:18.226785+00:00"
+}

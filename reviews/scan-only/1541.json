@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1541,
+  "head_sha": "9749ddd7351aadd8c769fcd33e24f2dc7113497f",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "notes",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 1
+  },
+  "pr_title": "Translator: wave64 VS/PS/GS on 32-wide subgroups when the halves can't tell \u2014 tier A/B/C analysis (SHADER-10)",
+  "author": "AlxcBTW",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1541",
+  "pr_state": "closed",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:54:30.526832+00:00"
+}

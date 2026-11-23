@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1731,
+  "head_sha": "6c9b7fc11fbd7900bca4a7c62d3368fe44187c3e",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "opus_tags: tag awc_opus's <id>~2.ogg duplicate-id streams",
+  "author": "dandasma",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1731",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:58:36.335103+00:00"
+}

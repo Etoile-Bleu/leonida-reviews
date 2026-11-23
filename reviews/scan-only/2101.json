@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2101,
+  "head_sha": "c2d5600fdd8c28c098a46882cbbd992256f5af26",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "rpf9dump: roll forward to a newer .NET runtime, so a build on .NET 10 can run",
+  "author": "borislisandro",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/2101",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:07:43.826489+00:00"
+}

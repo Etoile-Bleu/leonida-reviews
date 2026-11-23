@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1996,
+  "head_sha": "502c1ce5137f6e76a08a93753397f377a41376f5",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "Runtime: M2 formats test (BC1/BC7 mip chains and a 2D array through a PSO) (D3D-212)",
+  "author": "Joaovitor404silva",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1996",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:05:38.701318+00:00"
+}

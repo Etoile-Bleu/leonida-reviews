@@ -131,6 +131,17 @@ h1 { margin: 0; font-family: var(--display); font-weight: 800; letter-spacing: -
 h1 em { font-style: normal; background: var(--sunset-ink); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .kicker { margin: 0; color: var(--ink-soft); font-size: 15.5px; }
 .kicker b { color: var(--ink); font-variant-numeric: tabular-nums; }
+.coverage { margin: 6px 0 0; color: var(--ink-soft); font-size: 14.5px; display: flex; flex-direction: column; gap: 6px; max-width: 560px; }
+.coverage[hidden] { display: none; }
+.coverage b { color: var(--ink); font-variant-numeric: tabular-nums; }
+.coverage .meter { height: 8px; border-radius: 999px; background: var(--panel); border: 1px solid var(--line); overflow: hidden; }
+.coverage .meter i { display: block; height: 100%; background: var(--sunset); border-radius: 999px; }
+.tag.old { color: var(--note); background: var(--note-bg); }
+.card.is-stale { border-style: dashed; border-left-style: solid; }
+.coverage .warn { color: var(--note); }
+.free { display: flex; flex-wrap: wrap; gap: 6px; }
+.free a { font-family: var(--mono); font-size: 13px; padding: 3px 9px; border-radius: 999px; border: 1px solid var(--line); text-decoration: none; }
+.free a:hover { border-color: var(--accent); }
 .monitor-status { margin: 7px 0 0; color: var(--ink-soft); font-size: 13px; line-height: 1.45; }
 .monitor-status[hidden] { display: none; }
 .say { display: grid; grid-template-columns: repeat(auto-fit, minmax(148px, 1fr)); gap: 10px; }
@@ -272,6 +283,7 @@ footer p { margin: 0; max-width: 80ch; }
       <h1>Leonida <em>security reviews</em></h1>
       <p class="mission">Volunteers read Leonida's pull requests for malicious code, so the maintainers can merge with less risk.</p>
       <p class="kicker" id="kicker">Loading the reviews.</p>
+      <div class="coverage" id="coverage" hidden><span id="coverage-text"></span><span class="meter" aria-hidden="true"><i id="coverage-bar"></i></span></div>
     <p class="monitor-status" id="monitor-status" role="status" aria-live="polite" hidden></p>
     </div>
     <div class="say" id="say"></div>
@@ -295,6 +307,7 @@ footer p { margin: 0; max-width: 80ch; }
       </label>
       <label class="chip" for="onlyFindings"><input type="checkbox" id="onlyFindings"><span>With remarks only</span></label>
       <label class="chip" for="hideAuto" id="hideAutoWrap"><input type="checkbox" id="hideAuto"><span>Hide automated scans</span></label>
+      <label class="chip" for="onlyStale" id="onlyStaleWrap" hidden><input type="checkbox" id="onlyStale"><span>Changed since review</span></label>
       <button type="button" class="clear" id="clear" hidden>Clear filters</button>
       <span class="count" id="count"></span>
     </div>
@@ -310,6 +323,7 @@ footer p { margin: 0; max-width: 80ch; }
       <div><span class="mark v-scan-only">~</span><span><dt>Quick scan only</dt><dd>A pattern scan ran. Nobody read the change.</dd></span></div>
       <div><span class="mark v-clean">✓</span><span><dt>Clean</dt><dd>Nothing malicious found in what was checked. Not a guarantee.</dd></span></div>
     </dl>
+    <p>A row tagged "Changed since review" means the pull request got a new commit after it was read: its verdict is about the earlier code, and it needs another look.</p>
     <p>Every review here is a static, AI-assisted reading of a pull request's diff. Nothing was run. "How it was checked" on each row says what was actually done, and by whom. Rows tagged "Automated scan" come from a monitor that matches patterns in added lines: its hits are leads to look at, not conclusions.</p>
   </footer>
   </div>
@@ -317,9 +331,14 @@ footer p { margin: 0; max-width: 80ch; }
   <div class="view stats" id="view-stats" hidden>
     <div class="headline">
       <h1>The <em>effort</em> so far</h1>
-      <p class="sub">What the review group has done, counted from the review files. Nothing here is fetched from GitHub.</p>
+      <p class="sub">What the review group has done, counted from the review files. The page itself fetches nothing from GitHub.</p>
     </div>
     <div class="trio" id="trio"></div>
+    <div class="box" id="free-box" hidden>
+      <h3>Open pull requests nobody has checked yet</h3>
+      <p id="free-text"></p>
+      <div class="free" id="free"></div>
+    </div>
     <div class="two">
       <div class="box">
         <h3>Who checked the most</h3>
@@ -377,7 +396,8 @@ footer p { margin: 0; max-width: 80ch; }
   };
   var PAGE = 100;
   var all = [];
-  var state = { verdict: "", reviewer: "", q: "", onlyFindings: false, hideAuto: false, sort: "serious", shown: PAGE };
+  var state = { verdict: "", reviewer: "", q: "", onlyFindings: false, hideAuto: false, onlyStale: false, sort: "serious", shown: PAGE };
+  var stale = {};          // PR number -> true when the PR got a new commit after its review (from coverage.json)
   var $ = function (id) { return document.getElementById(id); };
   function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
   function info(v) { return V[v] || { label: v, mark: "?", one: " other.", many: " other.", help: "" }; }
@@ -406,6 +426,7 @@ footer p { margin: 0; max-width: 80ch; }
     if (!inScope(r)) return false;
     if (state.verdict && r.verdict !== state.verdict) return false;
     if (state.onlyFindings && !r.findings.length) return false;
+    if (state.onlyStale && !stale[r.pr]) return false;
     if (state.q) {
       var hay = ("#" + r.pr + " " + r.title + " " + r.author + " " + r.findings.join(" ") + " " + r.reviewer + " " + r.head + " " + info(r.verdict).label).toLowerCase();
       var parts = state.q.toLowerCase().split(/\s+/);
@@ -465,6 +486,11 @@ footer p { margin: 0; max-width: 80ch; }
     var pills = el("span", "pills");
     pills.appendChild(pill(r.verdict));
     if (r.automated) pills.appendChild(el("span", "tag", "Automated scan"));
+    if (stale[r.pr]) {
+      var old = el("span", "tag old", "Changed since review");
+      old.title = "This pull request got a new commit after it was reviewed. The verdict is about the earlier code.";
+      pills.appendChild(old); c.className += " is-stale";
+    }
     head.appendChild(pills);
     c.appendChild(head);
 
@@ -485,6 +511,17 @@ footer p { margin: 0; max-width: 80ch; }
     if (r.head) meta.appendChild(el("span", "sha", "commit " + r.head));
     meta.appendChild(el("span", null, r.human ? "A human read the diff" : "Read by AI only"));
     if (r.commented) meta.appendChild(el("span", null, "Remark posted on the PR"));
+    if (r.checks && r.checks.length) {
+      // Second opinions on the same PR: shown as text only, after the main review.
+      var dc = el("details");
+      dc.appendChild(el("summary", null, "Double checked " + r.checks.length + (r.checks.length === 1 ? " time" : " times") + " (already reviewed, confirmed again)"));
+      r.checks.forEach(function (d) {
+        var line = el("p", null, d.reviewer + " (" + (info(d.verdict).label || d.verdict) + (d.date ? ", " + d.date : "") + (d.head ? ", commit " + d.head : "") + "): " + (d.scope || "scope not stated"));
+        dc.appendChild(line);
+        if (d.findings.length) dc.appendChild(whyList(d.findings));
+      });
+      meta.appendChild(dc);
+    }
     var how = el("details");
     how.appendChild(el("summary", null, "How it was checked"));
     how.appendChild(el("p", null, r.scope || "Not stated."));
@@ -499,7 +536,7 @@ footer p { margin: 0; max-width: 80ch; }
     if (state.sort === "newest") list.sort(function (x, y) { return y.pr - x.pr; });
     else list.sort(function (x, y) { return rank(x.verdict) - rank(y.verdict) || y.pr - x.pr; });
 
-    var filtered = !!(state.verdict || state.reviewer || state.q || state.onlyFindings || state.hideAuto);
+    var filtered = !!(state.verdict || state.reviewer || state.q || state.onlyFindings || state.hideAuto || state.onlyStale);
     $("clear").hidden = !filtered;
     $("count").textContent = filtered ? fmt(list.length) + " of " + fmt(all.length) + " shown" : fmt(all.length) + " reviews";
 
@@ -624,9 +661,10 @@ footer p { margin: 0; max-width: 80ch; }
     $("sort").addEventListener("change", function (e) { state.sort = e.target.value; reset(); });
     $("onlyFindings").addEventListener("change", function (e) { state.onlyFindings = e.target.checked; reset(); });
     $("hideAuto").addEventListener("change", function (e) { state.hideAuto = e.target.checked; reset(); });
+    $("onlyStale").addEventListener("change", function (e) { state.onlyStale = e.target.checked; reset(); });
     $("clear").addEventListener("click", function () {
-      state.verdict = ""; state.reviewer = ""; state.q = ""; state.onlyFindings = false; state.hideAuto = false;
-      $("q").value = ""; $("reviewer").value = ""; $("onlyFindings").checked = false; $("hideAuto").checked = false;
+      state.verdict = ""; state.reviewer = ""; state.q = ""; state.onlyFindings = false; state.hideAuto = false; state.onlyStale = false;
+      $("q").value = ""; $("reviewer").value = ""; $("onlyFindings").checked = false; $("hideAuto").checked = false; $("onlyStale").checked = false;
       reset();
     });
   }
@@ -635,8 +673,45 @@ footer p { margin: 0; max-width: 80ch; }
   function clock(d) { return d.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }); }
   function setLive(ok, text) { $("live").className = "live" + (ok ? "" : " off"); $("live-text").textContent = text; }
 
+  function loadCoverage() {
+    return fetch("coverage.json", { cache: "no-cache" }).then(function (res) {
+      if (!res.ok) return null;                   // not generated yet: the page simply shows no coverage
+      return res.json();
+    }).then(function (c) {
+      if (!c || !(c.open_total > 0)) return;
+      var open = Number(c.open_total), done = Number(c.reviewed_open) || 0, left = Number(c.unreviewed_total) || 0;
+      var pct = Math.round(done / open * 100), when = new Date(c.as_of || "");
+      var t = $("coverage-text"); t.textContent = "";
+      t.appendChild(el("b", null, fmt(done) + " of " + fmt(open)));
+      t.appendChild(document.createTextNode(" pull requests open right now have a review (" + pct + "%). "));
+      t.appendChild(el("b", null, fmt(left)));
+      t.appendChild(document.createTextNode(" have none yet" + (isNaN(when) ? "." : ", as of " + clock(when) + ".")));
+      $("coverage-bar").style.width = Math.max(1, Math.min(100, done / open * 100)).toFixed(1) + "%";
+      $("coverage").hidden = false;
+      var olds = Array.isArray(c.stale) ? c.stale : [], next = {};
+      olds.forEach(function (n) { n = Number(n); if (n > 0) next[n] = true; });
+      var changed = Object.keys(next).length !== Object.keys(stale).length || Object.keys(next).some(function (n) { return !stale[n]; });
+      stale = next;
+      $("onlyStaleWrap").hidden = !olds.length;
+      if (!olds.length && state.onlyStale) { state.onlyStale = false; $("onlyStale").checked = false; changed = true; }
+      if (olds.length) {
+        t.appendChild(document.createTextNode(" "));
+        t.appendChild(el("span", "warn", fmt(olds.length) + (olds.length === 1 ? " review is" : " reviews are") + " out of date: the pull request changed after it was checked."));
+      }
+      if (changed && wired) draw();
+      var list = Array.isArray(c.newest_unreviewed) ? c.newest_unreviewed : [];
+      var box = $("free"); box.textContent = "";
+      list.forEach(function (n) {
+        n = Number(n); if (!(n > 0)) return;
+        var a = el("a", null, "#" + n); a.href = "https://github.com/ItsNotRexed/Leonida/pull/" + n; a.rel = "noopener"; box.appendChild(a);
+      });
+      $("free-text").textContent = fmt(left) + " open pull requests have no review on record. These are the newest ones, free to take. Claim one before you read it.";
+      $("free-box").hidden = !list.length;
+    });
+  }
+
   function loadMonitorStatus() {
-    return fetch("monitor-status.json?t=" + Date.now(), { cache: "no-store" }).then(function (res) {
+    return fetch("https://raw.githubusercontent.com/Etoile-Bleu/leonida-reviews/monitor-status/monitor-status.json?t=" + Date.now(), { cache: "no-store" }).then(function (res) {
       if (res.status === 404) return null;
       if (!res.ok) throw new Error("HTTP " + res.status);
       return res.json();
@@ -719,7 +794,11 @@ footer p { margin: 0; max-width: 80ch; }
       all = rows.map(function (r) {
         return { pr: Number(r.pr), verdict: String(r.verdict || ""), reviewer: String(r.reviewer || ""), date: String(r.date || ""), scope: String(r.scope || ""),
                  findings: Array.isArray(r.findings) ? r.findings.map(String) : [], head: String(r.head || ""), human: !!r.human, commented: !!r.commented,
-                 automated: !!r.automated, title: String(r.title || ""), author: String(r.author || "") };
+                 automated: !!r.automated, title: String(r.title || ""), author: String(r.author || ""),
+                 checks: Array.isArray(r.double_checks) ? r.double_checks.map(function (d) {
+                   return { reviewer: String(d.reviewer || ""), verdict: String(d.verdict || ""), date: String(d.date || ""), head: String(d.head || ""),
+                            scope: String(d.scope || ""), findings: Array.isArray(d.findings) ? d.findings.map(String) : [], human: !!d.human };
+                 }) : [] };
       });
       $("stamp").textContent = (isNaN(got.when) ? "" : "Table last published " + got.when.toLocaleString() + ". ") + "This page looks for new reviews every minute while it is open.";
       if (!wired) { wire(); wired = true; } else { fillReviewers(); }
@@ -737,9 +816,13 @@ footer p { margin: 0; max-width: 80ch; }
     load().catch(function () { setLive(false, "offline, retrying"); });
   }, EVERY);
   loadMonitorStatus().catch(function () {});
+  loadCoverage().catch(function () {});
   setInterval(function () {
     if (!document.hidden) loadMonitorStatus().catch(function () {});
   }, 15000);
+  setInterval(function () {
+    if (!document.hidden) loadCoverage().catch(function () {});
+  }, 300000);
   document.addEventListener("visibilitychange", function () {
     if (!document.hidden) {
       if (wired) load().catch(function () { setLive(false, "offline, retrying"); });

@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1649,
+  "head_sha": "86c97d309c843bfac8db0241467e58fbd835fa57",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "rdna2spirv: packed 16-bit integer ops (v_pk_add/sub/mul_lo/mad/max/min)",
+  "author": "LouisRiverstone",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1649",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:56:56.978010+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 5574,
+  "head_sha": "e755da4b52662b4052a2130c515059ba425e8467",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: rewrites sentences in one docs/design.md row about v_pack_b32_f16 abs now being implemented. No links."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

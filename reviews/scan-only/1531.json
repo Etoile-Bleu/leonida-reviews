@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1531,
+  "head_sha": "2782aa7a6a42c3be5e1a99de051401a33206ef29",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "perf(translator): defer descriptor index load to hit block in desc_probe",
+  "author": "shadshuvo",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1531",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:54:22.883342+00:00"
+}

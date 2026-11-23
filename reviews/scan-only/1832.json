@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1832,
+  "head_sha": "3ea9b4079264a596b33456e69d5cc5fbf02057cc",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "user_sgpr_census: validate stage assignments before scanning",
+  "author": "lucastayaralvarenga-ui",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1832",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:01:13.543539+00:00"
+}

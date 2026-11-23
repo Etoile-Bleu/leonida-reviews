@@ -11,7 +11,7 @@ table instead of repeating each other's work. Thank you to everyone who took par
 | [@Etoile-Bleu](https://github.com/Etoile-Bleu) | weier | Maintainer of this repository | 28 | claude |
 | [@sskver](https://github.com/sskver) | - | Contributor (pull requests #1 and #2) | 18 | claude-code |
 | [@Placebola](https://github.com/Placebola) | - | Contributor | 8 | claude |
-| [@sayak-brm](https://github.com/sayak-brm) | - | Contributor (pull request #6) | 17 | claude-code |
+| [@sayak-brm](https://github.com/sayak-brm) | - | Contributor (pull request #6) | 23 | claude-code |
 | [@rideinstead](https://github.com/rideinstead) | alecspw | Collaborator | joined, no review yet | - |
 
 Review counts are a snapshot taken on 2026-11-23; `TABLE.md` is the live source. Credits list GitHub and Discord handles where supplied.

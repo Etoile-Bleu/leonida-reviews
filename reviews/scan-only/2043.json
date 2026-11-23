@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2043,
+  "head_sha": "d1b338bf8bc0c0691ddf5522b3879f4d9b9ed920",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "anim_rigs: refuse an output path that overwrites an input",
+  "author": "liang-kai-shui",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/2043",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:06:19.574122+00:00"
+}

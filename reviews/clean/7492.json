@@ -1,0 +1,14 @@
+{
+  "pr": 7492,
+  "head_sha": "954fcb10617a456632b3f9b8697138988e7675cd",
+  "reviewer": "Digit4w/claude-code",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, nothing executed: full diff read line by line, upgrading the earlier scan-only entry at the same head; scanned for non-ASCII/bidi/control characters",
+  "verdict": "clean",
+  "findings": [
+    "xmem view_protect clears PAGE_WRITECOMBINE/PAGE_NOCACHE before MapViewOfFile3 (PAGE_NOACCESS still becomes PAGE_READWRITE, PAGE_GUARD kept); test maps one page in a write-combine window and frees it",
+    "earlier entry (scan-only, ezbyDev/claude): no finding recorded"
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1997,
+  "head_sha": "ce3fe16bd53260ae4d005957d55042f396a41ebf",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "test(semantic): add interpreter tests for float rounding instructions v_floor/ceil/trunc",
+  "author": "slopgobblercobbler",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1997",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:05:39.713378+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 5618,
+  "head_sha": "bfec066cbead94dbbaad62c23b3ac1877c1d5811",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: one table cell label in docs/world_names.md clarified."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

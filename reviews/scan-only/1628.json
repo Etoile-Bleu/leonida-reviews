@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1628,
+  "head_sha": "e9dcc43c7faa504a30ac407e390a16c886585ee1",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "docs: fix the story000 c3708fb cell (190,791 -> 190,792)",
+  "author": "Kam471",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1628",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:55:43.276858+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2030,
+  "head_sha": "7f9b28a8d64f45671f24ef96273a9380a7e2c38c",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "d3d12: build with Windows SDK headers that lack the D3D12 sample-pattern names",
+  "author": "itsRevela",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/2030",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:06:09.253873+00:00"
+}

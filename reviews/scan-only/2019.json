@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2019,
+  "head_sha": "c2fc8fab087e4618ebeb6729b34d884cb9366cf2",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "test(tools): add unit tests for rdna2spirv decoder boundary checks",
+  "author": "slopgobblercobbler",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/2019",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:05:59.950422+00:00"
+}

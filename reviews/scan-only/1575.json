@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1575,
+  "head_sha": "d188c59670434aecd03bebb6aa2e63eadfa182f1",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "gamedata_graph: refuse report paths that overwrite source documents or carved inputs",
+  "author": "MIGHTYLUV",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1575",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:54:58.971321+00:00"
+}

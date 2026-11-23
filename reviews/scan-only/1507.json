@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1507,
+  "head_sha": "57e426f487e009f97061b2030d10369211c63593",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "mesh_compute_vs: -h/--help prints usage, a missing spirv dir is an error",
+  "author": "pratikphophaliya",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1507",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:53:03.182177+00:00"
+}

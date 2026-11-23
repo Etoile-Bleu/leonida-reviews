@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2049,
+  "head_sha": "e3cfc7f010b3620b297c8782d36ec9561f227c18",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "GPU runners: run the f16 interpolation tests under the bary fallback when the f16 fallback is on (new TEST item, claim in #1902)",
+  "author": "XFlawless1",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/2049",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:06:55.913244+00:00"
+}

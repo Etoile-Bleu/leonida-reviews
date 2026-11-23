@@ -1,0 +1,14 @@
+{
+  "pr": 8299,
+  "head_sha": "ea1e5e9a29bc0f9e4296bfe84861f79c6d8d7a8c",
+  "reviewer": "tigre437/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only, nothing from the PR executed; the commits since the stale review read in full",
+  "verdict": "notes",
+  "findings": [
+    "No malicious code; no network, registry or persistence.",
+    "Functional: the fixed affinity masks 0xFFFF and 0x5555 make the ProcessorAffinity setter throw on any CPU with fewer than 16 logical threads, and the priority, set in the same try, is skipped too. Reproduced on 12 threads with the same .NET calls on a harmless process."
+  ],
+  "read_by_human": false,
+  "commented_on_github": true
+}

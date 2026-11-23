@@ -1,0 +1,13 @@
+{
+  "pr": 6075,
+  "head_sha": "98c051226c11a701d3f616dcc0d0ba5210ae9e38",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: removes a stale spirv-val tally sentence from docs/d3d12_vulkan.md."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

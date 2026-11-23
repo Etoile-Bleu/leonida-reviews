@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2001,
+  "head_sha": "006af9d9d3ee21583188836496df82ebc5b864dd",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "First light through the D3D12 layer: the real model and its own translated VS/PS drawn by the device proxy",
+  "author": "rafaelpssz",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/2001",
+  "pr_state": "closed",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:05:44.271451+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1913,
+  "head_sha": "186d793b2ed89bd46e81f77392a7bcb732b9fa3c",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "Translator: `v_dot4_i32_i8` refuses `neg_lo`/`neg_hi`, which RDNA2 hardware does not ignore (follow-up to SHADER-303)",
+  "author": "aslan2142",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1913",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:03:40.497009+00:00"
+}

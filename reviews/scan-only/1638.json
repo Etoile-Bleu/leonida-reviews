@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1638,
+  "head_sha": "b8ad3a7be2efd92d176d92b15c96c38af2880130",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "awc_opus: accept a streamed-music descriptor whose last block is short (regression from #1320)",
+  "author": "rafaelpssz",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1638",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:56:43.329483+00:00"
+}

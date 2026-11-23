@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1545,
+  "head_sha": "f2cf3032377ab81d51a2b22350d0d750d622abcd",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "SHADER-177: model computed I/J barycentrics (v0/v1 overwritten before v_interp)",
+  "author": "abilliontokens",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1545",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:54:33.738395+00:00"
+}

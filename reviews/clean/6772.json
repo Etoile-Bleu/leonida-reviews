@@ -1,0 +1,13 @@
+{
+  "pr": 6772,
+  "head_sha": "7b5767fb0117ed68dba5e13d7b1c98b98b83670e",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: removes a duplicated Unmeasured list from the swizzled-buffer row in docs/design.md."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

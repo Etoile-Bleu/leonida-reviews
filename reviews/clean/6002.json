@@ -1,0 +1,13 @@
+{
+  "pr": 6002,
+  "head_sha": "43813cad3e00702773196305fde90e35508e193b",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: updates one Known problems row in docs/testing.md (Intel ANV crash avoided since a merged fix). No links."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

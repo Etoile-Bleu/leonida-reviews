@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1854,
+  "head_sha": "78183b04eb198fbc8b8791e2568fc15d9e333bf7",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "tests/semantic: allow direct python -I invocation for all semantic test modules",
+  "author": "Caasares",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1854",
+  "pr_state": "open",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:02:43.537214+00:00"
+}

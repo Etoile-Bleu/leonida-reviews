@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2117,
+  "head_sha": "7e408028fdabab6a49222c7f00959f59a95a815e",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "rpf9_carve: list each unread range with its offset, size and entropy (BUILD-586)",
+  "author": "leozinhoszg",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/2117",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:07:58.523392+00:00"
+}

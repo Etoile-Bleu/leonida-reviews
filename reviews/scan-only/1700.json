@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1700,
+  "head_sha": "17996480d954913afc7a57fe45d6497d01c14f7f",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "navmesh_index: refuse a report path that is a scanned file under another name (case-insensitive macOS, hard links)",
+  "author": "sovljanskii",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1700",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:57:58.931967+00:00"
+}

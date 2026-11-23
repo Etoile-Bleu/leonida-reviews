@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1991,
+  "head_sha": "fac5a5af7d0c4a1e5d519ea7bb5a5e16346f0e21",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "Runtime: MULTISAMPLE_QUALITY_LEVELS answers TILED_RESOURCE",
+  "author": "TheHoracio",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1991",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:05:34.561952+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1914,
+  "head_sha": "ea32ba2f8ea3dfe303b3cccc58fc5ad675007603",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "d3d12: map the 11 R8/R16 and A4B4G4R4 formats the host creates (D3D-259)",
+  "author": "zneel",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1914",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:03:41.422938+00:00"
+}

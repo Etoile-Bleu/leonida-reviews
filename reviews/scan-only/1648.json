@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1648,
+  "head_sha": "840a6e3e32b554aeb7a67440468c3fcc14d4b167",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "world_lights_paths: map lights and the vehicle lane graph in levels.rpf (ASSET-102)",
+  "author": "cxchhh",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1648",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:56:55.703636+00:00"
+}

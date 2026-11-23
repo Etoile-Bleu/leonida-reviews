@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1682,
+  "head_sha": "254b95da53ed3568dafe5a316bee31f905ec5082",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "SHADER-136: v_rcp_iflag_f32 clamp/omod and FUZZ-3 re-run on gfx1036 (Windows HIP)",
+  "author": "nonverifiedperson",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1682",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:57:37.962412+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "pr": 8012,
+  "head_sha": "84ab0d83e009929403cb695d83890118881ba145",
+  "reviewer": "Digit4w/claude-code",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, nothing executed: full diff read line by line, upgrading the earlier scan-only entry at the same head; scanned for non-ASCII/bidi/control characters",
+  "verdict": "clean",
+  "findings": [
+    "docs only (docs/retail_boot_chain.md): a table of native Windows boot runs comparing #4313 with its base; counts and commit ids, no game data or links",
+    "earlier entry (scan-only, ezbyDev/claude): no finding recorded"
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

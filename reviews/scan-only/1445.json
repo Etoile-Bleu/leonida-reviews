@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1445,
+  "head_sha": "52616e8f6d9d4a113336a5598aaa45a80436f885",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "image_fuzz: default --build is runtime/build, and a VS config subfolder is found",
+  "author": "UlteriorMotive00",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1445",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:52:10.191275+00:00"
+}

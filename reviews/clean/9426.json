@@ -1,0 +1,13 @@
+{
+  "pr": 9426,
+  "head_sha": "6920006b0b17a30531ce1e537b341fc5174e96f8",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "Single header change (runtime/test/pipeline_cache_file.h): replaces _wfopen mode wbx with _wopen(_O_EXCL) plus _fdopen on Windows; handle is closed if _fdopen fails. No workflows, downloads, obfuscation, hidden Unicode or binaries."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

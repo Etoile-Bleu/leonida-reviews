@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1905,
+  "head_sha": "aa780e3c7f43668c2d2e9be58234c794703f705e",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "notes",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 1
+  },
+  "pr_title": "Translator: elide dead SCC votes and fold safe lane-local execz regions under --wave64-emulate (#884)",
+  "author": "edwin042331-hue",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1905",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:03:31.255197+00:00"
+}

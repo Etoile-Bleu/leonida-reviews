@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1925,
+  "head_sha": "8c8a0adc4f848d3bf0bbf3b7d6708de2ff0000e5",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "shader_link_check: accept the corpus's shader names in a batch manifest (BUILD-504)",
+  "author": "rafaelpssz",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1925",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:03:52.347879+00:00"
+}

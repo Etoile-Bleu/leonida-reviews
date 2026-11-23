@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2074,
+  "head_sha": "e40f7de7d71d983d18be85c569ff77a7534a245c",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "user_sgpr_census: a bad index or an unwritable --json is one ERROR line, not a traceback",
+  "author": "tumbione",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/2074",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:07:19.267253+00:00"
+}

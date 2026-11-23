@@ -1,0 +1,13 @@
+{
+  "pr": 5599,
+  "head_sha": "c59fd2812c9f28c8ae5bf65d646ea89e89721fa0",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: updates counts and harness names in one docs/design.md row (--pc-tail-ubo)."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

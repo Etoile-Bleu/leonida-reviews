@@ -1,0 +1,13 @@
+{
+  "pr": 5869,
+  "head_sha": "615c4366b4cf75fa13b4bcaa8566fd4dc9c553d2",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: expands one Known problems row in docs/testing.md (AMD wave64 shuffle driver guidance). One new link to the project's own issue 4613."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

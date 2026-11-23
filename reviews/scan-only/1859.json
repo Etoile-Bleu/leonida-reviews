@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1859,
+  "head_sha": "1b012a6287e2b813097f721a9a01218378c04332",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "check.py: cs_cvt_f32_sat skips, not fails, where the wave size can't be pinned",
+  "author": "sovljanskii",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1859",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:02:48.620385+00:00"
+}

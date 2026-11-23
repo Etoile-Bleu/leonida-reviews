@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1562,
+  "head_sha": "6290b0acd4491bca1fc1dca08ca3b7eb899093ae",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "notes",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 1
+  },
+  "pr_title": "Tools: RDNA2 ISA coverage of the translator from AMD's machine-readable ISA XML (1,153 instructions; 15 non-RDNA2 names classified)",
+  "author": "AlxcBTW",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1562",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:54:47.428317+00:00"
+}

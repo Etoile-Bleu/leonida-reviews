@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1771,
+  "head_sha": "530a1de049757f9a0d61bf4fbd01093d514723c1",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "GPU test cs_w32_saveexec_ext: the saveexec / wrexec kinds of #1657",
+  "author": "LouisRiverstone",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1771",
+  "pr_state": "open",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:00:10.227651+00:00"
+}

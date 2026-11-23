@@ -1,0 +1,16 @@
+{
+  "pr": 6954,
+  "head_sha": "72ab7623e2dcef9136938edc7ad6389554a75010",
+  "reviewer": "Digit4w/claude-code",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, nothing executed: full diff read line by line, upgrading the earlier scan-only entry at the same head; scanned for non-ASCII/bidi/control characters",
+  "verdict": "notes",
+  "findings": [
+    "device slot 48 (CreateCommandQueueX) copies the 16-byte PC prefix of the title's desc, masks Flags to DISABLE_GPU_TIMEOUT and forwards to the slot 8 path; null desc -> E_INVALIDARG",
+    "hardening: the guest desc pointer is only null-checked, then 32 bytes are read (words 4-7 only for a one-time log line); a caller passing a 16-byte PC desc would be over-read by 16 bytes",
+    "non-ASCII in the diff is only the section sign/ellipsis already used in the docs; no bidi or zero-width characters",
+    "earlier entry (scan-only, ezbyDev/claude): no finding recorded"
+  ],
+  "read_by_human": true,
+  "commented_on_github": true
+}

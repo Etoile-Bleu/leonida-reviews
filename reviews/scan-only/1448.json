@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1448,
+  "head_sha": "e5ab7e512eefa2dea5efd50abc90415def3556dd",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "make_game: decode XMA2 streams with ffmpeg on --jobs threads",
+  "author": "EdouardSence",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1448",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:52:12.948572+00:00"
+}

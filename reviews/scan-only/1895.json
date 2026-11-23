@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1895,
+  "head_sha": "9f9abf10d07f383e8c0627e09c5ccbe654690d2b",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "do-not-merge",
+  "heuristic_signal_counts": {
+    "high": 1,
+    "medium": 0
+  },
+  "pr_title": "Runtime: give game threads the image's stack reserve (RT-119)",
+  "author": "opit80",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1895",
+  "pr_state": "open",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:03:24.929306+00:00"
+}

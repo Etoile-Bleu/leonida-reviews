@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1853,
+  "head_sha": "949d08c687816208d5f3059054ebe85ea3820727",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "build.py: leave ps_ij_computed out under the PerVertexKHR fallbacks instead of failing the batch",
+  "author": "sovljanskii",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1853",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:02:42.553923+00:00"
+}

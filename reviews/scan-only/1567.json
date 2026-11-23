@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1567,
+  "head_sha": "6f9703b1ca994fa2eb35f4543531d860f9d8d12d",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "perf(translator): track s_mov_b64, s_movk_i32 and SGPR copies in sgpr_imm",
+  "author": "shadshuvo",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1567",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:54:51.815117+00:00"
+}

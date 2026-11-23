@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1681,
+  "head_sha": "7f9b0ed4827cf2490cd081965824140dc08bad0b",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "run_gpu_tests: skip ps_ij_computed under the PerVertexKHR fallbacks, and find the device JSON past driver logs",
+  "author": "adrbn",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1681",
+  "pr_state": "closed",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:57:36.741411+00:00"
+}

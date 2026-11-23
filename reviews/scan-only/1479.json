@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1479,
+  "head_sha": "11651ca220b37b6427ff1191a5faa3b917fce862",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "rdna2spirv: s_quadmask_b32/b64 and s_bitreplicate_b64_b32 on scalar data",
+  "author": "LouisRiverstone",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1479",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:52:40.345497+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1645,
+  "head_sha": "97289391dadb82a5c7d34b6d8b62e64b25b9f783",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "docs: sync the remaining 917e9b9 counts and drop the duplicate models row",
+  "author": "Kam471",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1645",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:56:51.938099+00:00"
+}

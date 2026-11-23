@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1826,
+  "head_sha": "e0416ce29d0d3791b02f0d236d8dadc4ca6fe5ab",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "vk_pipeline_check: --isolate runs batches in child processes and records a module that kills the driver (TEST-248)",
+  "author": "esteban-dcp",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1826",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:01:06.145192+00:00"
+}

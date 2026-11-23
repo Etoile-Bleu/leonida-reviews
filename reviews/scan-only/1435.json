@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1435,
+  "head_sha": "0f94ff5a7f5495d664f6f9a44069685e3c9f5742",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "SHADER-221: Suppress raw MUBUF accesses through FORMAT=0 (INVALID) V# descriptors",
+  "author": "opit80",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1435",
+  "pr_state": "open",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:52:01.109933+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1469,
+  "head_sha": "a3460331ffc83567cc202e7b9eb20d4bc87e8340",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "docs: builder command-list slots in console order; +0x490 is Barrier (slot 146)",
+  "author": "CLHelper",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1469",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:52:30.641948+00:00"
+}

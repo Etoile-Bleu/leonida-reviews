@@ -1,0 +1,13 @@
+{
+  "pr": 7436,
+  "head_sha": "54654bdf9d0bc4b8cff0859d8faef110e33ca394",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: adds an inactive-lane measurement note to the v_cmp_class_f64 contract row in docs/design.md."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

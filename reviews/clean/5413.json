@@ -1,0 +1,13 @@
+{
+  "pr": 5413,
+  "head_sha": "b53571b8b7eb8c45b33afc032686746fc225812d",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: removes one duplicated sentence about open question 20 from docs/d3d12_vulkan.md."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

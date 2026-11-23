@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1992,
+  "head_sha": "93d0a1406675cc5aaeaff8871ec207f125bb81b4",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "test(semantic): add interpreter tests for LDS atomic min/max ds_min/ds_max",
+  "author": "slopgobblercobbler",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1992",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:05:35.400088+00:00"
+}

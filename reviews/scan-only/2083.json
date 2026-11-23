@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2083,
+  "head_sha": "e171cda2dc7657b4f5d1b499ec67bfa7f02c19a2",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "test(semantic): add interpreter tests for scalar sign extension and MSB scanning s_sext/s_flbit",
+  "author": "slopgobblercobbler",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/2083",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:07:25.296661+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1930,
+  "head_sha": "35c78fa60cff1505086b70e3384c1802a099e73a",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "done: RT-105 #1702 claiming: TEST-242 (run non-destructive queue_proxy_test diff cases in-process). AI-assisted.",
+  "author": "Sagah123",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1930",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:03:57.450736+00:00"
+}

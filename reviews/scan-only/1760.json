@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1760,
+  "head_sha": "ef0e9a7161d9bbb801058c2e257fd0c9e2ba12d0",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "GPU test cs_global_mem_ext: global/buffer atomics, 8/16-bit global stores, d16 loads",
+  "author": "LouisRiverstone",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1760",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:59:58.910345+00:00"
+}

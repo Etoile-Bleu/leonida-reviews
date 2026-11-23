@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1982,
+  "head_sha": "1222fd54a0277b7e9ad3ff8b7c317d22773bc923",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "wave64_halves: fix soundness gaps in RMW, SCC, movrel, s_bfm_b64, and EXEC tracking",
+  "author": "plentilha",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1982",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:05:26.834844+00:00"
+}

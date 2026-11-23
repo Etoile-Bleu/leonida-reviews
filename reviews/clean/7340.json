@@ -1,0 +1,13 @@
+{
+  "pr": 7340,
+  "head_sha": "bfb3da088d30036d6c1df098c4c7ccf26c103393",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: adds a measured-on-gfx1036 note on inactive lanes to one row in docs/design.md."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

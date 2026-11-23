@@ -1,0 +1,13 @@
+{
+  "pr": 5793,
+  "head_sha": "bf7c13742ae13da83a04f31b5cdbeddf631aa734",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: removes a duplicated verification phrase from the Integer clamp row in docs/design.md."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1812,
+  "head_sha": "46210188b5061dbbaa3cf0ac07a228daf7a5ee7e",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "rdna2spirv --merge: refuse an incomplete or mixed shard set (BUILD-501)",
+  "author": "XFlawless1",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1812",
+  "pr_state": "closed",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:00:51.775665+00:00"
+}

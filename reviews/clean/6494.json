@@ -1,0 +1,13 @@
+{
+  "pr": 6494,
+  "head_sha": "7771504e752d38a11ba7bf594f1308603da64024",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters (none) and for links in added lines (none)",
+  "verdict": "clean",
+  "findings": [
+    "One-line change in tests/test_make_game_platform.py: the temp root is resolved with os.path.realpath (macOS symlinked /var). Test-only."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

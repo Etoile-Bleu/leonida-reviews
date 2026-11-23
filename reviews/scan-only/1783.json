@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1783,
+  "head_sha": "60c624ec9b37a7a0b3612200970827c33dd0c90a",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "tools/imhex: ImHex patterns for the RPF9 header and RBF0 records (PROC-34)",
+  "author": "leozinhoszg",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1783",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:00:24.278249+00:00"
+}

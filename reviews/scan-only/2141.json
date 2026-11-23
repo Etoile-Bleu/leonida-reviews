@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2141,
+  "head_sha": "c362d98eeb3c6fb28642b3ad2308e16ab6698795",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "PROC-111: first RDNA2 (gfx1036) runs of the LDS and image hardware oracles in shader_validation.md",
+  "author": "nonverifiedperson",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/2141",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:08:20.791081+00:00"
+}

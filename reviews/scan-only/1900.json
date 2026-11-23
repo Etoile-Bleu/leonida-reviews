@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1900,
+  "head_sha": "9a967e1901a58bd11ab42cbc7a621828d487125c",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "rdna2spirv, fssm_header: read authoritative wave size from FSSM 0xD4 bit 5",
+  "author": "TheAirborneCoder",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1900",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:03:28.070874+00:00"
+}

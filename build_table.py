@@ -25,6 +25,38 @@ REQUIRED = ("pr", "head_sha", "reviewer", "date", "scope", "verdict", "findings"
 ORDER = {v: i for i, v in enumerate(VERDICTS)}
 
 
+DOUBLE_REQUIRED = ("reviewer", "verdict", "date", "head_sha", "scope", "findings")
+MAX_DOUBLE_CHECKS = 10
+
+
+def check_double_checks(name, value):
+    """A review can carry second opinions on the same PR: `double_checks`, a list of
+    {reviewer, verdict, date, head_sha, scope, findings[, read_by_human]}. The main review stays the one in the file."""
+    if value is None:
+        return []
+    if not isinstance(value, list) or len(value) > MAX_DOUBLE_CHECKS:
+        return ["%s: double_checks must be a list of at most %d entries" % (name, MAX_DOUBLE_CHECKS)]
+    problems = []
+    for i, d in enumerate(value, 1):
+        where = "%s: double_checks[%d]" % (name, i)
+        if not isinstance(d, dict):
+            problems.append("%s must be an object" % where)
+            continue
+        missing = [k for k in DOUBLE_REQUIRED if k not in d]
+        if missing:
+            problems.append("%s is missing %s" % (where, ", ".join(missing)))
+            continue
+        if d["verdict"] not in VERDICTS or d["verdict"] == "in-progress":
+            problems.append("%s: verdict must be one of the finished verdicts" % where)
+        if not all(isinstance(d[k], str) for k in ("reviewer", "date", "head_sha", "scope")):
+            problems.append("%s: reviewer, date, head_sha and scope must be text" % where)
+        if not isinstance(d["findings"], list) or not all(isinstance(x, str) for x in d["findings"]):
+            problems.append("%s: findings must be a list of strings" % where)
+        if "read_by_human" in d and not isinstance(d["read_by_human"], bool):
+            problems.append("%s: read_by_human must be true or false" % where)
+    return problems
+
+
 def load():
     rows, errors = [], []
     # Layout: reviews/<verdict>/<pr>.json (clean, notes, do-not-merge, scan-only, not-reviewed, in-progress).
@@ -72,6 +104,7 @@ def load():
             errors.append("%s: findings must be a list of strings" % path.name)
         if not isinstance(data["read_by_human"], bool) or not isinstance(data["commented_on_github"], bool):
             errors.append("%s: read_by_human and commented_on_github must be true or false" % path.name)
+        errors.extend(check_double_checks(path.name, data.get("double_checks")))
         rows.append(data)
     return rows, errors
 
@@ -107,7 +140,9 @@ def render(rows, stale):
             flag = " ⚠ PR changed since this review"
         out.append("| [#%d](https://github.com/%s/pull/%d) | %s | %s | %s | %s | %s | %s | %s | `%s`%s |" % (
             r["pr"], REPO, r["pr"], r["verdict"], cell(r["scope"]),
-            cell("; ".join(r["findings"])) or "-", cell(r["reviewer"]), r["date"],
+            (cell("; ".join(r["findings"])) or "-") + "".join(
+                " [double check by %s: %s]" % (cell(d["reviewer"]), cell(d["verdict"])) for d in r.get("double_checks") or []),
+            cell(r["reviewer"]), r["date"],
             "yes" if r["read_by_human"] else "no", "yes" if r["commented_on_github"] else "no",
             cell(str(r["head_sha"])[:8]), flag))
     return "\n".join(out) + "\n"
@@ -124,6 +159,11 @@ def site_data(rows):
                 "head": str(r["head_sha"])[:8], "human": r["read_by_human"], "commented": r["commented_on_github"],
                 # A monitor that only matches patterns signs "<name>/automated": the page can set those apart.
                 "automated": str(r["reviewer"]).endswith("/automated")}
+        if r.get("double_checks"):
+            item["double_checks"] = [{"reviewer": str(d["reviewer"]), "verdict": str(d["verdict"]), "date": str(d["date"]),
+                                      "head": str(d["head_sha"])[:8], "scope": str(d["scope"]),
+                                      "findings": [str(f) for f in d["findings"]], "human": bool(d.get("read_by_human", False))}
+                                     for d in r["double_checks"]]
         for key, field in (("title", "pr_title"), ("author", "author")):   # optional, written by some agents
             if isinstance(r.get(field), str) and r[field].strip():
                 item[key] = r[field].strip()[:200]

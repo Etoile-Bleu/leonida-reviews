@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2035,
+  "head_sha": "2753a632b5af537c6cfe76a36d8f779d92955883",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "valu_fuzz: order signed zeros in the f16 median model",
+  "author": "lucastayaralvarenga-ui",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/2035",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:06:12.598057+00:00"
+}

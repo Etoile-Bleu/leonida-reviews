@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1527,
+  "head_sha": "c9f4cd1a3793b6c15b3c55b60ed6c5808983bd8b",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "image_fuzz: name vk_image_fuzz's exit code or signal and print its stderr",
+  "author": "AGVibecoder",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1527",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:54:19.440935+00:00"
+}

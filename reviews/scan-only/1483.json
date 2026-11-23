@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1483,
+  "head_sha": "7099cf520f71537b5ed3bf9714fae63b2316bab0",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "rsc8_audio: decode the undocumented 0x5a/0xd9 AWC companion tags",
+  "author": "abilliontokens",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1483",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:52:43.015583+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 9404,
+  "head_sha": "cbeb61541d2340fe6893328f7379e0cce3802ef7",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "Docs plus test (docs/design.md, tests/test_design_contract_rows.py): one table row reworded to say translated WQM at a partly covered triangle edge is untested; the test only reads docs/design.md and asserts on strings. No links, workflows or binaries. Diff scanned: only visible non-ASCII characters (plus-minus sign, ellipsis), no invisible or bidi characters, no URLs."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

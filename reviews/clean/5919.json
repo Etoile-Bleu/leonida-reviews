@@ -1,0 +1,13 @@
+{
+  "pr": 5919,
+  "head_sha": "bf168ada1c007bdbc257b12cfa6ec4b0563a5e18",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: moves CreateAggregateDevice from the missing list to the implemented list in docs/gameinput.md."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

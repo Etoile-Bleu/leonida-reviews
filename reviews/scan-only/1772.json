@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1772,
+  "head_sha": "d38daa4e9bf1a9abe7aa81028e75cf4b0e1388e4",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "runtime: implement ID3D12Device1::CreatePipelineLibrary and ID3D12PipelineLibrary1",
+  "author": "al3xar",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1772",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:00:11.296127+00:00"
+}

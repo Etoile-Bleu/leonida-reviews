@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1884,
+  "head_sha": "c22cb583809fd315ed5c2095c53635a92f316195",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "test(runtime): verify root-signature rebind preserves arguments and switch resets them (TEST-280)",
+  "author": "al3xar",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1884",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:03:16.967566+00:00"
+}

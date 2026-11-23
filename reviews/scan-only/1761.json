@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1761,
+  "head_sha": "0904055f3ac50b6be614f13032a271b29862cf13",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "dxgi: implement CreateSwapChainForCoreWindow and occlusion status registration",
+  "author": "SHAURYASANYAL3",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1761",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:59:59.859523+00:00"
+}

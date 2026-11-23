@@ -1,0 +1,13 @@
+{
+  "pr": 7109,
+  "head_sha": "1debaa908aa08b209c5619a7928f9f99c4c7ca38",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: one name corrected in docs/runtime_imports.md (XMemVirtualAlloc instead of XMemVirtualQuery)."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

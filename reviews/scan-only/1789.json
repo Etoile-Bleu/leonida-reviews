@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1789,
+  "head_sha": "f6d6121c9c54d406f1cfc8791df628a82dc673d8",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "XDXR builds: PERFORM_UPDATE refits instead of rebuilding (D3D-178)",
+  "author": "romainveurrier",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1789",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:00:30.568021+00:00"
+}

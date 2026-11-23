@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1856,
+  "head_sha": "e7b6c82e1df42ef392535bc2d70959a41a8bddd4",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "rdna2spirv: exact floor(x+0.5) and signed-NaN saturation for v_cvt_flr/rpi_i32_f32",
+  "author": "Youssefrah16",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1856",
+  "pr_state": "closed",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:02:45.437430+00:00"
+}

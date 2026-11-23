@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1599,
+  "head_sha": "6e90a2848b5ac2e97f78982a6fac4866fbfe6bf0",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "manifest, turing_atlas: refuse report paths that replace inputs or are folders",
+  "author": "liang-kai-shui",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1599",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:55:19.927989+00:00"
+}

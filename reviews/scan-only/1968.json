@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1968,
+  "head_sha": "71f63581864242fd64305e98b2c5c205a9ef7eb4",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "rdna2spirv: buffer_load_{u,s}{byte,short}, GFX10_FORMAT_8_UINT, and global_atomic_fmin/fmax",
+  "author": "SweatierKey",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1968",
+  "pr_state": "closed",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:05:15.016291+00:00"
+}

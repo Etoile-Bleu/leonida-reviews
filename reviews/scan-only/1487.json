@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1487,
+  "head_sha": "013cfb3966885cb6b7b81d5708d4e2e1dfd16fe6",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "notes",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 2
+  },
+  "pr_title": "tools: fma_mix_probe tells single from double f16 rounding of v_fma_mix (nearest mode)",
+  "author": "Zmirzz",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1487",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:52:46.535177+00:00"
+}

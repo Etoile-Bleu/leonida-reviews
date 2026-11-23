@@ -1,0 +1,14 @@
+{
+  "pr": 7323,
+  "head_sha": "a30e78ee777def9fe25f9ac8a8d3253f5c2b909a",
+  "reviewer": "Digit4w/claude-code",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, nothing executed: full diff read line by line, upgrading the earlier scan-only entry at the same head; scanned for non-ASCII/bidi/control characters",
+  "verdict": "clean",
+  "findings": [
+    "device slot 74 stand-in returns S_OK and logs the three words once, writing nothing and not calling the PC ShaderCacheControl; the Xbox route dispatch is factored into route_xbox_device_slot so an env override on slot 74 still wins; CTest entry added",
+    "earlier entry (scan-only, ezbyDev/claude): no finding recorded"
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

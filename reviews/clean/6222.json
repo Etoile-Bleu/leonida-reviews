@@ -1,0 +1,13 @@
+{
+  "pr": 6222,
+  "head_sha": "1fed6a8ca08674666cec4b807add113c6a9541c9",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: removes a duplicated measurement-source passage from one docs/design.md row."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

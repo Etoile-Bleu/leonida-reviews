@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1786,
+  "head_sha": "7f67a9aef06277802227ea2d1807f1b55471e387",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "Runtime: the game's command line and ExitProcess under every import name (WinMain line, kernelbase, API sets)",
+  "author": "dracbat",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1786",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:00:27.422210+00:00"
+}

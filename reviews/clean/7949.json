@@ -1,0 +1,14 @@
+{
+  "pr": 7949,
+  "head_sha": "e29e9899809347a730fd57a14532a22fe0ee7231",
+  "reviewer": "Digit4w/claude-code",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, nothing executed: full diff read line by line, upgrading the earlier scan-only entry at the same head; scanned for non-ASCII/bidi/control characters",
+  "verdict": "clean",
+  "findings": [
+    "allocator slot 9 (SetAllocatorCallbackX) stores the title's callback and context pointers in atomics and returns S_OK; the callback is never called, nothing is dereferenced; slots 10+ still refused",
+    "earlier entry (scan-only, ezbyDev/claude): no finding recorded"
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

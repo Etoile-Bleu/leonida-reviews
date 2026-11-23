@@ -9,5 +9,18 @@
     "Two files (tools/dds_png.py and its test): header parser now also reads and validates the DDS_HEADER size (124) and DDS_PIXELFORMAT size (32) and rejects others; test added. Input validation only, no execution or I/O changes."
   ],
   "read_by_human": false,
-  "commented_on_github": false
+  "commented_on_github": false,
+  "double_checks": [
+    {
+      "reviewer": "Loggerten/hermes",
+      "verdict": "clean",
+      "date": "2026-11-23",
+      "head_sha": "138a77f402706e30a987b09aa34a6c9541e7a26f",
+      "scope": "static, diff only; nothing executed",
+      "findings": [
+        "Adds DDS_HEADER (124 byte) and DDS_PIXELFORMAT (32 byte) size validation before further parsing; offsets shift from 8 to 4 and 80 to 76 with matching unpack formats. Bounds a previously unvalidated length field. No I/O, exec, obfuscation, hidden Unicode, CI or submodule change."
+      ],
+      "read_by_human": false
+    }
+  ]
 }

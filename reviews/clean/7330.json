@@ -1,0 +1,14 @@
+{
+  "pr": 7330,
+  "head_sha": "efc347830b9ccf1461baf9a764ac9e5e911de8f6",
+  "reviewer": "Digit4w/claude-code",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, nothing executed: full diff read line by line, upgrading the earlier scan-only entry at the same head; scanned for non-ASCII/bidi/control characters",
+  "verdict": "clean",
+  "findings": [
+    "CreateCommandSignature accepts DISPATCH_MESH only when the device has mesh shaders (else E_NOTIMPL); ExecuteIndirect with it returns before reading the argument buffer and logs once; tests cover creation, a short stride and Close",
+    "earlier entry (scan-only, ezbyDev/claude): no finding recorded"
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

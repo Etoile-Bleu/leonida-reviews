@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1701,
+  "head_sha": "b0c587ea275c2e9dad2c89e6a7ca66debc099529",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "Wine tests: ship generated test shaders and map the build checkout's drive",
+  "author": "Jolymmiles",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1701",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:58:00.089419+00:00"
+}

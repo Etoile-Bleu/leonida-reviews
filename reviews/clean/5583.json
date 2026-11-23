@@ -1,0 +1,13 @@
+{
+  "pr": 5583,
+  "head_sha": "9781b57cab0df429fec41f9c66da039673a283c3",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: rewrites part of one docs/design.md row describing s_buffer_load bounds handling. No links."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

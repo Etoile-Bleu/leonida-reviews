@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2054,
+  "head_sha": "f0b4b11018db587f185e86fd5e2a2a536baf67b4",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "test(semantic): add translator tests for v_swap_b32, v_xnor_b32, v_or3_b32, and v_xor3_b32",
+  "author": "klarnet2009",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/2054",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:07:00.602699+00:00"
+}

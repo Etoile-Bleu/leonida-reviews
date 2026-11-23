@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1714,
+  "head_sha": "499c608c0fc21edb15e196ffe4af2a0db8b7b3a0",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "d3d12_xs: route slot 67 compute pipeline from native code to CreateComputePipelineState (RT-99)",
+  "author": "swam122yam-glitch",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1714",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:58:17.875652+00:00"
+}

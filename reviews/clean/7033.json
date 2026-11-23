@@ -1,0 +1,13 @@
+{
+  "pr": 7033,
+  "head_sha": "82efe7addd4e45be52adb3e85c39bd7646c69060",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters (none) and for links in added lines (none)",
+  "verdict": "clean",
+  "findings": [
+    "One-line change in tools/leonida_tui.py: the stage log file opens with newline='\\n'. Same file and mode as before."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

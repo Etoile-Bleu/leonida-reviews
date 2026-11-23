@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1842,
+  "head_sha": "7432a23a81ed1ccc79ed5b98b72d8859f0c19f87",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "test(d3d12): gate tiled MSAA allocation check and clear C4456 (#1674 follow-up)",
+  "author": "Serrambi",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1842",
+  "pr_state": "closed",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:02:31.707092+00:00"
+}

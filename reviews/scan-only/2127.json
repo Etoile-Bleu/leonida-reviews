@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2127,
+  "head_sha": "b92bdd3948dbc4faa345912bdaa2998c5f294523",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "TEST-251: GPU checks of wave64 geometry shaders, and no false tier C for a GS's ring address",
+  "author": "AwkGrep256",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/2127",
+  "pr_state": "closed",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:08:08.411744+00:00"
+}

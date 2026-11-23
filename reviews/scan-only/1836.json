@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1836,
+  "head_sha": "4223b94b0f5416f906abe8ca547fd264e93deff8",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "test(cmake): accept optional -DRUNNER in check_texture_readback_sync.cmake",
+  "author": "TheAirborneCoder",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1836",
+  "pr_state": "closed",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:01:17.472033+00:00"
+}

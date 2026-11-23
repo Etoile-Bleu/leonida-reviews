@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1696,
+  "head_sha": "a24d8cc6ba60ce7b309d498c2eaef029829bd178",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "runtime: fallback and clamp swapchain extent when surface reports undefined extent (D3D-165)",
+  "author": "SHAURYASANYAL3",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1696",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:57:54.007334+00:00"
+}

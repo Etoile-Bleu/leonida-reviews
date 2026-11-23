@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1621,
+  "head_sha": "c715e0ab936010d1149a515cfdd198daedbe18b1",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "perf(translator): fold constant bitwise shift/bfe/align operands and optimize dedupe_types",
+  "author": "shadshuvo",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1621",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:55:38.439987+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2105,
+  "head_sha": "35781d4f5173cd449d210f314ec726e810188faa",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "Translator: gather wrap/mirror use OpSRem + fix-up, not OpSMod (AMD Windows driver reads zeros)",
+  "author": "whoalin1",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/2105",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:07:47.745298+00:00"
+}

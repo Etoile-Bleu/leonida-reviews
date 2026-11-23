@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1964,
+  "head_sha": "e810647df216a5ac0e17bdf9cfdd2dc0eef9f94b",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "fix(translator): prevent 32-bit wrap on scalar loads with constant SGPR offsets (SHADER-328)",
+  "author": "shadshuvo",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1964",
+  "pr_state": "open",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:05:11.633024+00:00"
+}

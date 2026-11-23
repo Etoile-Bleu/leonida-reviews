@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1491,
+  "head_sha": "63a054fb4f5df2710d06a292aff2e9c34c39dc01",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "mem_diff: give tbuffer programs a bound V# (the instruction's FORMAT), as 2dfd8d47 requires",
+  "author": "etcetera-yt",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1491",
+  "pr_state": "closed",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:52:50.203804+00:00"
+}

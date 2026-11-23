@@ -1,0 +1,13 @@
+{
+  "pr": 5684,
+  "head_sha": "627aca1fc0c9d7b12a09d621cc6a59f779cb099f",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: removes one stale sentence about swizzle bits from a docs/design.md row."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1924,
+  "head_sha": "15901c66d82e999f9a7a3391a2fc732fbbe274fb",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "runtime: graphics pipelines on a Vulkan 1.2 device through VK_EXT_extended_dynamic_state(2) (RT-121)",
+  "author": "ashiikins",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1924",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:03:51.424585+00:00"
+}

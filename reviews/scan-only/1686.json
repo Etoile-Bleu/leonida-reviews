@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1686,
+  "head_sha": "00af470cf5aca84271fb45fe9c7f66f2763afec2",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "perf(translator): fold constant scalar ALU operations and s_buffer_load descriptor bounds",
+  "author": "shadshuvo",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1686",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:57:42.853633+00:00"
+}

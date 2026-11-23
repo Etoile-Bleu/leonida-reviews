@@ -1,0 +1,13 @@
+{
+  "pr": 9407,
+  "head_sha": "e64517b8cfdf000d6cfd520f3d7215c6d23a1ce3",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "Two files (scripts/run_guest_scene.py and its test): wraps out.mkdir in try/except OSError and returns exit code 2 with an error message; test updated. No execution of external content, downloads, obfuscation or hidden Unicode."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

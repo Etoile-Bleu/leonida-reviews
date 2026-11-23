@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1622,
+  "head_sha": "b9447f31fd8b7503e0d47953a8347b1211074ef7",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "Tests: --no-draw and --no-resolve for vk_overlapping_occlusion --bisect, and a resolve inside an active query (D3D-189)",
+  "author": "Ryx69",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1622",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:55:39.259601+00:00"
+}

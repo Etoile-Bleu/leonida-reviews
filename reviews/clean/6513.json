@@ -1,0 +1,13 @@
+{
+  "pr": 6513,
+  "head_sha": "2c75e9408e9bb4227153402f969811799d592618",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters (none) and for links in added lines (none)",
+  "verdict": "clean",
+  "findings": [
+    "One-line code change in tools/bvh_slot_check.py: for-loop unpacking uses (mesh, model, *_) after model_geometries() gained a field. Same change as PR 6239."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

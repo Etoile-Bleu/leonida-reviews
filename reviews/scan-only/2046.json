@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2046,
+  "head_sha": "bf1c90e200a6ae212798682d4b7e9182148d53ae",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "Translator: --pc-tail-ubo moves the push-constant tail to a uniform block (128-byte push-constant devices, 1/3)",
+  "author": "whoalin1",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/2046",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:06:22.042210+00:00"
+}

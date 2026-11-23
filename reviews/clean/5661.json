@@ -1,0 +1,13 @@
+{
+  "pr": 5661,
+  "head_sha": "53f8c725079894709f301e967ae1fe8ac270f7db",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: updates the gameinput row in docs/README.md (stale check count, removes a duplicated tail)."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1846,
+  "head_sha": "123e1e6d8ca4132652f5430be686cf5b4d2e5d85",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "D3D12: CreateHeap1 on the Vulkan device (answers as CreateHeap, refuses a protected session)",
+  "author": "dracbat",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1846",
+  "pr_state": "open",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:02:34.855461+00:00"
+}

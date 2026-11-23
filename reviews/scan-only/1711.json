@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1711,
+  "head_sha": "77b110ea344c954d492f345486d6ca3e4c418863",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "rdna2spirv: add 16-bit VOP3 min3, max3, and med3 instructions (SHADER-288)",
+  "author": "Taffyyy-ops",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1711",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:58:14.182633+00:00"
+}

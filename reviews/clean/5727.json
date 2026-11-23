@@ -1,0 +1,13 @@
+{
+  "pr": 5727,
+  "head_sha": "93e1d517f78983cd9713ca187758f0b97bcfbf31",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: updates the workgroup-memory limit note in docs/design.md (49,152 on RTX 3060/3070 Windows drivers). No links."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

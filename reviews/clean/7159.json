@@ -1,0 +1,13 @@
+{
+  "pr": 7159,
+  "head_sha": "58d102bd691c0a39d978a962c76e1def11b2e2c1",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters (none) and for links in added lines (none)",
+  "verdict": "clean",
+  "findings": [
+    "Two lines added to .gitignore: .venv/ and venv/. No other change."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

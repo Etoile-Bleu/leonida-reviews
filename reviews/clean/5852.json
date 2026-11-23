@@ -1,0 +1,13 @@
+{
+  "pr": 5852,
+  "head_sha": "d901463badc0ebebda1453a818b2c98a6a74b28f",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: removes a duplicated clause from the pipeline_check row in docs/README.md."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

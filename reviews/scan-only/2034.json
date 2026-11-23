@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2034,
+  "head_sha": "13ac6d7e067a1729b1a18ddf5c75fa064c94b189",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "bvh.md: the dehydrated BLAS rehydrate, with their packing and source geometry (PROC-109)",
+  "author": "wildheathen",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/2034",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:06:11.844378+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1918,
+  "head_sha": "f341856425a3a8aa56271c4989e9b9274da0a2e8",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "BUILD-536: reject duplicate JSON keys in manifest.py load_manifest()",
+  "author": "JavierBlanco23",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1918",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:03:45.299957+00:00"
+}

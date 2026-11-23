@@ -1,0 +1,13 @@
+{
+  "pr": 5748,
+  "head_sha": "2306469569fb9a2283678569327cb33829bc44ab",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: rewrites the textures row in docs/README.md to say what rpf9dump decodes."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

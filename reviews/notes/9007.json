@@ -1,0 +1,14 @@
+{
+  "pr": 9007,
+  "head_sha": "3e119383c582a5a5a7b9105884de03c2f7bcc0e6",
+  "reviewer": "tigre437/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only, nothing from the PR executed; the commits since the stale review read in full",
+  "verdict": "notes",
+  "findings": [
+    "No malicious code. Presence data shrank to the details text, sent over the local discord-ipc pipe after an opt-in prompt that defaults to No; no Xbox Live or Rockstar access.",
+    "Regression, not security: make_game.py now starts build_runtime.ps1 with -NoProfile -File and no -ExecutionPolicy Bypass, so the runtime stage fails under Restricted, the Windows client default, or AllSigned. Reproduced with a probe script: exit 1, build stopped."
+  ],
+  "read_by_human": false,
+  "commented_on_github": true
+}

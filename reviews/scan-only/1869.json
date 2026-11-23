@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1869,
+  "head_sha": "4a5c257d8a4419bc8a13cf7fa2daff3e1660f18f",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "shader_carve: reject an empty shader carve (BUILD-523)",
+  "author": "lumenpearson",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1869",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:02:59.311811+00:00"
+}

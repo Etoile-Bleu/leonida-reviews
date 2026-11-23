@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1703,
+  "head_sha": "607ead1b6dc0ef8f41fcf977aec1bb97e07df989",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "Runtime: a pixel's depth is clamped to the viewport range with clipping on, as D3D12 does",
+  "author": "nightmoon1996",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1703",
+  "pr_state": "open",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:58:02.443613+00:00"
+}

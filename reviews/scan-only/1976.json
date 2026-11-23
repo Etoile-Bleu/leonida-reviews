@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1976,
+  "head_sha": "1310cb33ab0229ae9990ed9331fafd16164157ff",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "Top 10 GTA VI Betrayals (#11 will shock you): 11 RDNA2 ops the translator refused",
+  "author": "IAmNotSiob",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1976",
+  "pr_state": "open",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:05:21.436920+00:00"
+}

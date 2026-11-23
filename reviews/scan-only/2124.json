@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2124,
+  "head_sha": "6d3762fc504ffc99e450d6b62f82c0fde0847cf7",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "vk_pipeline_check: create --mesh-compute mesh entries as compute pipelines",
+  "author": "sovljanskii",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/2124",
+  "pr_state": "open",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:08:05.536152+00:00"
+}

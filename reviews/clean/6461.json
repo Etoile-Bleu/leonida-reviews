@@ -1,0 +1,13 @@
+{
+  "pr": 6461,
+  "head_sha": "b49a45c96eed332cb2fbf20914abc122241a5d86",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters (none) and for links in added lines (none)",
+  "verdict": "clean",
+  "findings": [
+    "One-line change in tools/f64_omod_probe.py: open(path, 'w', encoding='utf-8') gets newline='\\n' so the JSON report is written with LF. Writes to the same path as before."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

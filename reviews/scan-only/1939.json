@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1939,
+  "head_sha": "74ab61efaa259600f66846e3a85302e52e9d8017",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "fix(subgroup_size): guard 64-bit invocation product overflow and zero local_size_x",
+  "author": "totonicpu",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1939",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:04:07.898614+00:00"
+}

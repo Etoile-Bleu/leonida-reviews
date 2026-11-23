@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1453,
+  "head_sha": "0471fd3bc63004ecea860d869de9863ea64d61d2",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "awc_opus, awc_manifest: keep every stream when a bank repeats a stream id",
+  "author": "rafaelpssz",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1453",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:52:17.445027+00:00"
+}

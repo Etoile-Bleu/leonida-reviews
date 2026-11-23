@@ -1,0 +1,13 @@
+{
+  "pr": 5544,
+  "head_sha": "73377191b1e4d370c54ede221470e4fbb26aa712",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: removes two stale model-count lines from docs/animation.md."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

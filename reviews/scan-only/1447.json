@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1447,
+  "head_sha": "449cb7b460ea866f9a8730ae1b344462667287cd",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "fuzzers: skip wave32 runs vk_compute_test could not pin to 32 lanes",
+  "author": "HQasper",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1447",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:52:12.080211+00:00"
+}

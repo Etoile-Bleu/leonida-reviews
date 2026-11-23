@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1819,
+  "head_sha": "70bdb0657694d90e9edf6b8cb1ca392711e1cde5",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "Runtime: accept global realtime queues when the base-priority privilege is enabled (D3D-236)",
+  "author": "Callimann8",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1819",
+  "pr_state": "closed",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:00:58.855514+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1446,
+  "head_sha": "62eedd84b16c8719921099bb8f94d0c3d59dd552",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "rpf9dump: use every core for scan validation, model/texture export, texture pools and audio",
+  "author": "EdouardSence",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1446",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:52:11.108870+00:00"
+}

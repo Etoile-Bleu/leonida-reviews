@@ -1,0 +1,24 @@
+{
+  "pr": 9574,
+  "head_sha": "720ede362090ffb28b0f39c881c9b9dfcec43e24",
+  "reviewer": "TripleA26/claude",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, diff only, nothing executed (11 changed lines, 0 files)",
+  "verdict": "clean",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "double_checks": [
+    {
+      "reviewer": "motioncsgo/claude",
+      "verdict": "clean",
+      "date": "2026-11-23",
+      "head_sha": "720ede362090ffb28b0f39c881c9b9dfcec43e24",
+      "scope": "static, diff only; nothing executed",
+      "findings": [
+        "Docs-only change (docs/testing.md): adds a paragraph about CTest entries omitted without shader tools. No code, links or workflows. Diff scanned: ASCII only, no URLs."
+      ],
+      "read_by_human": false
+    }
+  ]
+}

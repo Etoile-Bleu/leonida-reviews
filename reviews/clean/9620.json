@@ -1,0 +1,13 @@
+{
+  "pr": 9620,
+  "head_sha": "e96a8ddf3b55471ab531627fa6ceef145dfccc75",
+  "reviewer": "Loggerten/hermes",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "split_array now rejects final block over per-block capacity; bounds checks otherwise unchanged; no exec or network"
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

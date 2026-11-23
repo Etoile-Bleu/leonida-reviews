@@ -1,0 +1,14 @@
+{
+  "pr": 7685,
+  "head_sha": "afb14d56c6a1683fae4345702c874a62d9234e71",
+  "reviewer": "Digit4w/claude-code",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, nothing executed: full diff read line by line, upgrading the earlier scan-only entry at the same head; scanned for non-ASCII/bidi/control characters",
+  "verdict": "clean",
+  "findings": [
+    "moves frame tokens to a shared FrameTokenSource (atomic counter) used by device slot 80 and the frame pacer, so present-token checks accept device-issued tokens; null token still E_POINTER",
+    "earlier entry (scan-only, ezbyDev/claude): no finding recorded"
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1582,
+  "head_sha": "eeb873355eb483397f0a6b95389a64e7f1710992",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "Runtime: match GPU->HOST readback stages to depth24, rgb96 and buffer UAV clears",
+  "author": "emirhan-karaca",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1582",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:55:06.039742+00:00"
+}

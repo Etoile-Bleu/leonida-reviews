@@ -1,0 +1,15 @@
+{
+  "pr": 8831,
+  "head_sha": "dd47ee949b7dda286d5c7d2cf1a67d278914073a",
+  "reviewer": "tigre437/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only, nothing from the PR executed; the commits since the stale review read in full",
+  "verdict": "notes",
+  "findings": [
+    "No malicious code in the commits since the stale review.",
+    "Queue slot 35 in d3d12_xs_device.cpp copies the title's list array into a std::vector, so bad_alloc can leave a thunk into the title's code, against the file's own no-throw rule; it also reads source[i] without a null check. UnwrappedArray already does this copy without throwing.",
+    "Leftover: the PresentX window class and title were renamed to Americas with a shader screen that a later commit removed. tools/Extract Shaders.cmd, a personal script with the author's paths, was already flagged on the PR."
+  ],
+  "read_by_human": false,
+  "commented_on_github": true
+}

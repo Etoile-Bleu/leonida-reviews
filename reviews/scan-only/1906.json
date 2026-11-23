@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1906,
+  "head_sha": "e590a591cd6d76a33df19ca79384ff19ab556e15",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "notes",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 2
+  },
+  "pr_title": "First light: a real game model drawn with its own translated VS/PS (4,213 v / 7,968 tris, RTX 2060 SUPER)",
+  "author": "SuarezPM",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1906",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:03:32.725737+00:00"
+}

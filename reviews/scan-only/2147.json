@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2147,
+  "head_sha": "97b1c4aee0baec840f3972bdec889490cfb6b82a",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "tools: one shared same_report_path in tools/_paths.py (BUILD-589)",
+  "author": "undeadhuman37",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/2147",
+  "pr_state": "closed",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:08:26.589443+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1702,
+  "head_sha": "ea879b5ca486e4af84650be210a85dc22ade7a8e",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "vk_test_device.h: guard swapchain maintenance1 features with macro ch\u2026",
+  "author": "Sagah123",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1702",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:58:01.265974+00:00"
+}

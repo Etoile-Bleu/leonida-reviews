@@ -1,0 +1,13 @@
+{
+  "pr": 9415,
+  "head_sha": "a08f48e01b541fa8e7bc97bea3a622c40deb38e5",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only change (docs/embedded_shaders.md): removes file offsets and sizes of the retail executable's shader containers. Keeps the executable's SHA-256 and counts. No code, workflows, links to download or hidden Unicode."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

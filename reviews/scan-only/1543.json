@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1543,
+  "head_sha": "26a3130eb9b35c9d39edff0013e673c790ea53d1",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "Translator: v_frexp_mant_f16, v_frexp_exp_i16_f16, v_ldexp_f16 with op_sel",
+  "author": "dev-ewann",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1543",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:54:32.137707+00:00"
+}

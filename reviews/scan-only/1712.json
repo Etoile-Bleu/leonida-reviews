@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1712,
+  "head_sha": "c2376390a8248eb4274e80b75996220e9398eb8c",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "Runtime: mesh-shader PSOs from pipeline state streams and DispatchMesh (D3D-29)",
+  "author": "LloydNicholson",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1712",
+  "pr_state": "open",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:58:15.374717+00:00"
+}

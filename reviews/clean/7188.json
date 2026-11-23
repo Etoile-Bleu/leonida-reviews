@@ -1,0 +1,13 @@
+{
+  "pr": 7188,
+  "head_sha": "fd749c6e9f650a063f5778b9f6c1fdac74c623a0",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters (none) and for links in added lines (none)",
+  "verdict": "clean",
+  "findings": [
+    "One-line change in tools/wave_diff.py: the case-file writer opens with newline='\\n'. Same path as before."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

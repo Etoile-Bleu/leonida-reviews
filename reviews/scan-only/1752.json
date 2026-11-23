@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1752,
+  "head_sha": "ceb244b1248e7d73ce789d0b89cadde06066c223",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "d3d12_vulkan_device_test: 0.6 ULP tolerance for placed SRGB-cast clears (D3D-221)",
+  "author": "CowBoYdu76",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1752",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:59:51.479551+00:00"
+}

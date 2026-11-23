@@ -1,0 +1,13 @@
+{
+  "pr": 6239,
+  "head_sha": "dc8321c42df4f58616461983fbcc3a1807b63a65",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; diff scanned for invisible/bidi characters (none) and for links in added lines (none)",
+  "verdict": "clean",
+  "findings": [
+    "One-line code change in tools/bvh_slot_check.py: for-loop unpacking changes from five names to (mesh, model, *_), so extra tuple fields are ignored. No other change; identical to the change in PR 6513."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

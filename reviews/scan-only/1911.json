@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1911,
+  "head_sha": "d9f7ec4162d8241281e7b7a37d24e43d643f2890",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "Runtime and build: compute PSOs from the FidelityFX DLL's FSPX programs, at slot 62 and from a bare kind-6 program (RT-99)",
+  "author": "aslan2142",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1911",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:03:38.352951+00:00"
+}

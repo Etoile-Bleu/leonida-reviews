@@ -1,0 +1,16 @@
+{
+  "pr": 7115,
+  "head_sha": "8f756ebe048af042638ce51a61490f35f4f44ee3",
+  "reviewer": "Digit4w/claude-code",
+  "date": "2026-11-23",
+  "scope": "static, AI-assisted, nothing executed: full diff read line by line, upgrading the earlier scan-only entry at the same head; scanned for non-ASCII/bidi/control characters",
+  "verdict": "notes",
+  "findings": [
+    "device slot 61 is CreateSamplerX only when _ReturnAddress() is inside an image the guest loader mapped (rt::shims::mapped_image_base), else the PC CreateMetaCommand is forwarded; the check is installed by D3D12XboxCreateDevice",
+    "hardening: the title's desc pointer and destination handle are passed to the real CreateSampler as given (null desc skipped); the code notes handle translation is #7021's, so until then the layer writes a descriptor at a guest-chosen address",
+    "non-ASCII in the diff is only the section sign/ellipsis already used in the docs; no bidi or zero-width characters",
+    "earlier entry (scan-only, ezbyDev/claude): no finding recorded"
+  ],
+  "read_by_human": true,
+  "commented_on_github": true
+}

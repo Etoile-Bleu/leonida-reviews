@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1707,
+  "head_sha": "427532c70c4dfe91577f8b2f48d25f371a0e9de0",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "do-not-merge",
+  "heuristic_signal_counts": {
+    "high": 2,
+    "medium": 0
+  },
+  "pr_title": "runtime: reserve a relocation-less image's base before arm64 Wine takes it (RT-22)",
+  "author": "ashiikins",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1707",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:58:09.394353+00:00"
+}

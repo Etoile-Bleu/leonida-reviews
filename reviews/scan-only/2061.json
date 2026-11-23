@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2061,
+  "head_sha": "4709f1179b5f2f1edd20752ba77ec482f7b793ec",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "fspx_unpack: validate inputs and --out before writing and refuse clobbering inputs",
+  "author": "luisbaker",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/2061",
+  "pr_state": "open",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:07:06.489800+00:00"
+}

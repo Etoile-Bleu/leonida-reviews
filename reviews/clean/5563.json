@@ -1,0 +1,13 @@
+{
+  "pr": 5563,
+  "head_sha": "5d8ea0fa8aa65c5d1853bee1fae62d683bb86bbf",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: one number changed in the fspx row of docs/README.md (13 to 20 of 29)."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

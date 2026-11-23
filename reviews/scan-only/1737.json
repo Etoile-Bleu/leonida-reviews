@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1737,
+  "head_sha": "fa687fda487d7cf738ee4ab8e86862ac9020415c",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "d3d12_vulkan_device_test: skip invalid-argument cases a Windows 10 or elevated host can't compare",
+  "author": "IAmNotSiob",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1737",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T21:59:38.185013+00:00"
+}

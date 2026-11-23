@@ -1,0 +1,13 @@
+{
+  "pr": 7382,
+  "head_sha": "5040b5938cc17961540cf56cfe796b3fd6b76046",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: rewrites one v_pack_b32_f16 row in docs/design.md (abs and neg status). No links."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

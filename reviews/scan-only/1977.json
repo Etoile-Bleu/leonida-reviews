@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 1977,
+  "head_sha": "c975dd407f6469955911062378eef19cc9bf09bd",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "D3D-240: blends into B8G8R8X8 render targets read destination alpha 1",
+  "author": "SpositoDouglas",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/1977",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:05:22.397382+00:00"
+}

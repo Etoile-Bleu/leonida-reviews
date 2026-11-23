@@ -1,0 +1,13 @@
+{
+  "pr": 5829,
+  "head_sha": "2b299ce0696bd49862ef6d0af29e67c7d8e23acf",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; documentation text read for malicious content, factual claims not verified; diff scanned for invisible/bidi characters (none)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: removes a duplicated sentence and citation from the v_cvt_f16_f32 row in docs/design.md. The link in the diff is a pre-existing comment link to the project's own PR 718, kept once."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

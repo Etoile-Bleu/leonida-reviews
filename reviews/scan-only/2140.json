@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2140,
+  "head_sha": "2aa85116ae5b17a6b81e8a0c041be5c0bb4e6a6e",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "Translator: --f32-denorm-flush models the game MODE for f32 denormals (SHADER-377)",
+  "author": "xxkliff",
+  "pr_url": "https://github.com/ItsNotRexed/Leonida/pull/2140",
+  "pr_state": "open",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:08:19.764837+00:00"
+}

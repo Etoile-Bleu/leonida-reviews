@@ -1,0 +1,13 @@
+{
+  "pr": 9587,
+  "head_sha": "bb0ca26c095b3adb8e11702fa80824d420501af3",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/classify_carve.py and its test): reads the index with encoding utf-8-sig so a BOM is accepted; test added. No execution of external content, downloads or obfuscation. Diff scanned: ASCII only, no URLs."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
