@@ -1,0 +1,13 @@
+{
+  "pr": 9520,
+  "head_sha": "c18faa47d52743793ca302fac890ce7b3ee5f427",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "Two files (scripts/run_wine_tests.py and its test): passes stdin=subprocess.DEVNULL to the test subprocess; the new test runs the script with the local interpreter on a temp listing. No new commands, downloads or obfuscation. Diff scanned: ASCII only, no URLs."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

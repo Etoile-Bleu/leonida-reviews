@@ -1,0 +1,13 @@
+{
+  "pr": 9562,
+  "head_sha": "57e052baf674ac9e82e9b9f911797172a8d0648a",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/pc_checker.py and its test): detect_ram_gb no longer clamps to 4-128 GB; test added; adds missing trailing newlines. No downloads, obfuscation or new command execution. Diff scanned: ASCII only, no URLs."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
