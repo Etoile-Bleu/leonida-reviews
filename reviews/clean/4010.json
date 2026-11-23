@@ -1,0 +1,13 @@
+{
+  "pr": 4010,
+  "head_sha": "66bbad15989d8f15211d79eb2cfb70be6ccc1fea",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/progress_dashboard.py and its test): path scrubbing matches the known checkout path (including spaces) before the generic patterns; regex logic and tests in temp folders."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

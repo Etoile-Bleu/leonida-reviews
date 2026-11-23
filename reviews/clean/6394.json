@@ -1,0 +1,13 @@
+{
+  "pr": 6394,
+  "head_sha": "500ccb9f9f18c9346cc0e114f7c5af99dbe4a129",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: adds a 'Lighting' section to docs/gameinput.md mapping GameInput v4 lighting to SDL and updates a count in docs/README.md. One new link to an official Microsoft Learn page."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

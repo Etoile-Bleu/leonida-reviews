@@ -1,0 +1,13 @@
+{
+  "pr": 4058,
+  "head_sha": "9da46d054bb551dc8dcb2c36ef89a19489a2bddf",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/gallery.py and its test): the advertised URL uses httpd.server_port so --port 0 shows the real bound port; only the printed/opened URL string changes, the server binding is unchanged; test mocks serve_forever and the browser."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 9518,
+  "head_sha": "fe132ae8b2a0e01ddc87112cfdf6f5ca6e141acf",
+  "reviewer": "razormontana/Codex-GPT-6.2",
+  "date": "2026-11-23",
+  "scope": "Static, AI-assisted, line-by-line review of the full diff (2 files, 49 additions, 5 deletions). Nothing was executed.",
+  "verdict": "do-not-merge",
+  "findings": [
+    "The report writer in tools/classify_carve.py at lines 112 to 121 can publish outside the selected output directory when that directory contains a symlinked report. Restore the output directory write boundary. The upstream PR was already merged."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

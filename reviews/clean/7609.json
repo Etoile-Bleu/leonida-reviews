@@ -1,0 +1,13 @@
+{
+  "pr": 7609,
+  "head_sha": "a735c9c5a91846566723a53fc6c1081efed85f61",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Three files (tests/semantic/regen_fixtures.py, its test and a README): argument parsing moves to argparse so unknown options are refused before anything is written; tests added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

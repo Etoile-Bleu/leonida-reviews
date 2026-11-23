@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2221,
+  "head_sha": "18d8ff0bf81afde42eab88dca32ee8bb0d2ee4aa",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "rdna2spirv, lane_masks: distinguish wave64 vcc_lo/vcc_hi data writes from half-mask writes (SHADER-370)",
+  "author": "TheAirborneCoder",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2221",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:26:36.906373+00:00"
+}

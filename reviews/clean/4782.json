@@ -1,0 +1,13 @@
+{
+  "pr": 4782,
+  "head_sha": "650acdaacdd392ce7b8e00d3a722dc43e0dc3eee",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (README.md and tests/test_docs_table_rows.py): merges duplicate status rows in the README table (one row per topic) and adds a test that fails on repeated topics. Links in the rows are pre-existing links to the project's own issues."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

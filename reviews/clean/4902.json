@@ -1,0 +1,13 @@
+{
+  "pr": 4902,
+  "head_sha": "9e885f8bc64381ed8ebf6fa723a1afe71db18cbd",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two test files (runtime/test/d3d12_copy_xfmt_test.cpp, d3d12_stencil_copy_test.cpp): setup errors fail the test instead of skipping."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

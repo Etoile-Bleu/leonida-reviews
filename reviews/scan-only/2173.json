@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2173,
+  "head_sha": "272678ef5a1e9a99d3006b0736f098621d63c9e6",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "notes",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 2
+  },
+  "pr_title": "spirv_metal_set0: a missing or failing spirv-dis/spirv-as is one ERROR line, not a traceback",
+  "author": "tumbione",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2173",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:25:33.409602+00:00"
+}

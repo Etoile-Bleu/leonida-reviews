@@ -1,0 +1,13 @@
+{
+  "pr": 4968,
+  "head_sha": "2e4e238193c91f01ceb3b2bfe507e675e159e35b",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/saves.py and its test): a chives.json that is not an object gives a one-line ERROR and exit 2 instead of a traceback; tests use temp folders."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

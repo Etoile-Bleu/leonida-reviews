@@ -1,0 +1,13 @@
+{
+  "pr": 5397,
+  "head_sha": "655bf784e560a8019413a7b8dbd01a251010d723",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: adds two paragraphs on first_look's rebuild and hash_lookup.json to docs/design.md. Relative links."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

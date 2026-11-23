@@ -1,0 +1,13 @@
+{
+  "pr": 5649,
+  "head_sha": "40dc11ea36d112cd74b58d95a5b69a0b29eefdb6",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/meshlet_page.py and its test): data inside the chunk just parsed raises PageError instead of looping forever."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 7243,
+  "head_sha": "844587a3c3a78d21a27c4baf6a2072f54adffddd",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Test-only (tests/test_guest_scene_reference.py): the bad loader is named invalid.dat on Windows to avoid a modal dialog."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

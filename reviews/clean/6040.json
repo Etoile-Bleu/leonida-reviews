@@ -1,0 +1,13 @@
+{
+  "pr": 6040,
+  "head_sha": "6030ced6fe55ae4cba2ae87b91441e31b59cd53f",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "One file (tools/gdk_runtime_calls.py): usage line and docstring text only."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 5009,
+  "head_sha": "6ed78ba2f4080137e392304d7a9990b0e4acbe62",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (runtime/test/shaders/check.py and its test): timeout output is decoded and appended to the failure message; the test runs a local python one-liner that sleeps and is killed."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 5571,
+  "head_sha": "9ab7f3745f743d0f1b18923b41aae1d5c46f35bc",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/saves.py and its test): -h/--help after any command prints the usage page; test runs the tool with the local interpreter."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

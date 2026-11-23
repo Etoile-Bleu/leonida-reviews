@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2279,
+  "head_sha": "2a9631102762d98f3ac0b3135c5613a3291aad1f",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "test(semantic): add translator tests for v_exp_f32, v_log_f32, v_sqrt_f32, and v_rsq_f32",
+  "author": "klarnet2009",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2279",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:30:54.425288+00:00"
+}

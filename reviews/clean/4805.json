@@ -1,0 +1,13 @@
+{
+  "pr": 4805,
+  "head_sha": "cdf57b98ba12b192a71feb02d0384a05649822a7",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Test-only (tests/test_fuzzer_work_isolation.py): compares resolved paths in assertions."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

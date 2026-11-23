@@ -1,0 +1,13 @@
+{
+  "pr": 6667,
+  "head_sha": "7a2293b602a22b4fb35c50d081fe9e8cc0455b77",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "One file (tools/navmesh_links.py): scan() call wrapped in try/except (OSError, ValueError) with an error line and exit 2."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 5481,
+  "head_sha": "e982d4123f8c02311bb270dfb94bb41b30400d7a",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/rdna2spirv.py and a test): no_contraction() scans float opcode lines with a prefilter regex and a per-line ID check instead of one multiline regex; test with synthetic SPIR-V text."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

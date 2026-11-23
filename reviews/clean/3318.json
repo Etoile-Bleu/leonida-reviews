@@ -1,0 +1,13 @@
+{
+  "pr": 3318,
+  "head_sha": "4fea3aec7447975567b6e4dff906d020e3301388",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (docs/design.md and tests/semantic/test_mutations.py): the mutation-test fixture strings for v_mul_legacy_f32 are updated to the flushed form and a design row is added. Test data and docs only."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2202,
+  "head_sha": "1e0c67faae8a186d78b8fb84d45586a1bb9bab8e",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "hw_oracle: native RDNA2 measurement of MODE.FP_ROUND f16/f64 (SHADER-132)",
+  "author": "Faterek",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2202",
+  "pr_state": "closed",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:26:12.008010+00:00"
+}

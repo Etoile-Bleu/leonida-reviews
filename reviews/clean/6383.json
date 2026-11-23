@@ -1,0 +1,13 @@
+{
+  "pr": 6383,
+  "head_sha": "991af1bfb53f936a8ed643bd21edb549da653d7b",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/exe_checklist.py and its test): --gdk-calls JSON is read with utf-8-sig."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

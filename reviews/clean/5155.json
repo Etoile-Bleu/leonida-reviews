@@ -1,0 +1,13 @@
+{
+  "pr": 5155,
+  "head_sha": "756743e0577d5218c58a1c6abcfe386354ddd2bb",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (scripts/run_wine_tests.py and its test): PASS/FAIL/SKIP_REGULAR_EXPRESSION properties must be a string or list of strings, otherwise the test fails before launch; the test uses a local interpreter and a script that only records a launch."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

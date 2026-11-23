@@ -1,0 +1,13 @@
+{
+  "pr": 5268,
+  "head_sha": "010363c947536f8a2331cb2cad553e68b4f50b3d",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Three files (docs/design.md, a new runtime/test/shaders/cs_f64_trans.asm test shader, and scripts/run_gpu_tests.py): adds a hand-written f64 rcp/rsq/sqrt GPU test with expected words and a runner branch that calls the repo's own vk_compute with a skip on exit 77."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

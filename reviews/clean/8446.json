@@ -1,0 +1,13 @@
+{
+  "pr": 8446,
+  "head_sha": "12deba44c41cd29fbcf2c4394df253cd7d9eaddf",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Three files (runtime/src/vulkan_present.h and two tests): a readback is marked captured only when the present was accepted; tests extended."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

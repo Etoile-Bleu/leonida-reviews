@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2200,
+  "head_sha": "19ee6bd25c4eb838da29504ca9ce97d4d07082f2",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "tools/salu_diff: add 12 integer SALU ops and gfx1036 RDNA2 follow-up to #1746 (SHADER-137)",
+  "author": "abnalstlll-byte",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2200",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:26:09.429149+00:00"
+}

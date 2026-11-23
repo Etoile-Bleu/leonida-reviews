@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2306,
+  "head_sha": "1323a7b900552b68d35a92772657160a485ea0cd",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "bink_names: validate --pins CSV rows and guard directory inputs from --out",
+  "author": "davi713albano-coder",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2306",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:31:27.772555+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 8300,
+  "head_sha": "0d35c29d4428bd15508fec48b98ac59498b7255b",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Three files (tools/world_drawable_verify.py, its test and docs/models.md): archive identity compares with os.path.samefile and falls back to a lexical comparison; the test creates a hard link in a temp folder."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

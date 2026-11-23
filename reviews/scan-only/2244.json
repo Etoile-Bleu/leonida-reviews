@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2244,
+  "head_sha": "db8e3140ea624c64d82b1a987112637342b0480c",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "tests: polish v_rcp_f64/v_rsq_f64/v_sqrt_f64 test coverage",
+  "author": "JavierBlanco23",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2244",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:27:06.158541+00:00"
+}

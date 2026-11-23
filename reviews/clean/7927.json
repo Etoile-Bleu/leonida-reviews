@@ -1,0 +1,13 @@
+{
+  "pr": 7927,
+  "head_sha": "5d770c6f4ba8d53210f0a2142499c7b3ac248a31",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (runtime/src/command_list.h and its test): the rvalue Draw overload now also drops a mesh draw whose Z is zero, like the other overload; tests added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2241,
+  "head_sha": "2e56ee1623610697624be99a0018ec36b6a243fa",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "Translator: wave64 VOP3 v_cndmask mask and co_ci carry-in printed as sN read the SGPR pair; mask-data tier C (SHADER-200)",
+  "author": "Pipodi",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2241",
+  "pr_state": "open",
+  "merged": false,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:27:02.227541+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 6042,
+  "head_sha": "714f5824c938917bff00cbd6e6c71bc7335d9b67",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/restofworld_index.py and its test): carve index.json is opened with utf-8-sig."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

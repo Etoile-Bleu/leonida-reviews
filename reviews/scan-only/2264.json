@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2264,
+  "head_sha": "bd513088c1f13a6945ccd278a421b62fdd18e080",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "XDXR: the BVH size field does not count the header, 64 * (field + 1) bytes (RT-151)",
+  "author": "esteban-dcp",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2264",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:30:35.759447+00:00"
+}

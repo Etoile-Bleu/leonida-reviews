@@ -1,0 +1,13 @@
+{
+  "pr": 4281,
+  "head_sha": "562c76022aef746ee16afa1e26566fed9e34b297",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/gamedata_xml.py and its test): an OSError while listing inputs for the report preflight is reported as one ERROR line with exit 2."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

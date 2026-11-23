@@ -1,0 +1,13 @@
+{
+  "pr": 6505,
+  "head_sha": "9de1b416b8f910a1cfe903ae78f5e7f41fd3491d",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: documents tools/manifest_verifier.py in docs/rpf.md."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

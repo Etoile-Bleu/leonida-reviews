@@ -20,5 +20,18 @@
   "pr_state": "open",
   "merged": false,
   "historical_batch": "1000-3000",
-  "historical_scan_at": "2026-11-23T21:58:22.907315+00:00"
+  "historical_scan_at": "2026-11-23T21:58:22.907315+00:00",
+  "double_checks": [
+    {
+      "reviewer": "Loggerten/hermes",
+      "verdict": "clean",
+      "date": "2026-11-23",
+      "head_sha": "282eac9db3cdc4bea14c874fede1039bdd44e270",
+      "scope": "static, diff only; nothing executed (full line-by-line read; upgrading the automated scan)",
+      "findings": [
+        "removal only: drops vcmpx_forms_narrow_skip and its tests so ps_vcmpx_forms is judged at 32 lanes; no new code paths, no exec or network"
+      ],
+      "read_by_human": false
+    }
+  ]
 }

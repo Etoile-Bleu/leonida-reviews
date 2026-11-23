@@ -1,0 +1,13 @@
+{
+  "pr": 6437,
+  "head_sha": "dbdf344b5c5989bf0fd583831e1078db91a505ce",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: documents tools/analyze_4240_full.py in docs/restofworld.md with a local command example."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

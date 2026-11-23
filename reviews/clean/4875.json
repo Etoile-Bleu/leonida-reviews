@@ -1,0 +1,13 @@
+{
+  "pr": 4875,
+  "head_sha": "f28f5e0b7ba9719204bd06c02bcd7c6bbc18015d",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: updates two counts in docs/fssm_crosscheck.md."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

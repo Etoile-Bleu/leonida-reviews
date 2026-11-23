@@ -1,0 +1,13 @@
+{
+  "pr": 5561,
+  "head_sha": "bf891c27058df454f356922fc550ad13b8428772",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Three files (tools/fmisc_diff.py, its test and docs/shader_validation.md): an output modifier on a signalling-NaN result is treated as uncertain and skipped; docs sentence added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

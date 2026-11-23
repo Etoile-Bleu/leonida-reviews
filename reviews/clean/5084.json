@@ -1,0 +1,13 @@
+{
+  "pr": 5084,
+  "head_sha": "1b64b01adca9189514477b20b479a3fb2ce97778",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: rewrites two rows of docs/design.md (Flat pixel inputs, v_interp rows)."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

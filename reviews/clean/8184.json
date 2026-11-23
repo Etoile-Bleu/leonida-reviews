@@ -1,0 +1,13 @@
+{
+  "pr": 8184,
+  "head_sha": "0b984d535342f8b5ee6dd48465bdbc7c27ee9b7c",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Test-only (runtime/test/crt_timed_wait_test.cpp): the timeout test retries on spurious wakeups against the original deadline with at most 1000 attempts."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

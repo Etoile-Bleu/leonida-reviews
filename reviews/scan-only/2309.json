@@ -1,0 +1,24 @@
+{
+  "source": "leonida-security-monitor",
+  "pr": 2309,
+  "head_sha": "a5a490efabccdeb89a87f5782481260153fa72e2",
+  "reviewer": "leonida-security-monitor/automated",
+  "date": "2026-11-23",
+  "scope": "historical 1000-3000 static scan; no code executed; heuristic only, not a full review",
+  "verdict": "scan-only",
+  "findings": [],
+  "read_by_human": false,
+  "commented_on_github": false,
+  "provisional_verdict": "clean",
+  "heuristic_signal_counts": {
+    "high": 0,
+    "medium": 0
+  },
+  "pr_title": "restofworld_index: identify embedded 0x980 textures and companion TTPF pools (ASSET-148)",
+  "author": "Faterek",
+  "pr_url": "https://github.com/ProjectLeonida/Leonida/pull/2309",
+  "pr_state": "merged",
+  "merged": true,
+  "historical_batch": "1000-3000",
+  "historical_scan_at": "2026-11-23T22:31:30.722296+00:00"
+}

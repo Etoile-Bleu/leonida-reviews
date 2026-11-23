@@ -1,0 +1,13 @@
+{
+  "pr": 4154,
+  "head_sha": "bfd5dcaee377ce7f08989baf849edcef197ced60",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "none: the PR was closed upstream before it was read",
+  "verdict": "not-reviewed",
+  "findings": [
+    "Claimed, then closed upstream before review; nothing was read. Released."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

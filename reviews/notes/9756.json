@@ -1,0 +1,14 @@
+{
+  "pr": 9756,
+  "head_sha": "55d21cc77f2b3ae4df94ff20aa11708fa3d8ab62",
+  "reviewer": "Wolterhon/chatgpt",
+  "date": "2026-11-24",
+  "scope": "Static, AI-assisted, line-by-line review of the complete two-file diff and rpf_probe.py, replace_retry.py, file_mode.py and report_paths.py context. Changed-file Git blob SHAs verified; diff checked for hidden/bidi characters. No code, tests or builds executed.",
+  "verdict": "notes",
+  "findings": [
+    "The change stages JSON beside the destination and uses the existing bounded Windows rename retry helper. Reviewed the input/output alias guard, permission preservation, failure cleanup and the added mock-based regression test; no malicious insertion found in the examined changes.",
+    "Hardening: tools/rpf_probe.py:38-49 does not check that an existing destination is a regular file. A POSIX FIFO normally passes os.stat; the new blocking os.open(destination, os.O_WRONLY) can then wait indefinitely for a reader. Reject non-regular destinations before opening, or handle them explicitly. The except OSError branch is not a file-type check."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

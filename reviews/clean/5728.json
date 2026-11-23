@@ -1,0 +1,13 @@
+{
+  "pr": 5728,
+  "head_sha": "5efab3b82a8ffc62d2010a7ee733064dc11219e1",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub or to official vendor docs (conda, Microsoft Learn)",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: renumbers and de-duplicates a 'What to do next' list in docs/models.md."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

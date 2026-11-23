@@ -1,0 +1,13 @@
+{
+  "pr": 8185,
+  "head_sha": "741b7ae4e82d31b5438deb5f64719b13b141f793",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/ttpf_assets.py and its test): a pool with no candidates still runs finish_replaced so earlier replaced files are removed; test uses temp files."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

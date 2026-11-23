@@ -1,0 +1,13 @@
+{
+  "pr": 5055,
+  "head_sha": "280730c35ee2da2fda14841d944b2e448c2f831f",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/first_light.py and its test): an explicit bare harness filename is resolved against the working directory so it is not searched on PATH at launch (a hardening change); test added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

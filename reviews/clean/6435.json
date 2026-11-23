@@ -1,0 +1,13 @@
+{
+  "pr": 6435,
+  "head_sha": "d875774270cc7629c895cbbd21a4b22981c460db",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Docs-only: documents tools/valu_int_diff.py in docs/shader_validation.md with local command examples."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}

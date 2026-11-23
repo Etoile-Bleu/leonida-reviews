@@ -1,0 +1,13 @@
+{
+  "pr": 6490,
+  "head_sha": "3ac34b1a673f4cc8b1e8ba900379029ac37aca25",
+  "reviewer": "motioncsgo/claude",
+  "date": "2026-11-23",
+  "scope": "static, diff only; nothing executed; code changes read line by line, documentation text read for malicious content; technical and factual claims not verified; diff scanned for invisible/bidi characters (none); links added in the diff, if any, point only to the project's own GitHub",
+  "verdict": "clean",
+  "findings": [
+    "Two files (tools/navmesh_cell_fit.py and its test): summaries ignore non-positive XY extents and return None instead of crashing; test added."
+  ],
+  "read_by_human": false,
+  "commented_on_github": false
+}
